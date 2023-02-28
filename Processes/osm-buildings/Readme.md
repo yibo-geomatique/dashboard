@@ -15,5 +15,9 @@ FIXME pb format coordinates
 cat citypolys/Toulouse.poly | grep "E+" | awk -F" " '{print $1" "$2}' | awk -F"E" '{print $1" "$2}' | awk -F" " '{if(NR % 20 == 0) print $3" "$1}' | tr '\n' ' '
 
 Overpass QL request
-wget -O test.osm --post-file=query.overpassql "https://overpass-api.de/api/interpreter"
+wget -O test/test.osm --post-file=query.overpassql "https://overpass-api.de/api/interpreter"
+
+Conversion to gpkg
+ogr2ogr -f GPKG test/test.gpkg test/test.osm multipolygons
+
 

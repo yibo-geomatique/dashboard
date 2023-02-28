@@ -146,8 +146,8 @@ def createPolys(inOgr, options):
                 # output all points in the ring
                 for j in range(0, ring.GetPointCount()):
                     (x, y, z) = ring.GetPoint(j)
-                    print('   %.6E   %.6E' % (x, y))
-                    f.write(str('   %.6E   %.6E' % (x, y))+'\n')
+                    print('   %.6f   %.6f' % (x, y))
+                    f.write(str('   %.6f   %.6f' % (x, y))+'\n')
                 print('END')
                 f.write('END\n')
         print('END')
