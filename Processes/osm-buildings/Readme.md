@@ -1,23 +1,29 @@
 
+
+# Overview
+
 This process extracts OpenStreepMap buildings from the overpass API, at given dates and for given cities.
 
+# Usage
 
-Create city polys
+ - Create city poly files (for boundaries of the API request) -> script `ogr2poly.py` from https://github.com/JusteRaimbault/ogr2poly
+For selected cities: all features in subdense-cities.gpkg (selection from GHSL-FUA layer (see data)
+Any ogr compatible format should be fine.
 
-script from https://github.com/JusteRaimbault/ogr2poly
+```
+   mkdir citypolys
+   python3 ogr2poly.py --prefix citypolys/ --field-name eFUA_name -v subdense-cities.gpkg
+```
 
-mkdir citypolys
-python3 ogr2poly.py --prefix citypolys/ --field-name eFUA_name -v subdense-cities.gpkg
+ - Check cities and years: plain text files `cities` and `years`
 
-Extract coordinates for overpassql script
-FIXME pb format coordinates
+ - Run collection script `./getAllCitiesAllYears.sh`
+   Requires: existing `$CITY.poly` files for each city name in `citypolys` dir ; gdal installed with ogr2ogr command
+   Output: from the overpass API, osm and gpkg files in a `data` folder
 
-cat citypolys/Toulouse.poly | grep "E+" | awk -F" " '{print $1" "$2}' | awk -F"E" '{print $1" "$2}' | awk -F" " '{if(NR % 20 == 0) print $3" "$1}' | tr '\n' ' '
+# Tuning
 
-Overpass QL request
-wget -O test/test.osm --post-file=query.overpassql "https://overpass-api.de/api/interpreter"
-
-Conversion to gpkg
-ogr2ogr -f GPKG test/test.gpkg test/test.osm multipolygons
+Modify the overpassql template in the script to tune the osm request.
+Request is done on the standard overpass server.
 
 
