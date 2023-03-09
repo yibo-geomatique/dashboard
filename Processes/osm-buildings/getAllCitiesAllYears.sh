@@ -20,7 +20,7 @@ while read year; do
 	echo "" >> tmp.overpassql
 	#cat tmp.overpassql
 	wget -O "data/buildings_"$city"_"$year".osm" --post-file=tmp.overpassql "https://overpass-api.de/api/interpreter"
-	ogr2ogr -f GPKG "data/buildings_"$city"_"$year".gpkg" "data/buildings_"$city"_"$year".osm" multipolygons
+	ogr2ogr -skipFailures -f GPKG "data/buildings_"$city"_"$year".gpkg" "data/buildings_"$city"_"$year".osm" multipolygons -oo USE_CUSTOM_INDEXING=NO
   done <cities
 done <years
 
