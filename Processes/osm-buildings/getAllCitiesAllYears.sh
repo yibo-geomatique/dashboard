@@ -10,7 +10,7 @@ while read year; do
 	echo "[timeout:1800][date:\"$year-01-01T00:00:00Z\"];" >> tmp.overpassql
 	echo "(" >> tmp.overpassql
 	# ! lat/lon are transposed between poly file and overpass syntax
-	poly=`cat citypolys/$city.poly | grep " " | awk -F" " '{print $2" "$1}' | tr '\n' ' ' | awk '{$1=$1};1'`
+	poly=`cat citypolys/$city.poly | grep " " | awk -F" " '{print $1" "$2}' | tr '\n' ' ' | awk '{$1=$1};1'`
 	echo "  way[building~\".\"](poly:\"$poly\");" >> tmp.overpassql
 	echo "  node(poly:\"$poly\");" >> tmp.overpassql
 
