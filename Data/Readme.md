@@ -1,6 +1,12 @@
 
 # Metadata and pointers to data
 
+This folder contains several files, currently word but to be transformed into md later for generation of the KG : 
+
+- Datasources.docx : list of datasources, with a specific name to be used throughout the dashboard and specific metadata relevant to Subdense. The forst item is a template. 
+- Datasets.docx : list of datasets, with a specific name to be used throughout the dashboard and specific metadata relevant to Subdense. The first item is a template. 
+
+
 
 # Discussion
 
