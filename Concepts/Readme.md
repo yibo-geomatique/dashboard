@@ -1,2 +1,2 @@
-Folder to gather different definitions of core concepts
+Folder to gather documents, papers, relevant to sharing our definitions of core concepts on the wiki
 
