@@ -3,22 +3,15 @@
 List of datasources potentially relevant for the dashboard, and associated comments  
 
 *******
- 1. [Template to reference a datasource](#SHORTNAME-COUNTRY)
- 2. [BDTOPO-FR](#BDTOPO-FR)
- 3. [OPENZOOM-UK](#OPENZOOM-UK)
- 4. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
- 5. [OSNGD-UK](#OSNGD-UK)
- 6. [GEOBASIS-DE](#GEOBASIS-DE)
- 7. [OSM](#OSM)
- 8. [EUBUCCO](#EUBUCCO)
+ 1. [BDTOPO-FR](#BDTOPO-FR)
+ 2. [OPENZOOM-UK](#OPENZOOM-UK)
+ 3. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
+ 4. [OSNGD-UK](#OSNGD-UK)
+ 5. [GEOBASIS-DE](#GEOBASIS-DE)
+ 6. [OSM](#OSM)
+ 7. [EUBUCCO](#EUBUCCO)
+ 8. [Template to reference a datasource](#SHORTNAME-COUNTRY)
 *******
-
-## SHORTNAME-COUNTRY
-* **URI**  : If there exists one or more URIs for this product put them here.  
-Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
-* **Documentation** : Links to existing documentation, preferably online
-* **Feedback** : Specific feedback (from reading the documentation, from using some of the data, etc) relevant to SUBDENSE, Identification of aspects useful for SUBDENSE, quote or explicit important properties of the source to have in mind during data interpretation, computing indicators, compute evolution data, integration, biases detection etc 
-
 
 ## BDTOPO-FR 
 * **Documentation** : BD TOPO® | Géoservices (ign.fr), french
@@ -53,3 +46,9 @@ Definition: Information about the change history of a feature that comprises the
 
 ## EUBUCCO
 
+
+## SHORTNAME-COUNTRY
+* **URI**  : If there exists one or more URIs for this product put them here.  
+Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
+* **Documentation** : Links to existing documentation, preferably online
+* **Feedback** : Specific feedback (from reading the documentation, from using some of the data, etc) relevant to SUBDENSE, Identification of aspects useful for SUBDENSE, quote or explicit important properties of the source to have in mind during data interpretation, computing indicators, compute evolution data, integration, biases detection etc 
