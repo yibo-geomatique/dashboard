@@ -40,7 +40,7 @@ Definition: Information about the change history of a feature that comprises the
 
 
 ## GEOBASIS-DE
-
+* **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
 ## OSM 
 
