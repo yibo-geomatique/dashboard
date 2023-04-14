@@ -45,7 +45,8 @@ Definition: Information about the change history of a feature that comprises the
 ## OSM 
 
 ## EUBUCCO
-
+* **Documentation** : https://docs.eubucco.com/ 
+* * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
 
 ## SHORTNAME-COUNTRY
 * **URI**  : If there exists one or more URIs for this product put them here.  
