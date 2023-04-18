@@ -16,8 +16,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * **Provenance** : application of GetData task to BDTopo, cropped with … 
 
 ## EvolutionBDG_BDTopo_STRSBG_2012_2022_subset
-* **Provenance** : application of ComputeEvolution task, manual method 
-* **Feedback** : A dedicated file has been created to share feedback on this dataset, the name is the same as the dataset name. on
+* A dedicated file has been created to describe this dataset, the name is the same as the dataset name. 
 
 ## DATASET-NAME
 * Note : a dataset can be modified during the project and still keep same name, but the modifications will be documented in its provenance property.   
