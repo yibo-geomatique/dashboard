@@ -4,14 +4,26 @@
   <title>Ma Page Web</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <style>
-    /* Styles CSS pour le conteneur de la carte et la zone de texte */
+    /* Styles CSS pour le conteneur de la carte, les images et les légendes */
     #map {
       height: 400px;
     }
 
-    #comment {
-      width: 300px;
-      height: 100px;
+    .image-container {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .image-container img {
+      width: 200px;
+      height: auto;
+    }
+
+    .image-container figcaption {
+      margin-top: 5px;
+      font-style: italic;
+      color: #666;
     }
   </style>
 </head>
@@ -19,19 +31,38 @@
   <div id="map"></div>
   <textarea id="comment" placeholder="Laissez un commentaire..."></textarea>
 
+  <div class="image-container">
+    <figure>
+      <img src="subdense/dashboard/Maps/building evolution test.png" alt="Image 1">
+      <figcaption>Description de l'image 1</figcaption>
+    </figure>
+  </div>
+
+  <div class="image-container">
+    <figure>
+      <img src="subdense/dashboard/Maps/built density 2022.png" alt="Image 2">
+      <figcaption>Description de l'image 2</figcaption>
+    </figure>
+  </div>
+
+  <div class="image-container">
+    <figure>
+      <img src="subdense/dashboard/Maps/density_by_iris22.png" alt="Image 3">
+      <figcaption>Description de l'image 3</figcaption>
+    </figure>
+  </div>
+
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script>
-    // Code JavaScript pour initialiser la carte
+    // Code JavaScript pour initialiser la carte et gérer les commentaires
     var mymap = L.map('map').setView([51.505, -0.09], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(mymap);
 
-    // Ajout d'un marqueur avec un commentaire
     var marker = L.marker([51.5, -0.09]).addTo(mymap);
 
-    // Gestionnaire d'événement pour afficher le commentaire lorsque le marqueur est cliqué
     marker.on('click', function() {
       var comment = document.getElementById('comment').value;
       marker.bindPopup(comment).openPopup();
@@ -39,3 +70,4 @@
   </script>
 </body>
 </html>
+
