@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Subdense</title>
+  <title>Ma Page Web</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <style>
-    /* Styles CSS pour le texte */
-    h1 {
-      color: #333;
-      font-size: 24px;
+    /* Styles CSS pour le conteneur de la carte et la zone de texte */
+    #map {
+      height: 400px;
     }
-    
-    p {
-      color: #666;
-      font-size: 16px;
+
+    #comment {
+      width: 300px;
+      height: 100px;
     }
   </style>
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
-  <h1>Bienvenue sur ma page web !</h1>
-  
-  <p>Ceci est un paragraphe de texte.</p>
-  
-  <p>Voici un autre paragraphe de texte.</p>
+  <div id="map"></div>
+  <textarea id="comment" placeholder="Laissez un commentaire..."></textarea>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    // Code JavaScript pour initialiser la carte
+    var mymap = L.map('map').setView([51.505, -0.09], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18
+    }).addTo(mymap);
+
+    // Ajout d'un marqueur avec un commentaire
+    var marker = L.marker([51.5, -0.09]).addTo(mymap);
+
+    // Gestionnaire d'événement pour afficher le commentaire lorsque le marqueur est cliqué
+    marker.on('click', function() {
+      var comment = document.getElementById('comment').value;
+      marker.bindPopup(comment).openPopup();
+    });
+  </script>
 </body>
 </html>
