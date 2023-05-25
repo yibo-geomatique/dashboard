@@ -104,45 +104,13 @@
 
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script>
-    // Code JavaScript pour initialiser les fonctionnalités
+    var mymap = L.map('map').setView([51.505, -0.09], 10); // Niveau de zoom réduit à 10
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18
+    }).addTo(mymap);
 
-    // Code pour la barre de recherche
-    const searchInput = document.querySelector('.search-input');
-    searchInput.addEventListener('input', function(event) {
-      const searchText = event.target.value.toLowerCase();
-      const images = document.querySelectorAll('.image-container');
-      images.forEach(function(image) {
-        const description = image.querySelector('figcaption').innerText.toLowerCase();
-        if (description.includes(searchText)) {
-          image.style.display = 'block';
-        } else {
-          image.style.display = 'none';
-        }
-      });
-    });
-
-    // Code pour les boutons de partage social
-    const shareButtons = document.querySelectorAll('.social-share button');
-    shareButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        const socialMedia = button.innerText;
-        // Ajoutez le code pour partager sur les réseaux sociaux ici
-        console.log('Partage sur ' + socialMedia);
-      });
-    });
-
-    // Code pour le formulaire de contact
-    const contactForm = document.querySelector('.contact-form');
-    contactForm.addEventListener('submit', function(event) {
-      event.preventDefault();
-      // Ajoutez le code pour envoyer le formulaire ici
-      console.log('Formulaire soumis');
-    });
-
-    // Code pour les graphiques interactifs
-    const chartContainer = document.querySelector('.chart-container');
-    // Ajoutez le code pour créer le graphique interactif ici
-    console.log('Graphique interactif créé');
+    // Ajoutez ici le reste de votre code JavaScript
 
   </script>
 </body>
