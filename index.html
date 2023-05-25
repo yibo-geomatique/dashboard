@@ -46,6 +46,13 @@
       background-color: #f5f5f5;
       border: 1px solid #ddd;
     }
+
+    /* Styles CSS pour les images */
+    .image-container img {
+      width: 400px; /* Ajustez la largeur selon vos besoins */
+      height: auto;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -99,21 +106,25 @@
       <h4>Utilisateur 2</h4>
       <p>Commentaire 2</p>
     </div>
-    <!-- Ajoutez d'autres commentaires ici -->
   </div>
 
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script>
-    var mymap = L.map('map').setView([51.505, -0.09], 10); // Niveau de zoom réduit à 10
+    // Code JavaScript pour initialiser la carte et gérer les commentaires
+    var mymap = L.map('map').setView([51.505, -0.09], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(mymap);
 
-    // Ajoutez ici le reste de votre code JavaScript
+    var marker = L.marker([51.5, -0.09]).addTo(mymap);
 
+    marker.on('click', function() {
+      var comment = document.getElementById('comment').value;
+      marker.bindPopup(comment).openPopup();
+    });
   </script>
 </body>
 </html>
+
 
 
