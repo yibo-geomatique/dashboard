@@ -85,47 +85,7 @@
 
   <input class="search-input" type="text" placeholder="Rechercher...">
   
-  <div class="social-share">
-    <button>Partager sur Facebook</button>
-    <button>Partager sur Twitter</button>
-    <button>Partager sur LinkedIn</button>
-  </div>
-
-  <form class="contact-form">
-    <input type="text" placeholder="Nom">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
-
-  <div class="chart-container"></div>
-
-  <div class="comments">
-    <div class="comment">
-      <h4>Utilisateur 1</h4>
-      <p>Commentaire 1</p>
-    </div>
-    <div class="comment">
-      <h4>Utilisateur 2</h4>
-      <p>Commentaire 2</p>
-    </div>
-  </div>
-
-  <script>
-    // Code JavaScript pour initialiser la carte et gérer les commentaires
-    var mymap = L.map('map').setView([51.505, -0.09], 10);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-      maxZoom: 18
-    }).addTo(mymap);
-
-    var marker = L.marker([51.5, -0.09]).addTo(mymap);
-
-    marker.on('click', function() {
-      var comment = document.getElementById('comment').value;
-      marker.bindPopup(comment).openPopup();
-    });
-  </script>
+  
 </body>
 </html>
 
