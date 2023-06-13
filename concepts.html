@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Concepts</title>
+    <meta chartset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- En-tête -->
+  <header>
+    <h1>Subdense Collaborative Dashboard</h1>
+    <p>Explorez les données urbaines et collaborez pour une planification plus efficace.</p>
+    <nav>
+      <ul>
+        <li><a href="https://subdense.github.io/dashboard/">Accueil</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="https://bbv.raumplanung.tu-dortmund.de/research/projects/subdense/">Subdense project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenu principal -->
+  <main>
+    <section id="accueil">
+      <h2>What concepts exist to study suburban densification in Europe?</h2>
+      <ul>
+        <li>Suburb</li>
+        <li>Densification</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <script>
+    fetch('https://raw.githubusercontent.com/subdense/dashboard/master/wiki.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('wiki-content').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Une erreur s\'est produite lors de la récupération du fichier :', error);
+      });
+  </script>
+
+</body>
+</html>
