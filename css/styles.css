@@ -9,24 +9,16 @@ h1 {
     font-size: 3em;
     text-align: center;
     color: green;
-    background-image: url("https://raw.githubusercontent.com/subdense/dashboard/master/img/backgroundTH.jpg") ;
+    background-image: url("https://raw.githubusercontent.com/subdense/dashboard/master/img/backgroundTH.jpg");
 }
 
 body {
     background-color: #e4e7f0;
 }
-/* Styles CSS pour les transitions et les animations */
-.image-container img {
-    transition: transform 0.3s ease;
-  }
-  
-  .image-container img:hover {
-    transform: scale(1.1);
-  }
-  
+
   /* Styles CSS pour les images */
-  .image-container img {
-    width: 700px; /* Ajustez la largeur selon vos besoins */
+.image-container img {
+    width: 700px;
     height: auto;
     margin-bottom: 10px;
   }
