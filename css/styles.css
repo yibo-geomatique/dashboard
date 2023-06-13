@@ -9,6 +9,7 @@ h1 {
     font-size: 3em;
     text-align: center;
     color: green;
+    padding: 150px;
     background-image: url("https://raw.githubusercontent.com/subdense/dashboard/master/img/backgroundTH.jpg");
 }
 
