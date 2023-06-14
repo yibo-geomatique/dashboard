@@ -1,36 +1,33 @@
 [Title]
 Suburban densification  
 
-[Intro paragraphe ] 
-Welcome to this portal dedicated to data-driven and science-based study of densification in suburban areas. We share with you questions related to suburban densification and how to build maps to answer them.
-Who are we : SUBDENSE is developed by 4 research teams in Germany, France and UK, with expertise ranging from ... to geodata processing. 
+[sous-titre ] 
+science based and data-driven study of densification in suburban areas of 6 european cities : . 
 
-Want to be involved? You can comment on our concepts definition, use our procedure and tools to produce your own piece of the puzzle and share it with others.  
 
-Concepts  
+[parag What is this? ]  
+This is a collaborative dashboard aiming at sharing questions and concepts related to suburban densification, at building comparable maps to answer them.
 
-What concepts exist to study suburban densification in Europe?  
 
-(mettre ici le texte du wiki) 
+[parag Questions and concepts]  
 
- 
+What key questions need answers and what concepts can we use for that ?
 
-Observing densification through Building Data only 
+[parag Maps] 
 
-Building data can help us observe densification on the ground, provided specific skills to process these data and interpret the results.  
+Different data can contribute to a comparative study of suburban densification, provided specific skills to process these data and interpret them. 
 
-Building evolution on the city of Strasbourg (lien cliquable qui conduit à la carte avec une legende etc) 
-
-… 
+Observing density and densification through buildings data : 
+- _(names of maps or sets of maps, clicquable)_ 
 
  
-
-Understanding densification happening in a context  
-
+Understanding the context of densification through additional data : 
+- _(names of maps or sets of maps, clicquable)_ 
  
 
  
+[parag bottom, who are we} ]
+Subdense is developed by 4 research teams in Germany, France and UK, with expertise in geography, urban planning and geodata processing. It is funded by ORA 7th Call. 
+To know more about the project : 
 
  
-
-SUBDENSE project : .. 
