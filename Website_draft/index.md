@@ -15,7 +15,7 @@ What key questions need answers and what concepts can we use for that ?
 
 [parag Maps] 
 
-Different data can contribute to a comparative study of suburban densification, provided specific skills to process these data and interpret them. 
+Different data can contribute to a comparative study of suburban densification, provided specific skills to process these data and interpret them. Firstly we need to assess what data can support the observation and understanding of density on a specific place and then we need to compare data, between places or between years.   
 
 Observing density and densification through buildings data : 
 - Building and density data 
