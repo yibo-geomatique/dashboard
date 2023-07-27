@@ -8,7 +8,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
  2. [BDTopo_BDG_STRSBG_2022](#BDTopo_BDG_STRSBG_2022)
  3. [EvolutionBDG_BDTopo_STRSBG_2012_2022_subset](#EvolutionBDG_BDTopo_STRSBG_2012_2022_subset)
  4. [Dataset Identifying policy](#DATASET-IDENTIFYING-POLICY)
- 5. [Dataset description template](#DATASET-DESCRIPTION TEMPLATE)
+ 5. [Dataset description template](#DATASET-DESCRIPTION-TEMPLATE)
 *******
 ## BDTopo_BDG_STRSBG_2012	
 * **Provenance**: application of GetData task to BDTopo, cropped with (tbd: specify here the contour that have been used) … 
