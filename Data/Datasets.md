@@ -8,7 +8,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
  2. [BDTopo_BDG_STRSBG_2022](#BDTopo_BDG_STRSBG_2022)
  3. [EvolutionBDG_BDTopo_STRSBG_2012_2022_subset](#EvolutionBDG_BDTopo_STRSBG_2012_2022_subset)
  4. [Dataset Identifying policy](#DATASET-IDENTIFYING-POLICY)
- 5. [Specific/additional description/metadata for a Dataset](#SUBDENSE-SPECIFIC METADATA for A DATASET)
+ 5. [Dataset description template](#DATASET-DESCRIPTION TEMPLATE)
 *******
 ## BDTopo_BDG_STRSBG_2012	
 * **Provenance**: application of GetData task to BDTopo, cropped with (tbd: specify here the contour that have been used) … 
@@ -30,7 +30,8 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * The identifier of the dataset is used to name the dataset files (or zip repository) and to name the eventual dedicated metadata file for Subdense-specific metadata associated to the dataset. 
 * A dataset is considered the same resource even if it is enriched or corrected during the project. It keeps the same identifier, but the modifications are documented in its provenance property.    
 
-## SUBDENSE-SPECIFIC METADATA for A DATASET
+## DATASET-DESCRIPTION TEMPLATE
+* A specific description template is proposed adapted to SUBDENSE dashboard workflows. It is not intended to replace existing model to describe geographical datasets but to complement them to adress SUBDENSE specific requirements
 * **Provenance** : Textual description of how the datasets was acquired or produced, preferably referring to processes that are described on the dashboard.  This description can get enriched while the dataset is revised and improved (quality check and so on).
 * **Usages** : References to datasets, maps, hypothesis (papers) that have been produced with this dataset
 * **Feedback** : Comments related to the dataset, interpretation, identification of quality issues and so on
