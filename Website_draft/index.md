@@ -4,18 +4,22 @@ Suburban densification
 [sous-titre ] 
 science based and data-driven study of densification in suburban areas of 6 european cities : . 
 
+[parag in small letters ]  
+This portal is a proof of concept of a collaborative dashboard patchwork aiming at building comparable maps for the study of suburban densification across 6 european cities, at interpreting these maps to produce a deeper understanding of this phenomenon, its drivers and impacts. The collaboration is focused on : specifying the maps, producing them, interpreting them. Throughout the process, the management of possible biases and context specific consideration is key for the soudness of the comparative analysis. 
 
-[parag What is this? ]  
-This is a collaborative dashboard aiming at sharing questions and concepts related to suburban densification, at building comparable maps to answer them.
 
+[parag Questions-decisions-concepts]  
+More and more specific questions are needed to understand, to specify new maps. Where does densification happen? Why are some parcels left unused? How do people perceive densification ? etc.
 
-[parag Questions and concepts]  
-
-What key questions need answers and what concepts can we use for that ?
+[parag Concept, theory] 
+Social science bring some help to identify the kind of data that can be used to build maps to answer these questions. 
+* suburb
+* densification
+* polyrationality 
+* waste land
+* soil sealing
 
 [parag Maps] 
-
-Different data can contribute to a comparative study of suburban densification, provided specific skills to process these data and interpret them. Firstly we need to assess what data can support the observation and understanding of density on a specific place and then we need to compare data, between places or between years.   
 
 Observing density and densification through buildings data : 
 - Building and density data 
@@ -23,10 +27,7 @@ Observing density and densification through buildings data :
 - Comparing building data for the same city, and different years (link to a web page with maps, keys and interpretation)
 - Comparing density indicators .. 
 
-Understanding the context of densification through additional data : 
-- _(names of maps or sets of maps, clicquable)_ 
  
-
  
 [parag bottom, who are we} ]
 Subdense is developed by 4 research teams in Germany, France and UK, with expertise in geography, urban planning and geodata processing. It is funded by ORA 7th Call. 
