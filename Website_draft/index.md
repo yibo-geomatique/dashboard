@@ -8,10 +8,8 @@ science based and data-driven study of densification in suburban areas of 6 euro
 This portal is a proof of concept of a collaborative dashboard patchwork aiming at building comparable maps for the study of suburban densification across 6 european cities, at interpreting these maps to produce a deeper understanding of this phenomenon, its drivers and impacts. The collaboration is focused on : specifying the maps, producing them, interpreting them. Throughout the process, the management of possible biases and context specific consideration is key for the soudness of the comparative analysis. 
 
 
-[parag Questions-decisions-concepts]  
+[parag Questions-concepts]  
 More and more specific questions are needed to understand, to specify new maps. Where does densification happen? Why are some parcels left unused? How do people perceive densification ? etc.
-
-[parag Concept, theory] 
 Social science bring some help to identify the kind of data that can be used to build maps to answer these questions. 
 * suburb
 * densification
