@@ -19,7 +19,7 @@
 ### Step 2: Intersect isochrones with geographies
 * Program: QGIS
 * Load isochrones and geographies
-* Execute model in graphical modeller (set link to model: data_prep_select_geographies_percentage.model3)
+* Execute model data_prep_select_geographies_percentage.model3 in graphical modeller
 * Add geographies manually which do not intersect but are surrounded by municipalities which do
 
 ### Step 3: Filter to certain extent
