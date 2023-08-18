@@ -1,8 +1,18 @@
 
 
-# Overview
+# Process GetOpenStreetMapBuildingData
 
-This process extracts OpenStreepMap buildings from the overpass API, at given dates and for given cities.
+This process extracts OpenStreepMap buildings from the overpass API, at given dates and for given cities. Data is downloaded for specified functional urban areas.
+
+TODO: make it more flexible to take any list of polygons (or geometry file) as input -> possible coupling with delimitation of study area with isochrones e.g.
+
+# Input data
+
+ - list of names of FUAs (JRC GHSL-FUA layer) in a plain text file
+
+# Output data
+
+ - a `data` folder containing, for each FUA, an `osm` and a `gpkg` file of OpenStreetMap buildings
 
 # Usage
 

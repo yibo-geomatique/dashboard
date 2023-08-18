@@ -13,7 +13,9 @@ The minimal elements that describe a process are **input data** and **output dat
 
 ## Automatising processes
 
-*TBD: OpenMOLE script and embedding, or docker file; issue of I/O generic specification*
+*TBD: OpenMOLE script and embedding, or docker file*
+
+Issue of I/O generic specification: system (types? ontology?) allowing for an automatic checking of compatibilities and coupling of processes (additional layer to the OpenMOLE workflow validation system, taking into account complex types -> use the scala compilator for this?)
 
 
 
