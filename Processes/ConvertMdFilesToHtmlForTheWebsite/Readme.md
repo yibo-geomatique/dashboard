@@ -4,9 +4,12 @@ This process converts files in .md format to Html format. The idea is to automat
 # Usage
   # Step 1: 
     - Make sure pandoc is installed on your system
+    - Be sure to adjust the values of SOURCE_DIR and DEST_DIR depending on where your .md files are located and where you want the .html files to be saved.
   # step 2:
   Run the following command to make the script executable:
-    -chmod +x ConvertMdToHtml.sh
+
+    chmod +x ConvertMdToHtml.sh
+
     
 
     
