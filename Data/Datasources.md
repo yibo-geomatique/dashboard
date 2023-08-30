@@ -11,7 +11,7 @@ List of datasources potentially relevant for the dashboard, and associated comme
  6. [OSM](#OSM)
  7. [EUBUCCO](#EUBUCCO)
  8. [Datasource naming policy](#Datasource-naming-policy)
- 9. [datasource description template](#Datasource-description-template)
+ 9. [Datasource description template](#Datasource-description-template)
 *******
 
 ## BDTOPO-FR 
@@ -53,7 +53,7 @@ Definition: Information about the change history of a feature that comprises the
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
 
-## atasource-description-template
+## Datasource-description-template
 * **URI**  : If there exists one or more URIs for this product put them here.  
 Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
 * **Documentation** : Links to existing documentation, preferably online
