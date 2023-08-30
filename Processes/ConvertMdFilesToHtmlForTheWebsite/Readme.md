@@ -5,9 +5,8 @@ This process converts files in .md format to Html format. The idea is to automat
   # Step 1: 
     - Make sure pandoc is installed on your system
   # step 2:
-    - Run the following command to make the script executable:
-    '''
-    chmod +x ConvertMdToHtml.sh
-    '''
+  Run the following command to make the script executable:
+    -chmod +x ConvertMdToHtml.sh
+    
 
     
