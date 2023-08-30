@@ -10,7 +10,8 @@ List of datasources potentially relevant for the dashboard, and associated comme
  5. [GEOBASIS-DE](#GEOBASIS-DE)
  6. [OSM](#OSM)
  7. [EUBUCCO](#EUBUCCO)
- 8. [Template to reference a datasource](#SHORTNAME-COUNTRY)
+ 8. [Datasource naming policy](#Datasource-naming-policy)
+ 9. [datasource description template](#Datasource-description-template)
 *******
 
 ## BDTOPO-FR 
@@ -48,7 +49,11 @@ Definition: Information about the change history of a feature that comprises the
 * **Documentation** : https://docs.eubucco.com/ 
 * * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
 
-## SHORTNAME-COUNTRY
+
+## Datasource-naming-policy
+* Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
+
+## atasource-description-template
 * **URI**  : If there exists one or more URIs for this product put them here.  
 Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
 * **Documentation** : Links to existing documentation, preferably online
