@@ -1,33 +1,12 @@
-[Title]
-Subdense dashboard  
+* Subdense : Suburband densification dashboard  
+   
+This is a prototype solution of science-based and data-driven study of suburban densification through comparative analysis of six different cities during the past ten years. The cities are : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. 
 
-[h1] 
-Suburban densification dashboard 
+Concepts are importants. Some concepts, even though they belong to commonsense knowledge, also are still discussed like suburb and densification. Besides, there can exist different ways to represent a concept on maps.  Uncertainties and biases can be introduced by differences in concepts or in their representation.
 
-[parag]  
-This dashboard is dedicated to the study of suburban densification across 6 european cities : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. 
+The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc. We try to answer the different questions related to suburban densification through maps. These answers are to be presented as narratives attached to sets of maps. 
 
-[parag]  
-To understand suburban densification, one must express QUESTIONS. Where does densification happen? Why are some parcels left unused? How do people perceive densification ? etc. 
-
-[parag]
-Science-based CONCEPTS allow us to connect questions with required maps. 
-
-Suburb : the concept of suburb ... There are local specificities : .....
-
-Densification :
-
-Wasteland :
-
-Polyrationalities :
-
-Sustainable habitat : 
-
-[parag]
-A next step is to produce MAPS: buildings, density indicators, evolutions of buildings and of density, etc.  
-
-[parag] 
-Last, experts interpret maps and create NARRATIVES to share their findings. 
+Maps are produced collaboratively with a purpose to facilitate comparability and document possible biases. To facilitate comparability, the production processes are shared. 
 
  
  
