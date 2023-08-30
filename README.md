@@ -9,7 +9,7 @@ The different folders contain the different components of the dashboard :
 - Web site draft : md files that are automatically processed to create the html pages of the Web site. 
 
 Most folders follow the same structure : 
-- CategoryOfThings.md (eg: Concepts.md, Datasets.md, Datasources.md, ...) : files that contain a register of CategoryOfThings used in the dashboard as well as a description template for specific things belonging to this category (at the end of the file). The description of an item (eg: of the concept Suburb) can be either enclosed in the register or be detailed in a separate file in the same folder (see below).
+- CategoryOfThings.md (eg: Concepts.md, Datasets.md, Datasources.md, ...) : files that contain a register of CategoryOfThings used in the dashboard as well as a naming policy and description template for specific things belonging to this category (at the end of the file). The description of an item (eg: of the concept Suburb) can be either enclosed in the register or be detailed in a separate file in the same folder (see below).
 - SpecificThing.md (eg: Densification.md) : description of a specific item 
   
 The wiki is a textual presentation of the project (redirecting readers to Subdense dashboard website).
