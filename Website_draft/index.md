@@ -16,8 +16,4 @@ Maps, data, processes
 Maps are produced collaboratively with a purpose to facilitate comparability and document possible biases. To facilitate comparability, the production processes are shared. 
 
  
- 
-
-
-
- 
+ More information on SUBDENSE project : https://bbv.raumplanung.tu-dortmund.de/research/projects/subdense/ 
