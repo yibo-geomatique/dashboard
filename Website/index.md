@@ -1,33 +1,19 @@
-[Title]
-Suburban densification  
+Subdense : Suburban densification dashboard  
+==================================================
+   
+Subdense dashboard is dedicated to the study of suburban densification through comparative analysis of six different cities during the past ten years. The cities are : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. It is a proof of concept developed in collaboration between the partners of the ORA7 Subdense 2023-25 project.
 
-[sous-titre ] 
-science based and data-driven study of densification in suburban areas of 6 european cities : . 
+Concepts
+-----------------------------------------------------
+Concepts are importants. Some concepts, even though they belong to commonsense knowledge, also are still discussed like suburb and densification. Besides, there can exist different ways to represent a concept on maps.  Uncertainties and biases can be introduced by differences in concepts or in their representation.
 
+Questions and narratives
+-----------------------------------------------------
+The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc. We try to answer the different questions related to suburban densification through maps. These answers are to be presented as narratives attached to sets of maps. 
 
-[parag What is this? ]  
-This is a collaborative dashboard aiming at sharing questions and concepts related to suburban densification, at building comparable maps to answer them.
-
-
-[parag Questions and concepts]  
-
-What key questions need answers and what concepts can we use for that ?
-
-[parag Maps] 
-
-Different data can contribute to a comparative study of suburban densification, provided specific skills to process these data and interpret them. 
-
-Observing density and densification through buildings data : 
-- _(names of maps or sets of maps, clicquable)_ 
+Maps, data, processes
+-----------------------------------------------------
+Maps are produced collaboratively with a purpose to facilitate comparability and document possible biases. To facilitate comparability, the production processes are shared. 
 
  
-Understanding the context of densification through additional data : 
-- _(names of maps or sets of maps, clicquable)_ 
- 
-
- 
-[parag bottom, who are we} ]
-Subdense is developed by 4 research teams in Germany, France and UK, with expertise in geography, urban planning and geodata processing. It is funded by ORA 7th Call. 
-To know more about the project : 
-
- 
+ More information on SUBDENSE project : https://bbv.raumplanung.tu-dortmund.de/research/projects/subdense/ 
