@@ -43,6 +43,10 @@ Definition: Information about the change history of a feature that comprises the
 ## GEOBASIS-DE
 * **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
+## GHSL-UCDB
+* Global Human Settlement Layer Urban Center Database, https://ghsl.jrc.ec.europa.eu/
+* **Documentation**  https://ghsl.jrc.ec.europa.eu/degurbaDefinitions.php 
+
 ## OSM 
 
 ## EUBUCCO
