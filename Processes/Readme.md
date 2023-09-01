@@ -6,9 +6,9 @@ The minimal elements that describe a process are **input data** and **output dat
 
 ## Adding processes to the dashboard
 
- - commit to this folder, either a `.md` file with an explicit name designing the process and containing a minimal description of the process, or a subfolder containing its description in a readme and additional files necessary to describe, reproduce, run, modify, etc. it.
- - in the description, include a detailed specification (files, types, data models, etc.) of the input and output data
- - describe the methid, with the successive steps necessary to reproduce it; this can be a textual description in terms of a fully manual process, or commands to run if scripts or executables are provided
+ - register the process on the Processes.md registry by giving it an explicit and information name (use an informative name), and add a description, preferably on a separate file as detailed below. 
+ - commit to this folder, either a `.md` file with the same name as that in the registry and that contains a minimal description of the process, or a subfolder, with the same name as that in the registry, containing its description in a readme and additional files necessary to describe, reproduce, run, modify, etc. it.
+ - in the description, refer to the proposed template in Processes.md 
 
 
 ## Automatising processes

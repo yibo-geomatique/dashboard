@@ -1,2 +1,2 @@
-Folder for result maps, to be called from the GUI client for example
+Folder to share the maps, that will support the analysis, and the descrpition attached to maps which is very useful for a sound comparison 
 
