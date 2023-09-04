@@ -10,7 +10,7 @@ This process converts files in `.md` format to Html format. The idea is to autom
 
     chmod +x ConvertMdToHtml.sh
   ### Step 3:
-  You can now run the script to convert all your .md files to .html using:
+  You can now run the script to convert all your `.md` files to `.html` using:
     
     ./ConvertMdToHtml.sh
 
