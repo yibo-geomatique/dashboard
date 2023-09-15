@@ -1,26 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <title>Subdense dashboard</title>
-  <meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableau de Bord Collaboratif</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<style>
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .map-wrapper {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .map {
+    height: 300px;
+  }
+  .chart-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .chart {
+    width: 100%;
+    height: 400px;
+  }
+</style>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>Subdense suburban densification dashboard</h1>
-  <p>
-  Subdense dashboard is dedicated to the study of suburban densification through comparative analysis of six different cities during the past ten years. The cities are : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. It is a proof of concept developed in collaboration between the partners of the ORA7 Subdense 2023-25 project.  
-  </p>
 
-  <h3>Concepts</h3>
-  <p>Concepts are importants. Some concepts, even though they belong to commonsense knowledge, also are still discussed like suburb and densification. Besides, there can exist different ways to represent a concept on maps. Uncertainties and biases can be introduced by differences in concepts or in their representation.</p> 
+<div class="header">
+  <h1>Tableau de Bord pour Étudier la Densification Périurbaine</h1>
+</div>
 
-  <h3>Questions and narratives</h3>
-  <p>The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc. We try to answer the different questions related to suburban densification through maps. These answers are to be presented as narratives attached to sets of maps.</p>
+<div class="map-container">
+  <div class="map-wrapper">
+    <div id="Liverpool-map" class="map"></div>
+    <p>Liverpool</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="Strasbourg-map" class="map"></div>
+    <p>Strasbourg</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="Dortmund-map" class="map"></div>
+    <p>Dortmund</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="Bristol-map" class="map"></div>
+    <p>Bristol</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="Toulouse-map" class="map"></div>
+    <p>Toulouse</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="Stuttgart-map" class="map"></div>
+    <p>Stuttgart</p>
+  </div>
+</div>
 
-<h3>Maps, data, processes</h3>
-  <p>Maps are produced collaboratively with a purpose to facilitate comparability and document possible biases. To facilitate comparability, the production processes are shared. </p>
-  
-  <footer>
-<a href="https://bbv.raumplanung.tu-dortmund.de/research/projects/subdense/">SUBDENSE project</a> 
-  </footer>
+<div class="chart-container">
+  <h2>Evolution du bâti</h2>
+  <canvas id="combined-chart" class="chart"></canvas>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const cities = {
+      Liverpool: [53.4084, -2.9916],
+      Strasbourg: [48.5734, 7.7521],
+      Dortmund: [51.5136, 7.4653],
+      Bristol: [51.4545, -2.5879],
+      Toulouse: [43.6047, 1.4442],
+      Stuttgart: [48.7758, 9.1829]
+    };
+
+    const chartData = {
+      labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
+      datasets: [
+        {
+          label: 'Bâtiments apparus',
+          data: [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60],
+          backgroundColor: 'rgba(75, 192, 192, 0.2)',
+          borderColor: 'rgba(75, 192, 192, 1)',
+          borderWidth: 1,
+        },
+        {
+          label: 'Bâtiments disparus',
+          data: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
+          backgroundColor: 'rgba(153, 102, 255, 0.2)',
+          borderColor: 'rgba(153, 102, 255, 1)',
+          borderWidth: 1,
+        },
+        {
+          label: 'Bâtiments stables',
+          data: [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100],
+          backgroundColor: 'rgba(255, 159, 64, 0.2)',
+          borderColor: 'rgba(255, 159, 64, 1)',
+          borderWidth: 1,
+        },
+        {
+          label: 'Bâtiments fusionnés',
+          data: [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33],
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1,
+        },
+      ]
+    };
+
+    const chartOptions = {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    };
+
+    for (const [cityName, coordinates] of Object.entries(cities)) {
+      const map = L.map(`${cityName}-map`).setView(coordinates, 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+    }
+
+    const ctx = document.getElementById('combined-chart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: chartData,
+      options: chartOptions
+    });
+  });
+</script>
+
 </body>
 </html>

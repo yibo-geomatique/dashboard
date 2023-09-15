@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Subdense dashboard</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent the body from scrolling */
+        }
+
+        .navbar, footer {
+            position: fixed;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            z-index: 100; /* Ensure they are above the iframe */
+        }
+
+        .navbar {
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar-title {
+            color: white;
+            margin: 0;
+            padding: 14px 0;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            list-style-type: none;
+            z-index: 1000;
+        }
+
+        .navbar li:hover ul {
+            display: block;
+        }
+
+        .navbar li ul li {
+            float: none;
+        }
+
+        .navbar li ul li a {
+            padding: 10px 16px;
+            white-space: nowrap;
+        }
+
+        iframe#contentFrame {
+            position: fixed; /* Make iframe fixed */
+            top: 0;
+            bottom: 60px; /* Height of your footer */
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 1; /* Lower z-index than navbar and footer */
+        }
+
+        footer {
+            bottom: 0;
+            padding: 20px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffa500;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="navbar-title">Suburban densification dashboard</h1>
+        <ul>
+            <li><a href="Datasources.html">Data</a></li>
+            <li><a href="#concepts">Concepts</a></li>
+            <li>
+                <a href="ComputeEvolution.html">Processes</a>
+                <ul>
+                    <li><a href="Datasets.html">Subfile 1</a></li>
+                    <li><a href="GetBuildingData.html">Subfile 2</a></li>
+                </ul>
+            </li>
+            <li><a href="/home/MNdim/mapbox_extent_case_regions/index.html">Maps</a></li>
+        </ul>
+    </div>
+
+    <iframe id="contentFrame" src="Datasources.html"></iframe>
+
+    <footer>
+        © 2023 Subdense Dashboard. All rights reserved. | <a href="https://bbv.raumplanung.tu-dortmund.de/research/projects/subdense/">SUBDENSE project</a> | <a href="https://github.com/orgs/subdense/repositories">About</a>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+
+                if (href.startsWith("#")) {
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    document.getElementById('contentFrame').src = href;
+                }
+            });
+        });
+
+        // Ajout du script pour gérer les liens à l'intérieur de l'iframe
+        document.getElementById('contentFrame').addEventListener('load', function() {
+            try {
+                const iframeLinks = this.contentDocument.querySelectorAll('a');
+                iframeLinks.forEach(link => {
+                    link.setAttribute('target', '_top');
+                });
+            } catch (e) {
+                console.error("Couldn't modify iframe links due to CORS restrictions:", e);
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
