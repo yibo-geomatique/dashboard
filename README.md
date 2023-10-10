@@ -3,9 +3,14 @@ Subdense : Suburban densification dashboard
    
 Subdense dashboard is dedicated to the study of suburban densification through comparative analysis of six different cities during the past ten years. The cities are : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. It is a proof of concept developed in collaboration between the partners of the ORA7 Subdense 2023-25 project. The different folders of the git organise collaborative production of answers to pending questions related to suburban densification.
 
-Questions and narratives
+Questions
 -----------------------------------------------------
-The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc. We try to answer the different questions related to suburban densification with state of the art science and data. More specifically, answers will typically look like narratives attached to concepts discussions, and to maps. 
+The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc.
+
+Answers
+-----------------------------------------------------
+The ultimate objective of the dashboard is to propose answers to the above questions based on state of the art science and data. 
+To achieve them collaboration is needed for a deeper understanding of concepts, an identification of data potentially relevant, the selection of data, the production of comparable maps, the reading of maps and comparative analysis. Last but not least, answers will be shared in the form of narraties encompassing maps.  
 
 Concepts
 -----------------------------------------------------
@@ -15,8 +20,10 @@ Maps, data, processes
 -----------------------------------------------------
 Maps dedicated to comparative analysis are produced collaboratively. To facilitate comparability, reproducible processes are adopted and clues to assist comparability and document biases are also produced along the way. 
 
-Git Folders
+Collaboration through git
 ------------------------------------------------------
+Collaboration is supported by the git environment.
+
 The folder Website contains the different files of the dashboard Website, including css, html. These pages can be either produced through ad hoc methods are generated automatically based on the dashboard ressources (in folders Concepts, Data, Maps and Processes). Questions and narratives are ultimately documented there as they are intended to be shared outside the project.
 
 The folders Concepts, Data, Maps and Processes contain the different components of the dashboard that are key to the collaborative production of answers to questions :
