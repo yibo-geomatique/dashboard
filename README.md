@@ -1,20 +1,21 @@
 Subdense : Suburban densification dashboard  
 ==================================================
    
-Subdense dashboard is dedicated to the study of suburban densification through comparative analysis of six different cities during the past ten years. The cities are : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol. It is a proof of concept developed in collaboration between the partners of the ORA7 Subdense 2023-25 project. Collaboration is required to : specify and produce comparable maps, document comparison biases, propose answers to questions.
-
-- A view on the 6 cities
-- Strasbourg  
+Subdense dashboard is dedicated to the study of suburban densification. It presents a comparative analysis of six different cities during the past ten years. 
+- Comparing the 6 cities
+- Investigating cities one by one (Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol)  
    
-
-Collaboration through git
+Proving the concept of collaborative dashboard 
 ------------------------------------------------------
-Collaboration is supported by the git environment. Several collaboration are needed : 
+This is a proof of concept of a solution to collaboratively specify and produce comparable maps, document comparison biases, elaborate answers to questions. It is developed by the partners of the ORA7 Subdense 2023-25 project. 
+
+Several collaboration are needed : 
 - the identification of key questions, key concepts and the different ways to represent a concept on maps.
 - the selection of data and tools
 - the production of maps.
 - the documentation of biases.
 - the interpretation of maps
+
 The folders Concepts, Data, Maps and Processes contain the different components of the dashboard that are key to the collaborative production of answers to questions :
 - Concepts (e.g. : suburb, densification, city) : definitions, discussions around definitions, comparability of concepts across the studied cities, hints to which kind of data exist to observe the concept
 - Data : description of data sources (aka data products, data series) relevant to the dashboard, description of specific datasets.
