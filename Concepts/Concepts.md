@@ -1,16 +1,21 @@
 # Concepts
 
-List of concepts which are useful to study suburban densification and for which 1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities 2) it is useful to specify how the concept can be observed through data. 
+List of questions and concepts which are useful to study suburban densification and for which 1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities 2) it is useful to specify how the concept can be observed through data. 
 
 A concept can be described in this very file, that is at the same time a registry and dictionary or it can be referenced in the list and descibed in a dedicated file. In that case the file shall be put in the same git folder as this registry Concepts.md, and it should be called by the concept label, e.g. Suburb.md. 
 
 
 *******
- 1. [Suburb](#Suburb)
- 2. [Densification](#Densification)
- 3. [Concept labelling policy](#Concept-labelling-policy)
- 4. [Concept description template](#Concept-description-template)
+ 1. [Questions](#Questions)
+ 2. [Suburb](#Suburb)
+ 3. [Densification](#Densification)
+ 4. [Concept labelling policy](#Concept-labelling-policy)
+ 5. [Concept description template](#Concept-description-template)
 *******
+##Questions
+* Where does densification happen?
+* Where are parcels leftt unused?
+
 ## Suburb	
 * **Definitions**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020). A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context 
 * **Relation with data** : the concept itself does not appear in geodata 
