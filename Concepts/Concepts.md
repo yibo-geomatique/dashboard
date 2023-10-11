@@ -12,7 +12,7 @@ A concept can be described in this very file, that is at the same time a registr
  4. [Concept labelling policy](#Concept-labelling-policy)
  5. [Concept description template](#Concept-description-template)
 *******
-##Questions
+## Questions
 * Where does densification happen?
 * Where are parcels leftt unused?
 
