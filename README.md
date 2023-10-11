@@ -5,7 +5,7 @@ Subdense dashboard is dedicated to the study of suburban densification through c
 
 Questions
 -----------------------------------------------------
-The study of suburban densification is driven by specific questions, like : where does densification happen, why are some parcels left unused, how do people perceive densification ? etc.
+The study of suburban densification is driven by specific questions (what to search for in the data). First questions we want to adress are : where does densification happen, why are some parcels left unused, how do people perceive densification ? 
 
 Answers
 -----------------------------------------------------
