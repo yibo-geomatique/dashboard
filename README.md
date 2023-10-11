@@ -16,7 +16,7 @@ Several collaboration are needed :
 - the documentation of biases.
 - the interpretation of maps
 
-The folders Concepts, Data, Maps and Processes contain the different components of the dashboard that are key to the collaborative production of answers to questions :
+The folders Concepts, Data, Maps and Processes of the git project https://github.com/subdense/ contain the different components of the dashboard that are key to the collaborative production of answers to questions :
 - Concepts (e.g. : suburb, densification, city) : definitions, discussions around definitions, comparability of concepts across the studied cities, hints to which kind of data exist to observe the concept
 - Data : description of data sources (aka data products, data series) relevant to the dashboard, description of specific datasets.
 - Maps : visual display (image files) of maps that will compose the patchwork and associated description
