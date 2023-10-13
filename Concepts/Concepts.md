@@ -22,6 +22,7 @@ A concept can be described in this very file, that is at the same time a registr
 
 ## Densification
 * **Definitions** : “net increase of the number of housing units” within the pre-existing built-up area (Broitmanand Koomen, 2015). Authors distinguish Soft and hard densification (Ouati-Morel, 2015) as well as Planned and unplanned (Dunning et al., 2020)
+* **Observing densification (relevant info)** : relevant information to represent densification can be the building ages
 * **Relation with data** :
   * * Urban density is described using 5 classes in urban atlas, grid data acquired on whole Europe at several time, nomenclatura (https://land.copernicus.eu/user-corner/technical-library/urban_atlas_2012_2018_mapping_guide_v6.3 ).
   * * There exist lots of indicators to evaluate and rend density or densification. Refer to : https://docs.google.com/spreadsheets/d/1fUMyoBsP0JiG_2uW1zanIKPdACSpc1A4_i-8C__CBfI/edit#gid=0
