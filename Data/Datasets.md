@@ -7,24 +7,29 @@ List of datasets, either acquired from OTS products, or produced during Subdense
  1. [BDTopo_BDG_STRSBG_2012](#BDTopo_BDG_STRSBG_2012)
  2. [BDTopo_BDG_STRSBG_2022](#BDTopo_BDG_STRSBG_2022)
  3. [EvolutionBDG_BDTopo_STRSBG_2012_2022_subset](#EvolutionBDG_BDTopo_STRSBG_2012_2022_subset)
- 4. [Dataset naming policy](#Dataset-naming-policy)
- 5. [Dataset description template](#Dataset-description-template)
+ 4. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
+ 5. [Dataset naming policy](#Dataset-naming-policy)
+ 6. [Dataset description template](#Dataset-description-template)
 *******
 ## BDTopo_BDG_STRSBG_2012	
 * **Provenance**: application of GetData task to BDTopo, cropped with (tbd: specify here the contour that have been used) … 
-* **Usages** : used to compute evolution with same data in 2022, and used to compute builtdensity indicator
+* **Usages**: used to compute evolution with same data in 2022, and used to compute builtdensity indicator
 
 ## BDTopo_BDG_STRSBG_2022
 * **Provenance** : application of GetData task to BDTopo, cropped with … 
 
 ## EvolutionBDG_BDTopo_STRSBG_2012_2022_subset
-* A dedicated file has been created to describe this dataset, the name is the same as the dataset name. 
+* A dedicated file has been created to describe this dataset, the name is the same as the dataset name.
+
+## GHS_POP_ALLCSR_2020_reduced
+* **Provenance**: data from GHSL-UCDB, application of process tbd, cropped with DeliminateStudyArea and filtered to "perc_inside" >= 0.2
+* **Usages**: use as input for cluster analysis
 
 ## Dataset-naming-policy
 The name of the dataset is a set of characterstrings attached with "_". 
 Characterstrings : 
 * theme or type of content : Buildings (for building), BuildingsEvol (for data that describe evolutions of buildings), ... //to be extended with new strings when new themes are added
-* city : FKF (Frankfurt), DTMDT (Dortmundt), STRBG (Strasbourg), TLS (Toulouse), LVPL (Liverpool), BSL (Bristol)
+* city : FKF (Frankfurt), DTMDT (Dortmundt), STRBG (Strasbourg), TLS (Toulouse), LVPL (Liverpool), BSL (Bristol) or ALLCSR (all case study regions)
 * specific area : Buffer, Suburb, Name of a focused place within city   
 * Name of the datasource (to be registered in the Datasources.md file on this dashboard). If the product is the authoritative topographic data source on the city then the product name is non mandatory.
 * YYYY, MM : in digits, possibly two dates if it is an evolution
