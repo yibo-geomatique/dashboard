@@ -6,9 +6,14 @@ A description can be enclosed in this registry or in a separate file.
 
 *******
  
- 1. [Map naming policy](#Map-naming-policy)
- 2. [Map description template](#Map-description-template)
+ 1. [Map_GHS_POP_ALLCSR_2020](#Map_GHS_POP_ALLCSR_2020)
+ 2. [Map naming policy](#Map-naming-policy)
+ 3. [Map description template](#Map-description-template)
 *******
+
+## Map_GHS_POP_ALLCSR_2020
+* **Provenance** : The map was produced with the process CreateGHS_POP_2020_ALLCSR_reduced
+* **Usages** : The map gives an overview of the population density within all casestudy regions. 
 
 ## Map-naming-policy
 The name of the map is a set of characterstrings attached with "_".
