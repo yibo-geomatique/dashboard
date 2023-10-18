@@ -1,4 +1,4 @@
-# Process : ComputeDeliminatationStudyAreas
+# Process : ComputeDelimitationStudyAreas
 
 ## Input Data :
 *	A central point within the study area (e.g. the main square or town hall)
