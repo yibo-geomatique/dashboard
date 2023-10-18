@@ -22,7 +22,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * A dedicated file has been created to describe this dataset, the name is the same as the dataset name.
 
 ## GHS_POP_ALLCSR_2020_reduced
-* **Provenance**: data from GHSL-UCDB, application of process tbd, cropped with DeliminateStudyArea and filtered to "perc_inside" >= 0.2
+* **Provenance**: data from GHSL-UCDB, application of process CreateGHS_POP_2020_ALLCSR_reduced, cropped with DeliminateStudyArea and filtered to "perc_inside" >= 0.2
 * **Usages**: use as input for cluster analysis
 
 ## Dataset-naming-policy
