@@ -19,8 +19,10 @@ A description can be enclosed in this registry or in a separate file.
 The name of the map is a set of characterstrings attached with "_".
 Characterstrings : 
 * MAP
-* Name of the dataset used to build the map (cf dataset naming policy on this git)
+* Name of the dataset used to build the map (cf dataset naming policy on this git) 
 * Id : specific additional characters to distinguish different datasets when necessary
+* WebCrop/Full : to add whenever it is necessary to the name of the image file to specify if it is either a light version for the web site (WebCrop) or the full high resolution version (Full) to be exchanged through another file transfer system  
+
         
 ## Map-description-template
 * **Title** : Title of the map, to be displayed on the webpage
