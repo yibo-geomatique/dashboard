@@ -1,9 +1,8 @@
 Subdense : Suburban densification dashboard  
 ==================================================   
 MAPS : 
-- Comparing the 6 cities :  
-- Cities one by one  : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol
-- Comparing cities two by two  
+- Carte multizones :  Map_GHS_POP_ALLCSR_2020  
+- Cartes zone par zone :   
    
 ABOUT : 
 
