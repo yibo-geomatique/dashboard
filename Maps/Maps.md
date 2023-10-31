@@ -23,8 +23,11 @@ Characterstrings :
 * Id : specific additional characters to distinguish different datasets when necessary
         
 ## Map-description-template
+* **Title** : Title of the map, to be displayed on the webpage
+* **Styles** : Caption describing the Keys/Styles (possibly name of  a jpeg file put in the same folder) if they are not integrated with the map picture
 * **Provenance** : Textual description of how the map was produced, what keys were used. This description can get enriched while the dataset is revised and improved (quality check and so on).
 * **Usages** : References to narratives that have been produced with this dataset
 * **Feedback** : Comments related to the map, interpretation, identification of quality issues and so on
+ 
 
 
