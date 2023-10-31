@@ -4,19 +4,11 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 
 *******
- 1. [BDTopo_BDG_STRSBG_2012](#BDTopo_BDG_STRSBG_2012)
- 2. [BDTopo_BDG_STRSBG_2022](#BDTopo_BDG_STRSBG_2022)
  3. [EvolutionBDG_BDTopo_STRSBG_2012_2022_subset](#EvolutionBDG_BDTopo_STRSBG_2012_2022_subset)
  4. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
  5. [Dataset naming policy](#Dataset-naming-policy)
  6. [Dataset description template](#Dataset-description-template)
 *******
-## BDTopo_BDG_STRSBG_2012	
-* **Provenance**: application of GetData task to BDTopo, cropped with (tbd: specify here the contour that have been used) … 
-* **Usages**: used to compute evolution with same data in 2022, and used to compute builtdensity indicator
-
-## BDTopo_BDG_STRSBG_2022
-* **Provenance** : application of GetData task to BDTopo, cropped with … 
 
 ## EvolutionBDG_BDTopo_STRSBG_2012_2022_subset
 * A dedicated file has been created to describe this dataset, the name is the same as the dataset name.
