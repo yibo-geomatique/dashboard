@@ -30,7 +30,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 The name of the dataset is a set of characterstrings attached with "_". 
 Characterstrings : 
 * theme or type of content : Buildings (for building), BuildingsEvol (for data that describe evolutions of buildings), ... //to be extended with new strings when new themes are added
-* city : FKF (Frankfurt), DTMDT (Dortmundt), STRBG (Strasbourg), TLS (Toulouse), LVPL (Liverpool), BSL (Bristol) or ALLCSR (all case study regions)
+* area : FKF (Frankfurt), DTMDT (Dortmundt), STRBG (Strasbourg), TLS (Toulouse), LVPL (Liverpool), BSL (Bristol) or ALLCSR (all case study regions)
 * specific area : Buffer, Suburb, Name of a focused place within city   
 * Name of the datasource (to be registered in the Datasources.md file on this dashboard). If the product is the authoritative topographic data source on the city then the product name is non mandatory.
 * YYYY, MM : in digits, possibly two dates if it is an evolution
