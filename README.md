@@ -6,7 +6,8 @@ MAPS :
 - Comparing cities two by two  
    
 ABOUT : 
-It is a proof of concept, under progress, of a dashboard dedicated to the comparative analysis of six different cities during the past ten years. 
+
+This dashboard is dedicated to the comparative analysis of densification within six different cities in Europe during the past ten years. 
 Our git project https://github.com/subdense/ supports collaboration for  specifying and producing comparable maps, documenting comparison biases -e.g. in 2020 smaller buildings were included in BDTopo(r) which were not included before-, reading and comparing maps. 
 
 In this git, a key item is that of local registers (eg: Concepts\Concepts.md, Data\Datasets.md, Data\Datasources.md, Maps\Maps.md...). They are used to name unambiguously specific concepts, datasets, datasources, maps, processes, on the platform. Another item is that of user feedback to share expertise related to data sources and processes, as well as interpretation of maps. User feedback can be associated to registered items, within their description. The description of the item can be either embedded in the register or proposed in a dedicated file to be found in the same folder. 
