@@ -1,12 +1,13 @@
 Subdense : Suburban densification dashboard  
-==================================================
-   
-Subdense dashboard is dedicated to the study of suburban densification. It presents a comparative analysis of six different cities during the past ten years. 
-- Comparing the 6 cities
-- Investigating cities one by one (Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol)
+==================================================   
+Maps : 
+- Comparing the 6 cities :  
+- Cities one by one  : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol
 - Comparing cities two by two  
    
-It is a proof of concept, under progress. Our git project https://github.com/subdense/ supports collaboration for  specifying and producing comparable maps, documenting comparison biases -e.g. in 2020 smaller buildings were included in BDTopo(r) which were not included before-, reading and comparing maps. 
+About SUBDENSE : 
+It is a proof of concept, under progress, of a dashboard dedicated to the comparative analysis of six different cities during the past ten years. 
+Our git project https://github.com/subdense/ supports collaboration for  specifying and producing comparable maps, documenting comparison biases -e.g. in 2020 smaller buildings were included in BDTopo(r) which were not included before-, reading and comparing maps. 
 
 In this git, a key item is that of local registers (eg: Concepts\Concepts.md, Data\Datasets.md, Data\Datasources.md, Maps\Maps.md...). They are used to name unambiguously specific concepts, datasets, datasources, maps, processes, on the platform. Another item is that of user feedback to share expertise related to data sources and processes, as well as interpretation of maps. User feedback can be associated to registered items, within their description. The description of the item can be either embedded in the register or proposed in a dedicated file to be found in the same folder. 
 - Concepts (e.g. : suburb, densification, city) : definitions, discussions around definitions, comparability of concepts across the studied cities, hints to which kind of data exist to observe the concept
