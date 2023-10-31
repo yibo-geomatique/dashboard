@@ -1,6 +1,6 @@
 Subdense : Suburban densification dashboard  
 ==================================================   
-MAPS : 
+MAPS (dans répertoire Maps de ce git) : 
 - Carte multizones :  Map_GHS_POP_ALLCSR_2020  
 - Cartes zone par zone :   
    
