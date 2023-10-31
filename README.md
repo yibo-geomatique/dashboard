@@ -1,11 +1,11 @@
 Subdense : Suburban densification dashboard  
 ==================================================   
-Maps : 
+MAPS : 
 - Comparing the 6 cities :  
 - Cities one by one  : Dortmund, Frankfurt, Strasbourg, Toulouse, Liverpool, Bristol
 - Comparing cities two by two  
    
-About SUBDENSE : 
+ABOUT : 
 It is a proof of concept, under progress, of a dashboard dedicated to the comparative analysis of six different cities during the past ten years. 
 Our git project https://github.com/subdense/ supports collaboration for  specifying and producing comparable maps, documenting comparison biases -e.g. in 2020 smaller buildings were included in BDTopo(r) which were not included before-, reading and comparing maps. 
 
