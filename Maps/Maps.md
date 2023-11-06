@@ -15,7 +15,13 @@ A description can be enclosed in this registry or in a separate file.
 
 ## Map_GHS_POP_ALLCSR_2020
 * **Provenance** : The map was produced with the process CreateGHS_POP_2020_ALLCSR_reduced
-* **Usages** : The map gives an overview of the population density within all casestudy regions. 
+* **Usages** : The map gives an overview of the population density within all casestudy regions.
+
+## Map_Evolution_Building_Liverpool_2011_2021
+* **Styles** :
+* **Provenance** :This map was created using building data from the BDTOPO database spanning from 2012 to 2022 for a specific area in Strasbourg.
+* **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction.
+
 
 ## Map-naming-policy
 The name of the map is a set of characterstrings attached with "_".
