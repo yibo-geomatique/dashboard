@@ -7,8 +7,10 @@ A description can be enclosed in this registry or in a separate file.
 *******
  
  1. [Map_GHS_POP_ALLCSR_2020](#Map_GHS_POP_ALLCSR_2020)
- 2. [Map naming policy](#Map-naming-policy)
- 3. [Map description template](#Map-description-template)
+ 2. [Map_Evolution_Building_Liverpool_2011_2021](#Map_Evolution_Building_Liverpool_2011_2021)
+ 3. [Map_Evolution_Building_Strasbourg_2012_2022](#Map_Evolution_Building_Strasbourg_2012_2022)
+ 4. [Map naming policy](#Map-naming-policy)
+ 5. [Map description template](#Map-description-template)
 *******
 
 ## Map_GHS_POP_ALLCSR_2020
@@ -18,7 +20,7 @@ A description can be enclosed in this registry or in a separate file.
 ## Map-naming-policy
 The name of the map is a set of characterstrings attached with "_".
 Characterstrings : 
-* MAP
+* MAP : useful to distinguish the map from the dataset but can be omitted if there is no ambiguity
 * Name of the dataset used to build the map (cf dataset naming policy on this git) 
 * Id : specific additional characters to distinguish different datasets when necessary
 * WebCrop/Full : to add whenever it is necessary to the name of the image file to specify if it is either a light version for the web site (WebCrop) or the full high resolution version (Full) to be exchanged through another file transfer system  
