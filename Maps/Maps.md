@@ -18,9 +18,14 @@ A description can be enclosed in this registry or in a separate file.
 * **Usages** : The map gives an overview of the population density within all casestudy regions.
 
 ## Map_Evolution_Building_Liverpool_2011_2021
-* **Styles** :
-* **Provenance** :This map was created using building data from the BDTOPO database spanning from 2012 to 2022 for a specific area in Strasbourg.
+* **Styles** :The styles and colors used on the map are explained by the legend. Each color in the legend corresponds to a type of urban change: purple for "merged," blue for "split," green for "appeared," a special symbol in purpule for "aggregated," a special symbole in red for "disappeared," and gray for "stable."
+* **Provenance** :This map was created using building data from the OSMASTERMAP database spanning from 2011 to 2021 for a specific area in Liverpool.The methodology included a comparative analysis of building footprints to identify changes.
 * **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction.
+
+## Map_Evolution_Building_Strasbourg_2012_2022
+* **Styles** :The styles and colors used on the map are explained by the legend. Each color in the legend corresponds to a type of urban change: purple for "merged," blue for "split," green for "appeared," a special symbol in purpule for "aggregated," a special symbole in red for "disappeared," and gray for "stable."
+* **Provenance** :This map was created using building data from the BDTOPO database spanning from 2012 to 2022 for a specific area in Strasbourg.The methodology included a comparative analysis of building footprints to identify changes.
+* **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction
 
 
 ## Map-naming-policy
