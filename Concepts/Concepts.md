@@ -6,10 +6,10 @@ A concept is registered on this file and can also be described here, or a dedica
 
 
 *******
- 2. [Suburb](#Suburb)
- 3. [Densification](#Densification)
- 4. [Concept labelling policy](#Concept-labelling-policy)
- 5. [Concept description template](#Concept-description-template)
+ 1. [Suburb](#Suburb)
+ 2. [Densification](#Densification)
+ 3. [Concept labelling policy](#Concept-labelling-policy)
+ 4. [Concept description template](#Concept-description-template)
 *******
 ## Suburb	
 * **Definitions**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020). A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context 
