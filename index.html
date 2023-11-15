@@ -102,15 +102,16 @@
 </div>
 
 <script type="module">
- import marked from 'https://cdn.jsdelivr.net/npm/marked/marked.min.js';
-
-
-async function loadReadme() {
-      const readmeUrl = 'https://raw.githubusercontent.com/subdense/dashboard/master/README.md';
+ async function loadReadme() {
+    const readmeUrl = 'https://subdense.github.io/dashboard/Website/README.html';
+    try {
       const response = await fetch(readmeUrl);
-      const markdown = await response.text();
-      document.getElementById('readme-content').innerHTML = marked(markdown);
+      const htmlContent = await response.text();
+      document.getElementById('readme-content').innerHTML = htmlContent;
+    } catch (error) {
+      console.error("Error loading README:", error);
     }
+  }
 
     document.addEventListener('DOMContentLoaded', (event) => {
       loadReadme();
