@@ -105,7 +105,7 @@
 <script>
 
 async function loadReadme() {
-      const readmeUrl = 'https://raw.githubusercontent.com/subdense/dashboard/main/README.md';
+      const readmeUrl = 'https://raw.githubusercontent.com/subdense/dashboard/master/README.md';
       const response = await fetch(readmeUrl);
       const markdown = await response.text();
       document.getElementById('readme-content').innerHTML = marked(markdown);
