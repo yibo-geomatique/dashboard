@@ -46,6 +46,14 @@
     width: 100%;
     height: 400px;
   }
+  .readme-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 </style>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -54,6 +62,11 @@
 
 <div class="header">
   <h1>Collaborative Dashboard for Periurban Densification Study</h1>
+</div>
+
+<div class="readme-container">
+  <h2>Project README</h2>
+  <div id="readme-content"></div>
 </div>
 
 <div class="map-container">
@@ -88,8 +101,18 @@
   <canvas id="combined-chart" class="chart"></canvas>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', (event) => {
+
+async function loadReadme() {
+      const readmeUrl = 'https://raw.githubusercontent.com/subdense/dashboard/main/README.md';
+      const response = await fetch(readmeUrl);
+      const markdown = await response.text();
+      document.getElementById('readme-content').innerHTML = marked(markdown);
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+      loadReadme();
     const cities = {
       Liverpool: [53.4084, -2.9916],
       Strasbourg: [48.5734, 7.7521],
