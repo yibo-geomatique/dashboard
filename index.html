@@ -101,8 +101,9 @@
   <canvas id="combined-chart" class="chart"></canvas>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
+<script type="module">
+ import marked from 'https://cdn.jsdelivr.net/npm/marked/marked.min.js';
+
 
 async function loadReadme() {
       const readmeUrl = 'https://raw.githubusercontent.com/subdense/dashboard/master/README.md';
