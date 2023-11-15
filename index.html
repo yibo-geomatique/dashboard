@@ -108,8 +108,9 @@
     }
   }
 
-    document.addEventListener('DOMContentLoaded', (event) => {
-      loadReadme();
+  document.addEventListener('DOMContentLoaded', (event) => {
+    loadReadme();
+
     const cities = {
       Liverpool: [53.4084, -2.9916],
       Strasbourg: [48.5734, 7.7521],
@@ -119,14 +120,13 @@
       Frankfurt: [50.1109, 8.6821]
     };
 
-    
-
     for (const [cityName, coordinates] of Object.entries(cities)) {
       const map = L.map(`${cityName}-map`).setView(coordinates, 13);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
-    });
+    }
+  });
 </script>
 
 </body>
