@@ -17,6 +17,21 @@
     background-color: #4CAF50;
     color: white;
   }
+  nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav li {
+            margin: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
   .map-container {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +78,16 @@
 <div class="header">
   <h1>Periurban Densification Dashboard</h1>
 </div>
+
+<nav>
+  <ul>
+      <li><a href="/">Processes</a></li>
+      <li><a href="/data">Data</a></li>
+      <li><a href="/concepts">Concepts</a></li>
+      <li><a href="/indicators">Indicators</a></li>
+      <!-- Ajoutez d'autres liens de menu ici -->
+  </ul>
+</nav>
 
 <div class="readme-container">
   <div id="readme-content"></div>
