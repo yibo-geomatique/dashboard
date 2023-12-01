@@ -1,13 +1,9 @@
 Subdense : Suburban densification dashboard  
 ==================================================   
-MAPS (dans répertoire Maps de ce git) : 
-- Carte multizones :
-- - Map_GHS_POP_ALLCSR_2020   
-- Cartes zone par zone :
-- - 
-   
-ABOUT : 
+MAPS : start from Maps>Maps.md
 
+CONCEPTS : start from Concepts>Concepts.md
+   
 This dashboard is dedicated to the comparative analysis of densification within six different cities in Europe during the past ten years. 
 Our git project https://github.com/subdense/ supports collaboration for  specifying and producing comparable maps, documenting comparison biases -e.g. in 2020 smaller buildings were included in BDTopo(r) which were not included before-, reading and comparing maps. 
 
