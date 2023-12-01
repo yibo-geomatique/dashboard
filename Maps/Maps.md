@@ -25,7 +25,7 @@ A description can be enclosed in this registry or in a separate file.
 * **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction.
 
 ## Map_Evolution_Building_Strasbourg_2012_2022
-* **Title** : 
+* **Title** : Evolutions of buildings features in BDTopo(r) betwwen 2012 and 2022 
 * **Styles** :The styles and colors used on the map are explained by the legend. Each color in the legend corresponds to a type of urban change: purple for "merged," blue for "split," green for "appeared," a special symbol in purpule for "aggregated," a special symbole in red for "disappeared," and gray for "stable."
 * **Provenance** :This map was created using building data from the BDTOPO database spanning from 2012 to 2022 for a specific area in Strasbourg.The methodology included a comparative analysis of building footprints to identify changes.
 * **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction
