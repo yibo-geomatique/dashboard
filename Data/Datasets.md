@@ -4,14 +4,14 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 
 *******
- 3. [EvolutionBDG_BDTopo_STRSBG_2012_2022_subset](#EvolutionBDG_BDTopo_STRSBG_2012_2022_subset)
+ 3. [BuildingEvolution_Strasbourg_2011_2021]
  4. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
  5. [Dataset naming policy](#Dataset-naming-policy)
  6. [Dataset description template](#Dataset-description-template)
 *******
 
-## EvolutionBDG_BDTopo_STRSBG_2012_2022_subset
-* A dedicated file has been created to describe this dataset, the name is the same as the dataset name.
+## BuildingEvolution_Strasbourg_2011_2021
+* see descripption in a dedicated file in same folder as this register
 
 ## GHS_POP_ALLCSR_2020_reduced
 * **Provenance**: data from GHSL-UCDB, application of process CreateGHS_POP_2020_ALLCSR_reduced, cropped with DeliminateStudyArea and filtered to "perc_inside" >= 0.2
