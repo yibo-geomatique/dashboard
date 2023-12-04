@@ -10,7 +10,7 @@ The "BuildingEvolution" dataset was designed to facilitate a detailed comparativ
 This dataset was developed within the framework of the European "Subdense" project. This project aims to explore and understand peri-urban densification by relating space, actors, and policies in specific case studies in France, Germany, and England. "Subdense" is a collaborative effort dedicated to exchanging data and methodologies, allowing for a richer and more diversified understanding of current urban trends.
 
 **Data Provenance**
-***Data Sources**
+***Data Sources***
 The "BuildingEvolution" data is derived from processing building data from the BDTOPO database of IGN (National Institute of Geographic and Forest Information) in France. These data constitute a reliable and detailed source, ideal for analyzing urban evolution.
 
 ***Coverage Period***
