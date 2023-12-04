@@ -1,14 +1,5 @@
 Descrition of dataset BuildingEvolution_Strasbourg_2011_2021
 
-**Provenance** : This data is the result of the process ComputeBuidingEvolution applied to buildings features from BDTOPO-FR product. 
-
-**Usages** : This data has been used to produce a map, an extract is visible on this dashboard-git and the full data can be obtained from the author. 
-
-**Feedback** : Comments related to the dataset, interpretation, identification of quality issues and so on
-
-The "BuildingEvolution" dataset was designed to facilitate a detailed comparative analysis of urban evolutions in six European cities. Its primary objective is to detect and understand the dynamics of change in urban building structures, with a special focus on the phenomenon of peri-urban densification. This analysis aims to better understand spatial transformations and their associated impacts, providing a solid foundation for future urban and regional studies.
-This dataset was developed within the framework of the European "Subdense" project. This project aims to explore and understand peri-urban densification by relating space, actors, and policies in specific case studies in France, Germany, and England. "Subdense" is a collaborative effort dedicated to exchanging data and methodologies, allowing for a richer and more diversified understanding of current urban trends.
-
 **Data Provenance** :
 
 ***Data Sources*** :
