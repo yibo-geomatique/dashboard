@@ -4,17 +4,31 @@ List of datasources potentially relevant for the dashboard, and associated comme
 
 *******
  1. [BDTOPO-FR](#BDTOPO-FR)
- 2. [OPENZOOM-UK](#OPENZOOM-UK)
- 3. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
- 4. [OSNGD-UK](#OSNGD-UK)
- 5. [GEOBASIS-DE](#GEOBASIS-DE)
+ 2. [EUBUCCO](#EUBUCCO)
+ 3. [GEOBASIS-DE](#GEOBASIS-DE)
+ 4. [GHSL UCDB](#GHSL-UCDB)
+ 5. [OPENZOOM-UK](#OPENZOOM-UK)
  6. [OSM](#OSM)
- 7. [EUBUCCO](#EUBUCCO)
- 8. [Template to reference a datasource](#SHORTNAME-COUNTRY)
+ 7. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
+ 8. [OSNGD-UK](#OSNGD-UK)
+ 9. [Datasource naming policy](#Datasource-naming-policy)
+ 10. [Datasource description template](#Datasource-description-template)
 *******
 
 ## BDTOPO-FR 
-* **Documentation** : BD TOPO® | Géoservices (ign.fr), french
+* **Documentation** : BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+* **Feedback** :  
+
+## EUBUCCO
+* **Documentation** : https://docs.eubucco.com/ 
+* * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
+
+## GEOBASIS-DE
+* **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
+
+## GHSL-UCDB
+* Global Human Settlement Layer Urban Center Database, https://ghsl.jrc.ec.europa.eu/
+* **Documentation**  https://ghsl.jrc.ec.europa.eu/degurbaDefinitions.php 
 
 ## OPENZOOM-UK
 * **Documentation** : https://beta.ordnancesurvey.co.uk/products/os-open-zoomstack , english
@@ -22,6 +36,8 @@ List of datasources potentially relevant for the dashboard, and associated comme
 https://www.ordnancesurvey.co.uk/documents/os-open-zoomstack-technical-specification.pdf?_gl=1*1jxmav3*_ga*NzE3NjU4MTY0LjE2ODEzNjk5Mjk.*_ga_59ZBN7DVBG*MTY4MTM2OTkyOS4xLjAuMTY4MTM2OTkyOS42MC4wLjA.&_ga=2.2835769.808952103.1681369930-717658164.1681369929 , p5 : “Generalised building footprints at both local and district resolutions. The local buildings have a unique identifier which can be used to style features distinctly.
 The identifier will not be persistent between product versions and therefore there
 will be no change history information for a feature.”
+
+## OSM 
 
 ## OSMASTERMAP-UK
 * **Documentation** : https://beta.ordnancesurvey.co.uk/products/os-mastermap-topography-layer 
@@ -38,17 +54,10 @@ Definition: Information about the change history of a feature that comprises the
 * **Documentation** : https://www.ordnancesurvey.co.uk/business-government/new-data-access-methods?_gl=1*13idjk8*_ga*NzE3NjU4MTY0LjE2ODEzNjk5Mjk.*_ga_59ZBN7DVBG*MTY4MTM2OTkyOS4xLjEuMTY4MTM3MDIxNy41OS4wLjA.&_ga=2.81454110.808952103.1681369930-717658164.1681369929
 * **Feedback** : this is an integration of OS data product into a unified product associated with user friendly web services to select relevant data. 
 
+## Datasource-naming-policy
+* Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
 
-## GEOBASIS-DE
-* **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
-
-## OSM 
-
-## EUBUCCO
-* **Documentation** : https://docs.eubucco.com/ 
-* * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
-
-## SHORTNAME-COUNTRY
+## Datasource-description-template
 * **URI**  : If there exists one or more URIs for this product put them here.  
 Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
 * **Documentation** : Links to existing documentation, preferably online

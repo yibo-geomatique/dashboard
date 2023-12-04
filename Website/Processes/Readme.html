@@ -1,0 +1,19 @@
+<p>Processes are workflows aimed at being as reproducible as possible, shared among dashboard users.</p>
+<p>The minimal elements that describe a process are <strong>input data</strong> and <strong>output data</strong>. Additional elements such as purpose or function, details to run it, implementation details, are useful to facilitate the sharing of processes.</p>
+<h2 id="adding-processes-to-the-dashboard">Adding processes to the dashboard</h2>
+<ul>
+<li>register the process on the Processes.md registry by giving it an explicit and information name (use an informative name), and add a description, preferably on a separate file as detailed below.</li>
+<li>commit to this folder, either a <code>.md</code> file with the same name as that in the registry and that contains a minimal description of the process, or a subfolder, with the same name as that in the registry, containing its description in a readme and additional files necessary to describe, reproduce, run, modify, etc. it.</li>
+<li>in the description, refer to the proposed template in Processes.md</li>
+</ul>
+<h2 id="automatising-processes">Automatising processes</h2>
+<p><em>TBD: OpenMOLE script and embedding, or docker file</em></p>
+<p>Issue of I/O generic specification: system (types? ontology?) allowing for an automatic checking of compatibilities and coupling of processes (additional layer to the OpenMOLE workflow validation system, taking into account complex types -&gt; use the scala compilator for this?)</p>
+<h2 id="list-of-processes">List of processes</h2>
+<ul>
+<li><a href="./ComputeBuiltDensityIndicators.md">Compute built density indicators</a></li>
+<li><a href="./ComputeDeliminatationStudyAreas.md">Compute delimitation of study areas</a></li>
+<li><a href="./ComputeEvolution.md">Compute building evolution</a></li>
+<li><a href="./GetBuildingData.md">Get building data</a></li>
+<li><a href="./GetOpenStreetMapBuildingData">Get building data from OpenStreetMap</a></li>
+</ul>
