@@ -1,46 +1,17 @@
 # Dataset BuildingEvolution_Strasbourg_2011_2021
 
-**Data Provenance** :
-
-***Data Sources*** :
-
-The "BuildingEvolution" data is derived from processing building data from the BDTOPO database of IGN (National Institute of Geographic and Forest Information) in France. These data constitute a reliable and detailed source, ideal for analyzing urban evolution.
-
-***Coverage Period*** :
-
-The data cover a period from 2011 to 2021, thus offering a decade of insights into urban transformations. Two main datasets were used: one from the year 2011 and the other from 2021, allowing for direct comparison of changes over this period.
-
-***Geographic Area*** :
-
-The study specifically focuses on the city of Strasbourg, offering a detailed overview of urban trends and evolutions in this area.
-
-***Methodology of Processing*** :
-
-To process this data, we used the change detection algorithm developed by Lastig, specializing in surface matching. This method allowed us to effectively and accurately identify matching links between buildings from different years. Through these links, we have been able to produce a rich dataset that details the evolution of urban building structures in Strasbourg, highlighting various types of change.
-
-**Data Structure** :
-
-For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "ComputeBuildingEvolution." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.
-The "BuildingEvolution" dataset is available in two main formats to ensure optimal compatibility and accessibility:
-Shapefile (.shp): A widely used and recognized format in GIS, ideal for extended compatibility with various mapping tools and software.
-GeoPackage (.gpkg): A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data.
+**Provenance** : 
+This data is the result of running the process ComputeBuildingEvolution on two building datasets from the datasource BDTOPO-FR, corresponding to 2011 and 2021, and on a specific study area.
+The study area is defined as the administrative boundary of the city of Strasbourg in 2021. This boundary is obtained through downloading the theme Limites administratives of BDTOPO-FR, and the buildings are obtained through downloading the theme Batiments. 
 
 **Usage** :
+This data has been portrayed to generate Map_BuildingEvolution_Strasbourg_2011-2021. An  extract of the map can be visualised on the website of this dashboard. The data themselves and the stylesheet can also be obtained to open it on QGIS for finer reading.
 
-The "BuildingEvolution" dataset offers unique insights into urban densification dynamics and changes in building structures over time. By focusing on the typology of building evolution, users can specifically identify where and how urban densification occurs. This allows for valuable analyses for urban planners, policymakers, and researchers interested in urban development trends, especially in the context of sustainable urban planning and urban space management.
-Urban Densification Analysis: Use of the dataset to map and analyze areas of intensive densification, thus providing a deeper understanding of urban development trends in Strasbourg.
-Thematic Map Production: The dataset has been used to create detailed maps illustrating different types of changes in urban building structures. These maps are useful for visualizing development patterns and urban transformations.
-Integration into a Dashboard: An excerpt of these analyses and maps is available on an online dashboard and on the project's Git repository. This allows for broader dissemination and accessibility of the study's results.
-
-**Feedbacks** :
-
-***User Feedback*** :
-
-We have received constructive feedback from users that contribute to the ongoing improvement of the "BuildingEvolution" dataset. For example, one user suggested removing garages from the dataset, considering them irrelevant for the analysis of urban densification. This kind of feedback is essential for refining our understanding of user needs and for enhancing the relevance of our data.
+** Feedback ** :
+One reader of the map suggested removing garages from the dataset, considering them irrelevant for the analysis of urban densification. 
 
 ***Known Issues and Corrections*** :
 
-Currently, the "BuildingEvolution" dataset primarily focuses on the geometric aspects of buildings, without considering the attributes of the buildings. This means that while we can observe physical changes, we do not yet have data on the evolution of building usage over time.
 
 ***Suggestions for Future Improvements*** :
 
