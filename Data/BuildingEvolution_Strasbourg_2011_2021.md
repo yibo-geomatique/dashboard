@@ -7,7 +7,7 @@ The study area is defined as the administrative boundary of the city of Strasbou
 **Usage** :
 This data has been portrayed to generate Map_BuildingEvolution_Strasbourg_2011-2021. An  extract of the map can be visualised on the website of this dashboard. The data themselves and the stylesheet can also be obtained to open it on QGIS for finer reading.
 
-** Feedback ** :
+**Feedback** :
 One reader of the map suggested removing garages from the dataset, considering them irrelevant for the analysis of urban densification. 
 
 ***Known Issues and Corrections*** :
