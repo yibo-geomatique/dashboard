@@ -10,8 +10,6 @@ List of processes that are relevant to the Subdense dashboard production. These 
  
  [Compute delimitation of study areas](./ComputeDeliminatationStudyAreas.md)
  
- [Compute building evolution](./ComputeEvolution.md)
- 
  [Get building data](./GetBuildingData.md)
  
  [Get building data from OpenStreetMap](./GetOpenStreetMapBuildingData)
