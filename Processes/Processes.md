@@ -5,10 +5,8 @@ List of processes that are relevant to the Subdense dashboard production. These 
 
 *******
  [ComputeBuildingEvolution](#ComputeBuildingEvolution)
-
- [Compute built density indicators](./ComputeBuiltDensityIndicators.md)
  
- [Compute delimitation of study areas](./ComputeDeliminatationStudyAreas.md)
+ [Delimitation of study areas](./DemliminateStudyArea)
  
  [Get building data](./GetBuildingData.md)
  
