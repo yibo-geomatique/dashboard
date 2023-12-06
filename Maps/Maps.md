@@ -7,8 +7,8 @@ A description can be enclosed in this registry or in a separate file.
 *******
  
  1. [Map_GHS_POP_ALLCSR_2020](#Map_GHS_POP_ALLCSR_2020)
- 2. [Map_BuildingEvolution_Liverpool_2011_2021](#Map_Building_Evolution_Liverpool_2011_2021)
- 3. [Map_BuildingEvolution_Strasbourg_2011_2021](#Map_Building_Evolution_Strasbourg_2011_2021)
+ 2. [Map_BuildingEvolution_Liverpool_2011_2021](#Map_BuildingEvolution_Liverpool_2011_2021)
+ 3. [Map_BuildingEvolution_Strasbourg_2011_2021](#Map_BuildingEvolution_Strasbourg_2011_2021)
  4. [Map naming policy](#Map-naming-policy)
  5. [Map description template](#Map-description-template)
 *******
