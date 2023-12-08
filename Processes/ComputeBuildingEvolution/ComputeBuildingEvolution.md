@@ -7,7 +7,7 @@ Building Dataset Preparation:
 
 * BdTopo Data Consolidation for 2011 : Due to version differences in the dataset, the 2011 building data required merging of various building themes. This was accomplished using QGIS and the "Merge Vector Layers" algorithm. This algorithm combines multiple vector layers of the same geometric type into a single layer.
 
-* Data Naming Policy : Once merged, the layers are named following a specific naming convention, like Building_Strasbourg_2011 and Building_Strasbourg_2021. The naming may vary depending on the scale of the study area (city or neighborhood level, etc.).
+* Data Naming Policy : Once merged, the layers are named following a specific naming proposed by Subdense team, like Building_Strasbourg_2011 and Building_Strasbourg_2021. The naming may vary depending on the scale of the study area (city or neighborhood level, etc.).
 
 * Comparative Building Dataset: A dataset for the same city and product type, but for a later year (e.g., 2021). This dataset is essential for comparing changes with the initial dataset. 
 
