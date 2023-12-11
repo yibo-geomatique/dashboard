@@ -85,6 +85,8 @@ To process this data, we used the change detection algorithm developed by Lastig
 
 - Two new files (`.gpkg` or `.shp` depending your choice) `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` are automatically created.
 - Open these files in QGIS for analysis and visualization.
+- A `BuildingEvolutionStyle` file is available in the "ComputeBuildingEvolution" folder for optimal display of evolution typologies.
+
 
 ## Refinement and Quality check 
 Once building evolution features have been produced, some refinements can be applied.  
