@@ -77,13 +77,13 @@ Note: Use `pip3` if you have multiple versions of Python on your computer. Consi
 
 - Open `matching.py` in Visual Studio Code.
 - Modify the paths for the input data according to your layer names:
-  - layer1 = "./data/bati/neudorf_2012.shp" to layer1 = "./data/bati/study_area_timeT1.shp"
-  - layer2 = "./data/bati/neudorf_2022.shp" to layer2 = "./data/bati/study_area_timeT2.shp"
+  - layer1 = `./data/bati/Building_Strasbourg_2011.shp` to layer1 = `./data/bati/study_area_timeT1.shp`
+  - layer2 = `./data/bati/Building_Strasbourg_2021.shp` to layer2 = `./data/bati/study_area_timeT2.shp`
   - Run `matching.py` in Visual Studio Code.
 
 9. Output:
 
-- Two new shapefiles EVOLUTION_neudorf_2012_neudorf_2022 and MATCHING-LINKS_neudorf_2012_neudorf_2022 are automatically created.
+- Two new files (`.gpkg` or `.shp` depending your choice) `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` are automatically created.
 - Open these files in QGIS for analysis and visualization.
 
 ## Refinement and Quality check 
