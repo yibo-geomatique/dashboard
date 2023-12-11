@@ -40,5 +40,51 @@ This layer illustrates the matching links between homologous features from the 2
 
 ## Method : Automatic production of building evolution data
 To process this data, we used the change detection algorithm developed by Lastig, specializing in surface matching. This method allowed us to effectively and accurately identify matching links between buildings from different years. Through these links, we have been able to produce a rich dataset that details the evolution of urban building structures in Strasbourg, highlighting various types of change.
+
+## Requirements for Windows Users:
+
+1. Install GitHub Desktop: Necessary for functionalities such as cloning and pushing source code. GitHub Desktop can be easily installed from their official website.
+
+2. Install Visual Studio Code: Essential for implementing or running existing code. Download and install from Visual Studio Code.
+
+3. Install Python 3: Ensure that Python 3 is installed on your system. It can be downloaded from Python's official website.
+
+4. Clone the Matching Folder:
+
+- Go to the Subdense Matching repository on GitHub.
+- Use GitHub Desktop to clone the repository to a local directory of your choice.
+
+5. Open the Local Repository in Visual Studio Code:
+
+- Navigate to the local 'matching' repository.
+- Right-click and select "Open with Visual Studio Code".
+
+6. Install Required Modules:
+
+- `jpype`: A module that allows Python programs full access to Java class libraries. Install using `pip3 install jpype`.
+- `shapely`: A Python package for manipulation and analysis of planar geometric objects. Install using `pip3 install shapely`.
+- `numpy`: A fundamental package for scientific computing in Python. Install using `pip3 install numpy`.
+- `geopandas`: An open-source project to make working with geospatial data in Python easier. Install using `pip3 install geopandas`.
+
+Note: Use `pip3` if you have multiple versions of Python on your computer. Consider proxy settings if applicable.
+
+7. Add Input Data:
+
+- Place your input data in the folder `/data/bati`.
+- Add two shapefile layers representing the building data at times T1 and T2.
+
+8. Modify and Run the Script:
+
+- Open `matching.py` in Visual Studio Code.
+- Modify the paths for the input data according to your layer names:
+  - layer1 = "./data/bati/neudorf_2012.shp" to layer1 = "./data/bati/study_area_timeT1.shp"
+  - layer2 = "./data/bati/neudorf_2022.shp" to layer2 = "./data/bati/study_area_timeT2.shp"
+  - Run `matching.py` in Visual Studio Code.
+
+9. Output:
+
+- Two new shapefiles EVOLUTION_neudorf_2012_neudorf_2022 and MATCHING-LINKS_neudorf_2012_neudorf_2022 are automatically created.
+- Open these files in QGIS for analysis and visualization.
+
 ## Refinement and Quality check 
 Once building evolution features have been produced, some refinements can be applied.  
