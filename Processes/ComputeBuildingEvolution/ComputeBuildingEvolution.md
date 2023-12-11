@@ -28,6 +28,11 @@ This dataset classifies the evolution of buildings in Strasbourg from 2011 to 20
 - Split: Buildings that have been divided into multiple structures or units over the time period.
 - Stable: Buildings that have not undergone significant changes or alterations between 2011 and 2021.
 
+For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "ComputeBuildingEvolution." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in two main formats to ensure optimal compatibility and accessibility:
+
+- Shapefile `.shp`: A widely used and recognized format in GIS, ideal for extended compatibility with various mapping tools and software.
+- GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data. 
+
 ### MatchingLinks_BdTopo_Strasbourg_2011_2021:
 
 This layer illustrates the matching links between homologous features from the 2011 and 2021 datasets. These links are instrumental in tracing and understanding the evolution of each building or structure over the decade.
