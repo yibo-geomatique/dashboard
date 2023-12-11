@@ -19,7 +19,7 @@ Building Dataset Preparation:
 ## Output Data :
 A dataset corresponding to evolutions of buildings data, with the schema depicted in this folder, with the correct file naming, and a description of this dataset, through a Subdense “Dataset” description so that others can know it exists and reuse it.
 
-*	BuildingEvolution_Strasbourg_2011_2021:
+### BuildingEvolution_Strasbourg_2011_2021:
 
 This dataset classifies the evolution of buildings in Strasbourg from 2011 to 2021, using five distinct typologies to categorize the changes.The dataset includes the following five typologies:
 - Appeared: Buildings that were constructed between 2011 and 2021.
@@ -28,7 +28,7 @@ This dataset classifies the evolution of buildings in Strasbourg from 2011 to 20
 - Split: Buildings that have been divided into multiple structures or units over the time period.
 - Stable: Buildings that have not undergone significant changes or alterations between 2011 and 2021.
 
-*   MatchingLinks_BdTopo_Strasbourg_2011_2021:
+### MatchingLinks_BdTopo_Strasbourg_2011_2021:
 
 This layer illustrates the matching links between homologous features from the 2011 and 2021 datasets. These links are instrumental in tracing and understanding the evolution of each building or structure over the decade.
 
