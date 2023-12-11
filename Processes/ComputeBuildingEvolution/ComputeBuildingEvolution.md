@@ -51,13 +51,13 @@ To process this data, we used the change detection algorithm developed by Lastig
 
 4. Clone the Matching Folder:
 
-- Go to the Subdense Matching repository on GitHub.
+- Go to the `Subdense Matching` repository on GitHub.
 - Use GitHub Desktop to clone the repository to a local directory of your choice.
 
 5. Open the Local Repository in Visual Studio Code:
 
-- Navigate to the local 'matching' repository.
-- Right-click and select "Open with Visual Studio Code".
+- Navigate to the local `matching` repository.
+- Right-click and select Open with Visual Studio Code.
 
 6. Install Required Modules:
 
@@ -66,7 +66,7 @@ To process this data, we used the change detection algorithm developed by Lastig
 - `numpy`: A fundamental package for scientific computing in Python. Install using `pip3 install numpy`.
 - `geopandas`: An open-source project to make working with geospatial data in Python easier. Install using `pip3 install geopandas`.
 
-Note: Use `pip3` if you have multiple versions of Python on your computer. Consider proxy settings if applicable.
+ Note: Use `pip3` if you have multiple versions of Python on your computer. Consider proxy settings if applicable.
 
 7. Add Input Data:
 
