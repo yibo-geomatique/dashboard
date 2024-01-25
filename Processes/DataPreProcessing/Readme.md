@@ -1,15 +1,19 @@
-# Process : GetBdTopoBuildingData(for Strasbourg and Toulouse)
+# Process: GetBdTopoBuildingData (for Strasbourg and Toulouse)
 
-## Step 1: Download topographic data from geoservice web 
-The data download was carried out taking into account specific delimitations, thus ensuring that the collected information is relevant and tailored to the objective of our study.
-* Nous avaons téléchargé pour 2011 et 2021 les données Bdtopo des départements qui correspondaient à l'isochrone établi à partir du centre de Strasbourg et de Toulouse.
+## Step 1: Download Topographic Data from Geoservice Web
+We downloaded the BdTopo data for 2011 and 2021, focusing on the departments within the isochrone area, which is 45 minutes by car from the centers of Strasbourg and Toulouse. This approach ensured that the data was highly relevant to our study's specific geographical focus.
 
-## Step 2: Nettoyage et Fusion des Données 
+## Step 2: Data Cleaning and Merging
 * Program: QGIS
-* Fusion des couches des départements correspondants aux isochrones
-* Selection des données représentants les bâtiments pour chaque date
+* We combined the layers from different departments that fall within the isochrones to create a comprehensive dataset.
+* We specifically targeted building data, filtering out irrelevant information to focus on the structural changes over the years.
 
-
-## Step 3: Intersect Buildings layers with isochrones
+## Step 3: Intersect Building Layers with Isochrones
 * Program: QGIS
-* Selection par localisation avec les bâtiments qui intersectent avec les isochrones
+* We used spatial analysis tools in QGIS to intersect the building layers with the isochrones.
+* This step helped in refining the dataset to include only buildings within our defined study area, enhancing the accuracy of our subsequent analyses.
+
+## Step 4: Final Data Layer Access
+* The final data layers for each city, post-processing, are stored on the Subdense FTP server.
+* These layers can be found in the `Bdtopo_Dataset` directory.
+* This centralized storage allows for easy access and retrieval of the processed data for further analysis or application.
