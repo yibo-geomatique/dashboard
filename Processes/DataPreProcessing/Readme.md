@@ -12,7 +12,9 @@ We downloaded the BdTopo data for 2011 and 2021, focusing on the departments wit
 * Due to version differences in the dataset, the 2011 building data required merging of various building themes. This was accomplished using QGIS and the "Merge Vector Layers" algorithm. This algorithm combines multiple vector layers of the same geometric type into a single layer.
 
 ![Description de l'image](/img/buildingFusion.png)
+
 ![Description de l'image](/img/buildingIntersection.png)
+
 *Figure 1: Isochrone area for Toulouse.*
 
 ## Step 3: Intersect Building Layers with Isochrones
