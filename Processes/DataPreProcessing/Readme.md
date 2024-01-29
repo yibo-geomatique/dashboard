@@ -3,6 +3,7 @@
 ## Step 1: Download Topographic Data from Geoservice Web(https://geoservices.ign.fr/)
 We downloaded the BdTopo data for 2011 and 2021, focusing on the departments within the isochrone area, which is 45 minutes by car from the centers of Strasbourg and Toulouse. This approach ensured that the data was highly relevant to our study's specific geographical focus.
 ![Description de l'image](/img/isochrone_Toulouse.png)
+
 *Figure 1: Isochrone area for Toulouse.*
 
 ## Step 2: Data Cleaning and Merging
