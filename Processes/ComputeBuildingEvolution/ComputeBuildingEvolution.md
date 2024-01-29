@@ -62,7 +62,7 @@ To process this data, we used the change detection algorithm developed by Lastig
    - Right-click and select "Open with Visual Studio Code".
 
 6. **Install Required Modules**: 
-   - Install jpype, shapely, numpy, and geopandas using `pip3 install [module_name]`.
+   - Install jpype1, shapely, numpy,networkx, tqdm, pyogrio and geopandas using `pip3 install [module_name]`.
    - Use `pip3` if multiple Python versions are installed; consider proxy settings if applicable.
 
 7. **Add Input Data**: 
@@ -74,8 +74,28 @@ To process this data, we used the change detection algorithm developed by Lastig
    - Modify the script if needed to align with your data paths and settings.
 
 9. **Output**:
-   - After executing `run.py`, two new files are generated: `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` in chosen formats (.gpkg, .geojson, .shp).
+   - After executing `run.py`, two new files are generated in the `output_data` folder: `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` in chosen formats (.gpkg, .geojson, .shp).
    - Open these files in QGIS for analysis and visualization, using the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
+
+
+## Alternative Execution Method via Terminal
+
+For users comfortable with the command line, the script can also be executed via a terminal using the following command:
+
+```bash
+python run.py -layer1 ./data/fr/strasbourg_building_2011.gpkg -layer2 ./data/fr/strasbourg_building_2021.gpkg -attributes '["HAUTEUR","ID"]' -output_prefix FR_STR -java_memory 16G
+```
+
+This command runs `run.py` with specific parameters:
+
+- `-layer1` and `-layer2` specify the paths to the building data for the years 2011 and 2021, respectively.
+- `-attributes` allows the inclusion of specific attributes in the analysis, such as 'HAUTEUR' and 'ID'.
+- `-output_prefix` sets the prefix for the output files, in this case 'FR_STR' for Strasbourg, France.
+- `-java_memory` allocates Java memory for the process, set here to 16 Gigabytes.
+
+Ensure that the paths and parameters are adjusted as per your specific data and system requirements.
 
 ## Refinement and Quality Check
 - Further refinements and quality checks are applied post-production to ensure the accuracy and reliability of the building evolution features.
+
+
