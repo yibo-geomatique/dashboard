@@ -7,13 +7,13 @@ Building Dataset Preparation:
 
 * BdTopo Data Consolidation for 2011 : Due to version differences in the dataset, the 2011 building data required merging of various building themes. This was accomplished using QGIS and the "Merge Vector Layers" algorithm. This algorithm combines multiple vector layers of the same geometric type into a single layer.
 
-* Data Naming Policy : Once merged, the layers are named following a specific naming proposed by Subdense team, like `Building_Strasbourg_2011` and `Building_Strasbourg_2021`. The naming may vary depending on the scale of the study area (city or neighborhood level, etc.).
+* Data Naming Policy : Once merged, the layers are named following a specific naming proposed by Subdense team, like `Strasbourg_Building_2011` and `Strasbourg_Building_2021`. The naming may vary depending on the scale of the study area (city or neighborhood level, etc.).
 
 * Select the data for a chosen study area 
 
     - Use QGIS to select building for both 2011 and 2021 periods.  
 
-    - Name the layers as `Building_city_year` following the recommendations made in Subdense.  
+    - Name the layers as `City_Building_Year` following the recommendations made in Subdense.  
 
 
 ## Output Data :
@@ -77,13 +77,13 @@ To process this data, we used the change detection algorithm developed by Lastig
 
 - Open `matching.py` in Visual Studio Code.
 - Modify the paths for the input data according to your layer names:
-  - layer1 = `./data/bati/Building_Strasbourg_2011.shp` to layer1 = `./data/bati/study_area_timeT1.shp`
-  - layer2 = `./data/bati/Building_Strasbourg_2021.shp` to layer2 = `./data/bati/study_area_timeT2.shp`
+  - layer1 = `./data/bati/Strasbourg_Building_2011.shp` to layer1 = `./data/bati/study_area_timeT1.shp`
+  - layer2 = `./data/bati/Strasbourg_Building_2021.shp` to layer2 = `./data/bati/study_area_timeT2.shp`
   - Run `matching.py` in Visual Studio Code.
 
 9. Output:
 
-- Two new files (`.gpkg` or `.shp` depending your choice) `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` are automatically created.
+- Two new files (`.gpkg`,`geojson` and `.shp` depending your choice) `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` are automatically created.
 - Open these files in QGIS for analysis and visualization.
 - A `BuildingEvolutionStyle` file is available in the "ComputeBuildingEvolution" folder for optimal display of evolution typologies.
 
