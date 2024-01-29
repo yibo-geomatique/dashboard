@@ -24,7 +24,7 @@ We downloaded the BdTopo data for 2011 and 2021, focusing on the departments wit
 * We used spatial analysis tools in QGIS to intersect the building layers with the isochrones.
 * This step helped in refining the dataset to include only buildings within our defined study area, enhancing the accuracy of our subsequent analyses.
 
-![Description de l'image](/img/BuildingIntersectWithIsochrone.png)
+![Description de l'image](/img/buildingIntersectWithIsochrone.png)
 
 *Figure 3: Intersection.*
 
