@@ -28,10 +28,11 @@ This dataset classifies the evolution of buildings in Strasbourg from 2011 to 20
 - Split: Buildings that have been divided into multiple structures or units over the time period.
 - Stable: Buildings that have not undergone significant changes or alterations between 2011 and 2021.
 
-For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "ComputeBuildingEvolution." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in two main formats to ensure optimal compatibility and accessibility:
+For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "ComputeBuildingEvolution." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in three main formats to ensure optimal compatibility and accessibility:
 
 - Shapefile `.shp`: A widely used and recognized format in GIS, ideal for extended compatibility with various mapping tools and software.
-- GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data. 
+- GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data.
+- Geojson `json`:
 
 ### MatchingLinks_BdTopo_Strasbourg_2011_2021:
 
@@ -43,50 +44,38 @@ To process this data, we used the change detection algorithm developed by Lastig
 
 ## Requirements for Windows Users:
 
-1. Install GitHub Desktop: Necessary for functionalities such as cloning and pushing source code. GitHub Desktop can be easily installed from their official website.
+1. **Install GitHub Desktop**: Necessary for cloning and pushing source code. 
+   Available at [GitHub Desktop's official website](https://desktop.github.com/).
 
-2. Install Visual Studio Code: Essential for implementing or running existing code. Download and install from Visual Studio Code.
+2. **Install Visual Studio Code**: Essential for code implementation and execution. 
+   Download from [Visual Studio Code's website](https://code.visualstudio.com/).
 
-3. Install Python 3: Ensure that Python 3 is installed on your system. It can be downloaded from Python's official website.
+3. **Install Python 3**: Ensure Python 3 is installed on your system. 
+   Download from [Python's official website](https://www.python.org/downloads/).
 
-4. Clone the Matching Folder:
+4. **Clone the Subdense Matching Repository**: 
+   - Visit the [Subdense Matching repository on GitHub](https://github.com/subdense/matching).
+   - Use GitHub Desktop to clone it to a local directory.
 
-- Go to the `Subdense Matching` repository on GitHub.
-- Use GitHub Desktop to clone the repository to a local directory of your choice.
+5. **Open Local Repository in Visual Studio Code**:
+   - Navigate to the local `matching` repository.
+   - Right-click and select "Open with Visual Studio Code".
 
-5. Open the Local Repository in Visual Studio Code:
+6. **Install Required Modules**: 
+   - Install jpype, shapely, numpy, and geopandas using `pip3 install [module_name]`.
+   - Use `pip3` if multiple Python versions are installed; consider proxy settings if applicable.
 
-- Navigate to the local `matching` repository.
-- Right-click and select Open with Visual Studio Code.
+7. **Add Input Data**: 
+   - Place input data in `/data/bati`, with two shapefile layers representing building data at times T1 and T2.
 
-6. Install Required Modules:
+8. **Run the Script**:
+   - Open `run.py` in Visual Studio Code.
+   - This script automates the execution of `matching.py` and applies the necessary data processing.
+   - Modify the script if needed to align with your data paths and settings.
 
-- `jpype`: A module that allows Python programs full access to Java class libraries. Install using `pip3 install jpype`.
-- `shapely`: A Python package for manipulation and analysis of planar geometric objects. Install using `pip3 install shapely`.
-- `numpy`: A fundamental package for scientific computing in Python. Install using `pip3 install numpy`.
-- `geopandas`: An open-source project to make working with geospatial data in Python easier. Install using `pip3 install geopandas`.
+9. **Output**:
+   - After executing `run.py`, two new files are generated: `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` in chosen formats (.gpkg, .geojson, .shp).
+   - Open these files in QGIS for analysis and visualization, using the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
 
- Note: Use `pip3` if you have multiple versions of Python on your computer. Consider proxy settings if applicable.
-
-7. Add Input Data:
-
-- Place your input data in the folder `/data/bati`.
-- Add two shapefile layers representing the building data at times T1 and T2.
-
-8. Modify and Run the Script:
-
-- Open `matching.py` in Visual Studio Code.
-- Modify the paths for the input data according to your layer names:
-  - layer1 = `./data/bati/Strasbourg_Building_2011.shp` to layer1 = `./data/bati/study_area_timeT1.shp`
-  - layer2 = `./data/bati/Strasbourg_Building_2021.shp` to layer2 = `./data/bati/study_area_timeT2.shp`
-  - Run `matching.py` in Visual Studio Code.
-
-9. Output:
-
-- Two new files (`.gpkg`,`geojson` and `.shp` depending your choice) `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` are automatically created.
-- Open these files in QGIS for analysis and visualization.
-- A `BuildingEvolutionStyle` file is available in the "ComputeBuildingEvolution" folder for optimal display of evolution typologies.
-
-
-## Refinement and Quality check 
-Once building evolution features have been produced, some refinements can be applied.  
+## Refinement and Quality Check
+- Further refinements and quality checks are applied post-production to ensure the accuracy and reliability of the building evolution features.
