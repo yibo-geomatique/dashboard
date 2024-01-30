@@ -17,7 +17,7 @@ We downloaded the BdTopo data for 2011 and 2021, focusing on the departments wit
   <img src="/img/buildingIntersection.png" width="48%" /> 
 </p>
 
-
+*Figure 2: Isochrone area for Toulouse.*
 
 ## Step 3: Intersect Building Layers with Isochrones
 * Program: QGIS
