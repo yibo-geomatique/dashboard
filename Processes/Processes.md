@@ -17,9 +17,6 @@ List of processes that are relevant to the Subdense dashboard production. These 
  [Process description template](#Dataset-description-template)
 *******
 
-## ComputeBuildingEvolution
-* see dedicated folder for description of this process
-
 ## Process-naming-policy
 Please use an information name. Try and avoid creating too many different processes. If there are specific versions of a process you may consider it is just one process and use the description to describe the specific subcases, for example when a generic process is applied to a specific datasource it becomes a more specific process. 
     
