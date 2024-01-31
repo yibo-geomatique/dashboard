@@ -26,6 +26,7 @@ The identifier of the process is used to name the dedicated description file or 
     
 ## Process-description-template
 * Use free text but try and adopt the following structure
+* **Shortdescription of the functionality** : one or two sentences to describe the process functionality (simplify, transform, enrich, ..) 
 * **Input/output** : include a detailed specification (files, types, data models, etc.) of the input and output data and ideally include also preconditions and postconditions here. 
 * **Method** : describe the method, with the successive steps necessary to reproduce it; this can be a textual description in terms of a fully manual process, or commands to run if scripts or executables are provided
 * **Feedback** : Comments related to the process
