@@ -4,7 +4,9 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 
 *******
- 3. [BuildingEvolution_Strasbourg_2011_2021]
+ 1. [Building_StrasbourgFA_2011]
+ 2. [Building_StrasbourgFA_2021]
+ 3. [BuildingEvolution_StrasbourgFA_2011_2021]
  4. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
  5. [Dataset naming policy](#Dataset-naming-policy)
  6. [Dataset description template](#Dataset-description-template)
