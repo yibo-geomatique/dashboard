@@ -10,8 +10,9 @@ A concept is registered on this file and can also be described here, or a dedica
  2. [Urban Density](#Urban-Density)
  3. [Urban Densification](#Urban-Densification)
  4. [Building](#Building)
- 5. [Concept labelling policy](#Concept-labelling-policy)
- 6. [Concept description template](#Concept-description-template)
+ 5. [Functional Urban Area] (#Functional-Urban-Area)
+ 6. [Concept labelling policy](#Concept-labelling-policy)
+ 7. [Concept description template](#Concept-description-template)
 *******
 ## Suburb	
 * **Definitions**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020). A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context
@@ -36,7 +37,7 @@ A concept is registered on this file and can also be described here, or a dedica
 * **Definitions** : (from Wikipedia, which quotes the geographer Max Egenhofer) A building or edifice is an enclosed structure with a roof and walls, usually standing permanently in one place, such as a house or factory. 
 * **Relation with data** : In the french topographic product, BDTopo, buildings (bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo. 
 
-## Functional-urban-area
+## Functional-Urban-Area
 * **Definitions** : (after EC glossary for statistics, https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Functional_urban_area ) Short definition: a functional urban area consists of a city and its commuting zone. Functional urban areas therefore consist of a densely inhabited city and a less densely populated commuting zone whose labour market is highly integrated with the city (OECD, 2012).    
 * **Relation with data** : can be computed using a 45mn isochrone.
 
