@@ -7,8 +7,8 @@ A concept is registered on this file and can also be described here, or a dedica
 
 *******
  1. [Suburb](#Suburb)
- 2. [Density](#Density)
- 3. [Densification](#Densification)
+ 2. [Urban Density](#Urban Density)
+ 3. [Urban Densification](#Urban Densification)
  4. [Concept labelling policy](#Concept-labelling-policy)
  5. [Concept description template](#Concept-description-template)
 *******
@@ -17,7 +17,7 @@ A concept is registered on this file and can also be described here, or a dedica
 * **Illustration through maps** :
 * **Relation with data** : the concept itself does not appear in geodata 
 
-## Density
+## Urban Density
 * **Definition** : in this dashboard, density refers to urban density. Population density is defined as the number of individuals or the number of inhabitant on a given surface.  Urban density is population density in urban surfaces. The french IAURIF uses 4 measures for urban density : 1) housing units density (number of housing units per 100m2), 2) inhabitants density (number of inhabitants per 100m2) 3) buildings ground coverage coefficient for an urban block 4) buildings floors coefficient for an urban block.
 * **Relation with data** :
   * * Urban density is described using 5 classes in urban atlas, grid data acquired on whole Europe at several time, nomenclatura (https://land.copernicus.eu/user-corner/technical-library/urban_atlas_2012_2018_mapping_guide_v6.3 ).
