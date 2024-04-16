@@ -36,7 +36,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 ## Dataset-naming-policy
 The name of the dataset is a set of characterstrings attached with "_". 
 Characterstrings : 
-* area : DE-FKF (Frankfurt), DE-DTMDT (Dortmundt), FR-STR (Strasbourg), FR-TLS (Toulouse), UK-LVP (Liverpool), UK-BSL (Bristol) or ALLCSR (all case study regions)
+* area : DE-FKF (Frankfurt), DE-DOR (Dortmundt), FR-STR (Strasbourg), FR-TLS (Toulouse), UK-LVP (Liverpool), UK-BSL (Bristol) or ALLCSR (all case study regions)
 * specific area : FUA for functional area, or Name of a focused place within city   
 * theme or type of content : Buildings (for building), Evolutions (for data that describe evolutions), ... //to be extended with new strings when new themes are added
 * YYYY, MM : in digits, possibly two dates if it is an evolution
