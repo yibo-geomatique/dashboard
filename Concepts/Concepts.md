@@ -10,7 +10,7 @@ A concept is registered on this file and can also be described here, or a dedica
  2. [Urban Density](#Urban-Density)
  3. [Urban Densification](#Urban-Densification)
  4. [Building](#Building)
- 5. [Functional Urban Area] (#Functional-Urban-Area)
+ 5. [Functional Urban Area](#Functional-Urban-Area)
  6. [Concept labelling policy](#Concept-labelling-policy)
  7. [Concept description template](#Concept-description-template)
 *******
