@@ -25,7 +25,10 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * Distribution : open licence, can be shared within the consortium through our specific ftp, will be shared more widely through a research data platform to be identified within Subdense research data management plan)
 
 ## FR-STR-FUA-Evolution-2011-21
-
+* Building evolution data computed from BDTopo on the functional area of the city Strasbourg between 2011 and 2021
+* Provenance : described in detail in [the process](/Processes/ComputeBuildingEvolution/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](/Maps/Maps.md)
+* Distribution : open licence, can be shared within the consortium through our specific ftp, will be shared more widely through a research data platform to be identified within Subdense research data management plan)
 
 
 ## GHS_POP_ALLCSR_2020_reduced
