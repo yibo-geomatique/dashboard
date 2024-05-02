@@ -5,14 +5,14 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 *******
 
-[FR-STR-FUA-Evolution-2011-21](#FR-STR-FUA-Evolution-2011-21)
-[DE-DOR-FUA-Evolution-2011-21](#DE-DOR-FUA-Evolution-2011-21)
-[UK-LIV-FUA-Evolution-2011-21](#UK-LIV-FUA-Evolution-2011-21)
-[FR-STR-FUA-Building-2011](#FR-STR-FUA-Building-2011)
-[FR-STR-FUA-Building-2021](#FR-STR-FUA-Building-2021)
-[GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
-[Dataset naming policy](#Dataset-naming-policy)
-[Dataset description template](#Dataset-description-template)
+1. [FR-STR-FUA-Evolution-2011-21](#FR-STR-FUA-Evolution-2011-21)
+2. [DE-DOR-FUA-Evolution-2011-21](#DE-DOR-FUA-Evolution-2011-21)
+3. [UK-LIV-FUA-Evolution-2011-21](#UK-LIV-FUA-Evolution-2011-21)
+4. [FR-STR-FUA-Building-2011](#FR-STR-FUA-Building-2011)
+5. [FR-STR-FUA-Building-2021](#FR-STR-FUA-Building-2021)
+6. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
+7. [Dataset naming policy](#Dataset-naming-policy)
+8. [Dataset description template](#Dataset-description-template)
 *******
 
 ## FR-STR-FUA-Evolution-2011-21
