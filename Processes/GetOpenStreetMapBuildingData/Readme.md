@@ -17,7 +17,7 @@ TODO: make it more flexible to take any list of polygons (or geometry file) as i
 # Usage
 
  - Create city poly files (for boundaries of the API request) -> script `ogr2poly.py` from https://github.com/JusteRaimbault/ogr2poly
-For selected cities: all features in subdense-cities.gpkg (selection from GHSL-FUA layer (see data)
+For selected cities: all features in cities.gpkg (selection from GHSL-FUA layer: see data; processed in QGis to keep convex hull of each area)
 Any ogr compatible format should be fine.
 
 ```
