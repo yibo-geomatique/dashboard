@@ -4,13 +4,20 @@ List of processes that are relevant to the Subdense dashboard production. These 
 
 
 *******
-1. [ComputeBuildingEvolution]
- 1. [Process naming policy](#Process-naming-policy)
- 2. [Process description template](#Dataset-description-template)
-*******
+ [DataPreProcessing](./DataPreProcessing)
 
-## ComputeBuildingEvolution
-* see dedicated folder for description of this process
+ [ComputeBuildingEvolution](./ComputeBuildingEvolution)
+ 
+ [Delimitation of study areas](./DemliminateStudyArea)
+ 
+ [Get building data from OpenStreetMap](./GetOpenStreetMapBuildingData)
+ 
+ [Change built-up area per parcel](./Change_builtup_area)
+
+ [Process naming policy](#Process-naming-policy)
+ 
+ [Process description template](#Dataset-description-template)
+*******
 
 ## Process-naming-policy
 Please use an information name. Try and avoid creating too many different processes. If there are specific versions of a process you may consider it is just one process and use the description to describe the specific subcases, for example when a generic process is applied to a specific datasource it becomes a more specific process. 
@@ -19,6 +26,7 @@ The identifier of the process is used to name the dedicated description file or 
     
 ## Process-description-template
 * Use free text but try and adopt the following structure
+* **Shortdescription of the functionality** : one or two sentences to describe the process functionality (simplify, transform, enrich, ..) 
 * **Input/output** : include a detailed specification (files, types, data models, etc.) of the input and output data and ideally include also preconditions and postconditions here. 
 * **Method** : describe the method, with the successive steps necessary to reproduce it; this can be a textual description in terms of a fully manual process, or commands to run if scripts or executables are provided
 * **Feedback** : Comments related to the process

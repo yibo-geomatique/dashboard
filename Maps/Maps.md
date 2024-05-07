@@ -7,10 +7,11 @@ A description can be enclosed in this registry or in a separate file.
 *******
  
  1. [Map_GHS_POP_ALLCSR_2020](#Map_GHS_POP_ALLCSR_2020)
- 2. [Map_Building_Evolution_Liverpool_2011_2021](#Map_Building_Evolution_Liverpool_2011_2021)
- 3. [Map_Building_Evolution_Strasbourg_2011_2021](#Map_Building_Evolution_Strasbourg_2011_2021)
- 4. [Map naming policy](#Map-naming-policy)
- 5. [Map description template](#Map-description-template)
+ 2. [Map_UK-LIV-FUA-Evolution-2011-21](#Map_UK-LIV-FUA-Evolution-2011-21)
+ 3. [Map_DE-DOR-FUA-Evolution-2011-21](#Map_DE-DOR-FUA-Evolution-2011-21)
+ 4. [Map_FR-STR-FUA-Evolution-2011-21](#Map_FR-STR-FUA-Evolution-2011-21)
+ 5. [Map naming policy](#Map-naming-policy)
+ 6. [Map description template](#Map-description-template)
 *******
 
 ## Map_GHS_POP_ALLCSR_2020
@@ -18,18 +19,26 @@ A description can be enclosed in this registry or in a separate file.
 * **Provenance** : The map was produced with the process CreateGHS_POP_2020_ALLCSR_reduced
 * **Usages** : The map gives an overview of the population density within all casestudy regions.
 
-## Map_Building_Evolution_Liverpool_2011_2021
-* **Title** : 
-* **Styles** :The styles and colors used on the map are explained by the legend. Each color in the legend corresponds to a type of urban change: purple for "merged," blue for "split," green for "appeared," a special symbol in purpule for "aggregated," a special symbole in red for "disappeared," and gray for "stable."
-* **Provenance** :This map was created using building data from the OSMASTERMAP database spanning from 2011 to 2021 for a specific area in Liverpool.The methodology included a comparative analysis of building footprints to identify changes.
-* **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction.
+## Map_UK-LIV-FUA-Evolution-2011-21
+* **Title** : Evolutions of buildings in Liverpool functional area between 2011 and 2021
+* **Styles** : cf
+* **Provenance** :This map was created using dataset UK-LIV-FUA-Evolution-2011-21, i.e. data from the OSMASTERMAP database spanning from 2011 to 2021 in Liverpool.
+* **Usages** : 
+* **Access** : the map is a geopackage containing data and stylesheet that can be loaded locally on QGIS to be read thoroughly and possibly annotated
 
-## Map_Building_Evolution_Strasbourg_2012_2022
-* **Title** : Evolutions of buildings features in BDTopo(r) betwwen 2012 and 2022 
-* **Styles** :The styles and colors used on the map are explained by the legend. Each color in the legend corresponds to a type of urban change: purple for "merged," blue for "split," green for "appeared," a special symbol in purpule for "aggregated," a special symbole in red for "disappeared," and gray for "stable."
-* **Provenance** :This map was created by portraying the result of a process ComputeBuildingEvolution applied to BDTopo building data at two timestamps, 2012 and 2022, on Strasbourg. Only a sample is displayed here and the full geopackage map can be obtained by asking the author. 
-* **Usages** : Quickly identify areas where there has been significant growth (by focusing on "appeared" buildings), or conversely, areas where buildings have been removed or demolished (by focusing on "disappeared"). The split, merged and aggregated types provide information on how land use or zoning may have changed. For example, in developing urban areas, you might find more buildings that have been split to make way for new construction
+## Map_DE-DOR-FUA-Evolution-2011-21
+* **Title** : Evolutions of buildings in Dortmund functional area between 2011 and 2021
+* **Styles** : cf
+* **Provenance** :This map was created using dataset DE-DOR-FUA-Evolution-2011-21, i.e. data from the ATKIS database spanning from 2011 to 2021 in Dortmund.
+* **Usages** : 
+* **Access** : the map is a geopackage containing data and stylesheet that can be loaded locally on QGIS to be read thoroughly and possibly annotated
 
+## Map_FR-STR-FUA-Evolution-2011-21
+* **Title** : Evolutions of buildings in Strasbourg functional area betwwen 2011 and 2021 
+* **Styles** : 
+* **Provenance** :This map was created by portraying the result of a process ComputeBuildingEvolution applied to BDTopo building data at two timestamps, 2011 and 2021, on Strasbourg. Only a sample is displayed here and the full geopackage map can be obtained by asking the author. 
+* **Usages** :
+* **Access** : the map is a geopackage containing data and stylesheet that can be loaded locally on QGIS to be read thoroughly and possibly annotated
 
 ## Map-naming-policy
 The name of the map is a set of characterstrings attached with "_".
@@ -46,6 +55,7 @@ Characterstrings :
 * **Provenance** : Textual description of how the map was produced, what keys were used. This description can get enriched while the dataset is revised and improved (quality check and so on).
 * **Usages** : References to narratives that have been produced with this dataset
 * **Feedback** : Comments related to the map, interpretation, identification of quality issues and so on
+* **Access, Copyright** : 
  
 
 
