@@ -21,6 +21,8 @@ List of datasources potentially relevant for the dashboard, and associated comme
 * * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
 * * Documentation of evolutions :
 * * Additional metadata : 
+* **Retrieving Building Data on Areas of interest** :
+* Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
 * **Feedback** :  
 
 ## EUBUCCO
