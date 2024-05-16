@@ -16,6 +16,9 @@ List of datasources potentially relevant for the dashboard, and associated comme
 *******
 
 ## BDTOPO-FR 
+* **Building** :
+* * Conceptual model "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+  * representation : classe Batiment 
 * **Available Metadata and Documentation** :
 * * Standard ISO19139 metadata : 
 * * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
