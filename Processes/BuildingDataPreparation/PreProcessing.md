@@ -2,10 +2,11 @@
 
 ## Step 1: Download Topographic Data from Geoservice Web(https://geoservices.ign.fr/)
 
-Data retrieval from IGN services can be done either : whole France, region, department. In our case we first identify departments that intersect the scope of the maps, i.e. the functional urban area of Strasbourg and of Toulouse. 
-These functional urban areas are computed with the process DeliminateStudyArea described on this git.
+Step 1 consists in downloading/retrieving building data on the scope of the map : inital and final dates as well as spatial extent (functional urban area of a given city). These functional urban areas are computed with the process DeliminateStudyArea described on this git.
 
-*Figure 1: Isochrone area for Toulouse.*
+For FR-BDTopo, data retrieval can be done either : whole France, region, department. We identify departments that intersect the scope of the maps, i.e. the functional urban area of Strasbourg and of Toulouse. 
+
+On Strasbourg FUA we download the following department : 
 
 ## Step 2: Data Cleaning and Merging
 * Program: QGIS
