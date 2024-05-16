@@ -6,8 +6,6 @@ Step 1 consists in downloading/retrieving building data on the scope of the map 
 
 For FR-BDTopo, data retrieval can be done either : whole France, region, department. We identify departments that intersect the scope of the maps, i.e. the functional urban area of Strasbourg and of Toulouse. 
 
-On Strasbourg FUA we download the following department : 
-
 ## Step 2: Data Cleaning and Merging
 * Program: QGIS
 * We combined the layers from different departments that fall within the isochrones to create a comprehensive dataset.
