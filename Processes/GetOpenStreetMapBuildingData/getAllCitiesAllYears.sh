@@ -1,5 +1,4 @@
 
-mkdir data
 
 while read year; do
   echo "$year"
