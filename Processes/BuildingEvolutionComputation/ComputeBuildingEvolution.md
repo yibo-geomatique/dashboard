@@ -27,8 +27,9 @@ This dataset classifies the evolution of buildings in Strasbourg from 2011 to 20
 - Merged: Buildings that have combined with other structures or buildings between the two years.
 - Split: Buildings that have been divided into multiple structures or units over the time period.
 - Stable: Buildings that have not undergone significant changes or alterations between 2011 and 2021.
+- Recomposed: 
 
-For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "ComputeBuildingEvolution." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in three main formats to ensure optimal compatibility and accessibility:
+For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "BuildingEvolutionComputation." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in three main formats to ensure optimal compatibility and accessibility:
 
 - Shapefile `.shp`: A widely used and recognized format in GIS, ideal for extended compatibility with various mapping tools and software.
 - GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data.
@@ -66,7 +67,7 @@ To process this data, we used the change detection algorithm developed by Lastig
    - Use `pip3` if multiple Python versions are installed; consider proxy settings if applicable.
 
 7. **Add Input Data**: 
-   - Place input data in `/data/bati`, with two shapefile layers representing building data at times T1 and T2.
+   - Place input data in `/data/bati`, with two layers representing building data at times T1 and T2.
 
 8. **Run the Script**:
    - Open `run.py` in Visual Studio Code.
@@ -74,7 +75,7 @@ To process this data, we used the change detection algorithm developed by Lastig
    - Modify the script if needed to align with your data paths and settings.
 
 9. **Output**:
-   - After executing `run.py`, two new files are generated in the `output_data` folder: `BuildingEVOLUTION_Strasbourg_2011_2021` and `MatchingLinks_Strasbourg_2011_2021` in chosen formats (.gpkg, .geojson, .shp).
+   - After executing `run.py`, two new files are generated in the `output_data` folder: `FR-STR_EVOLUTION` and `FR_STR_Matching_Links` in chosen formats (.gpkg, .geojson, .shp).
    - Open these files in QGIS for analysis and visualization, using the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
 
 
