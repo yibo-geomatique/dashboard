@@ -16,7 +16,11 @@ List of datasources potentially relevant for the dashboard, and associated comme
 *******
 
 ## BDTOPO-FR 
-* **Documentation** : BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+* **Available Metadata and Documentation** :
+** Standard ISO19139 metadata : 
+** BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+** Documentation of evolutions :
+** Additional metadata : 
 * **Feedback** :  
 
 ## EUBUCCO
