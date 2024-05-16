@@ -17,15 +17,15 @@ List of datasources potentially relevant for the dashboard, and associated comme
 
 ## BDTOPO-FR 
 * **Building** :
-* * Conceptual model "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+  * Conceptual model "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
   * representation : classe Batiment 
 * **Available Metadata and Documentation** :
-* * Standard ISO19139 metadata : 
-* * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
-* * Documentation of evolutions :
-* * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, their fine description is https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16 
+  * Standard ISO19139 metadata : 
+  * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
+  * Documentation of evolutions :
+  * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, their fine description is https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16 
 * **Retrieving Building Data on Temporal and Spatial scope of interest** :
-* * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
+  * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
 * **Feedback** :  
 
 ## EUBUCCO
@@ -66,8 +66,3 @@ Definition: Information about the change history of a feature that comprises the
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
 
-## Datasource-description-template
-* **URI**  : If there exists one or more URIs for this product put them here.  
-Note BB: on-going work at EuroSDR to create a Knowledge Graph of digital assets, could be connected here.
-* **Documentation** : Links to existing documentation, preferably online
-* **Feedback** : Specific feedback (from reading the documentation, from using some of the data, etc) relevant to SUBDENSE, Identification of aspects useful for SUBDENSE, quote or explicit important properties of the source to have in mind during data interpretation, computing indicators, compute evolution data, integration, biases detection etc 
