@@ -35,7 +35,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 ## FR-STR-FUA-Building-2011
 * Building data from BDTopo on the functional area of the city Strasbourg in 2011
-* Provenance : described in detail in [the process](/Processes/DataPreProcessing/PreProcessing.md)
+* Provenance : the generic process is described here [the process](/Processes/DataPreProcessing/PreProcessing.md). For this dataset, the downloaded departments are :
 * Usage : used to derive Evolution data between 2011 and 2021
 * Distribution : open licence, can be shared within the consortium through our specific ftp, will be shared more widely through a research data platform to be identified within Subdense research data management plan)
 
