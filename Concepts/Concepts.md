@@ -12,8 +12,10 @@ List of concepts which are useful to study suburban densification and for which 
  7. [Concept template](#Concept-template)
  *******
 ## Suburb	
-* **Definitions**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020). A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context
-* **Illustration through maps** :
+* **UK definition**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020).
+* **French definition** : Banlieue. A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context
+* **German definition** : 
+* **Illustration through maps** : 
 * **Relation with data** : the concept itself does not appear in geodata 
 
 ## Urban-Density
