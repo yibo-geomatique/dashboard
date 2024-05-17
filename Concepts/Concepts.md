@@ -1,9 +1,6 @@
 # Concepts
 
-List of concepts which are useful to study suburban densification and for which 1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities 2) it is useful to specify how the concept can be observed through data. 
-
-A concept is registered on this file and can also be described here, or a dedicated file can be created for describing and disucssing the concept., in which case the file shall be put in the same git folder as this registry Concepts.md, and it should be called by the concept label, e.g. Suburb.md. 
-
+List of concepts which are useful to study suburban densification and for which 1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities 2) it is useful to specify how the concept can be observed through data. This list is written mostly in english but distinguishes local concepts/words that can be different even if they are used as the translation 
 
 *******
  1. [Suburb](#Suburb)
@@ -46,7 +43,11 @@ A concept is registered on this file and can also be described here, or a dedica
 * **Relation with data** : can be computed using a 45mn isochrone.
 
 ## Concept-template
-* **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels.
-* **Definitions, incl. local specificities** : explicit definitions, references to key papers, free text comments to explain possible distinctions across space or time that need to be considered during comparison.
+* **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels. A concept is registered on this file and can also be described here, or a dedicated file can be created for describing and disucssing the concept., in which case the file shall be put in the same git folder as this registry Concepts.md, and it should be called by the concept label, e.g. Suburb.md
+* **Definitions, incl. local specificities** :
+    * Universal definition if it exists. references to key papers, free text comments to explain possible distinctions across space or time that need to be considered during comparison.
+    *  French definition
+    *  german definition
+    *  UK definition 
 * **Illustration through maps** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
 * **Relation with data** : description of how the instances of the concept can be somehow put on a map, with what kind of data (possibly also put a link with DataSource Dataset or Processes). 
