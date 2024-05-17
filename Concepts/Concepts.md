@@ -49,4 +49,4 @@ A concept is registered on this file and can also be described here, or a dedica
 * **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels.
 * **Definitions, incl. local specificities** : explicit definitions, references to key papers, free text comments to explain possible distinctions across space or time that need to be considered during comparison.
 * **Illustration through maps** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
-* **Relation with data** : description of how the instances of the concept can be mapped, with what kind of data (don't detail the specific data sources, this is to be done in the folder Data of this git). 
+* **Relation with data** : description of how the instances of the concept can be somehow put on a map, with what kind of data (possibly also put a link with DataSource Dataset or Processes). 
