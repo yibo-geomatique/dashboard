@@ -12,9 +12,8 @@ A concept is registered on this file and can also be described here, or a dedica
  4. [Building](#Building)
  5. [BuidingEvolution](#BuildingEvolution)
  6. [Functional Urban Area](#Functional-Urban-Area)
- 7. [Concept labelling policy](#Concept-labelling-policy)
- 8. [Concept description template](#Concept-description-template)
-*******
+ 7. [Concept template](#Concept-template)
+ *******
 ## Suburb	
 * **Definitions**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020). A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context
 * **Illustration through maps** :
@@ -46,10 +45,8 @@ A concept is registered on this file and can also be described here, or a dedica
 * **Definitions** : (after EC glossary for statistics, https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Functional_urban_area ) Short definition: a functional urban area consists of a city and its commuting zone. Functional urban areas therefore consist of a densely inhabited city and a less densely populated commuting zone whose labour market is highly integrated with the city (OECD, 2012).    
 * **Relation with data** : can be computed using a 45mn isochrone.
 
-## Concept-labelling-policy
-* **Label** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels.
-
-## Concept-description-template
+## Concept-template
+* **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels.
 * **Definitions, incl. local specificities** : explicit definitions, references to key papers, free text comments to explain possible distinctions across space or time that need to be considered during comparison.
 * **Illustration through maps** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
 * **Relation with data** : description of how the instances of the concept can be mapped, with what kind of data (don't detail the specific data sources, this is to be done in the folder Data of this git). 
