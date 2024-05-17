@@ -12,8 +12,9 @@ List of concepts which are useful to study suburban densification and for which 
  7. [Concept template](#Concept-template)
  *******
 ## Suburb	
+* **Universal definition or comparison across countries** : see hypergeo below for a comparison across countries
 * **UK definition**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020).
-* **French definition** : Banlieue. A definition in hypergeo, https://hypergeo.eu/suburb/?lang=en, much detailed for the french context
+* **French definition** : Banlieue. "In France today the banlieue or suburb is a built-up belt that agglomerates widely diverse territories, from communes with a long history to small village units that have become extremely large with the arrival of housing estates and the tower blocks of the 1960s and 1970s" : quote from Herve Vieillard-Baron  https://hypergeo.eu/suburb/?lang=en
 * **German definition** : 
 * **Illustration through maps** : 
 * **Relation with data** : the concept itself does not appear in geodata 
