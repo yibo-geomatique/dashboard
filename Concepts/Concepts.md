@@ -9,7 +9,8 @@ List of concepts which are useful to study suburban densification and for which 
  4. [Building](#Building)
  5. [BuidingEvolution](#BuildingEvolution)
  6. [Functional Urban Area](#Functional-Urban-Area)
- 7. [Concept template](#Concept-template)
+ 7. [Public Space](#Public-Space)
+ 8. [Concept template](#Concept-template)
  *******
 ## Suburb	
 * **Universal definition or comparison across countries** : see hypergeo below for a comparison across countries
@@ -44,6 +45,9 @@ List of concepts which are useful to study suburban densification and for which 
 ## Functional-Urban-Area
 * **Definitions** : (after EC glossary for statistics, https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Functional_urban_area ) Short definition: a functional urban area consists of a city and its commuting zone. Functional urban areas therefore consist of a densely inhabited city and a less densely populated commuting zone whose labour market is highly integrated with the city (OECD, 2012).    
 * **Relation with data** : can be computed using a 45mn isochrone.
+
+## Public-Space
+* https://unhabitat.org/sites/default/files/2020/07/indicator_11.7.1_training_module_public_space.pdf 
 
 ## Concept-template
 * **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels. A concept is registered on this file and can also be described here, or a dedicated file can be created for describing and disucssing the concept., in which case the file shall be put in the same git folder as this registry Concepts.md, and it should be called by the concept label, e.g. Suburb.md
