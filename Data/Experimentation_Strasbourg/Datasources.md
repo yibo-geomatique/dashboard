@@ -36,3 +36,13 @@ Les données d’adresses sont disponibles ici mais nous n’avons pas de tempor
 Les données cadastres sont disponibles avec quelques millésimes allant de 2017 à 2024 avec le Plan Cadastral Informatisé   et les données cadastrales de l'Eurométropole de Strasbourg. Les fichiers départementaux des documents de filiation informatisés (DFI) donnent accès à l'historique des parcelles cadastrales, incluant les modifications depuis leur numérisation dans les années 1980 à 1990. Ils détaillent l'origine et les dates des mises à jour, issues de différents documents comme les arpentages ou les remaniements. Elle reprend un peu les évolutions des parcelles depuis 1990. 
 
 Les Fichiers fonciers proviennent de l'application MAJIC de la DGFIP et sont complétés par le Cerema. Ils contiennent des informations fiscales principalement liées à la taxe foncière, couvrant les caractéristiques des locaux (comme la date de construction et la surface), les spécificités des parcelles, ainsi que des détails sur les propriétaires, incluant leur statut (public ou privé) et leurs adresses. C’est une source intéressante car elle peut avoir plusieurs cas d’usages notamment sur l’observation de l’évolution du territoire, ce sont des données annuelles et peuvent permettre des analyses multi-millésimes allant d’une diffusion large à une géolocalisation plus fine à la parcelle. Les données sont disponibles et gratuites pour les ayants-droits (IGN en fait partie, il faut juste suivre la procédure d’obtention en trois étapes). Conformément à la déclaration CNIL signée par la DGALN, ils peuvent nous diffuser les millésimes antérieurs dans la limite de 10 ans, soit de 2013 à 2022 (le plus ancien ne remontant de toute façon qu'à 2009, nous ne pourrons donc pas remonter 20 ou 30 ans en arrière). 
+
+### Données socio-économique de l’INSEE  
+
+Recensement de la population à la commune/canton/département/IRIS 
+
+Données localisées au canton-ou-ville : Recensement de la population - Fichiers détail : Individus localisés au canton-ou-ville 2020 - data.gouv.fr. 
+
+Les données recensement de la population à l’IRIS : Recensement population par IRIS de 2006 à 2020 
+
+Les données recensement de la population au niveau communal et départemental : https://www.insee.fr/fr/statistiques/1893204 
