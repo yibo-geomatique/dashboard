@@ -41,8 +41,8 @@ Les Fichiers fonciers proviennent de l'application MAJIC de la DGFIP et sont com
 
 Recensement de la population à la commune/canton/département/IRIS 
 
-Données localisées au canton-ou-ville : Recensement de la population - Fichiers détail : Individus localisés au canton-ou-ville 2020 - data.gouv.fr. 
+Données localisées au canton-ou-ville : Recensement de la population - Fichiers détail : Individus localisés au canton-ou-ville 2020 - https://www.data.gouv.fr/fr/datasets/recensement-de-la-population-fichiers-detail-individus-localises-au-canton-ou-ville-2020-1/#/resources
 
-Les données recensement de la population à l’IRIS : Recensement population par IRIS de 2006 à 2020 
+Les données recensement de la population à l’IRIS : Recensement population par IRIS de 2006 à 2020 - https://www.insee.fr/fr/statistiques?debut=20&idprec=2028582&theme=1&categorie=1&geo=IRIS-1
 
 Les données recensement de la population au niveau communal et départemental : https://www.insee.fr/fr/statistiques/1893204 
