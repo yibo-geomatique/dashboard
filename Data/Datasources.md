@@ -11,8 +11,9 @@ List of datasources potentially relevant for the dashboard, and associated comme
  6. [OSM](#OSM)
  7. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
  8. [OSNGD-UK](#OSNGD-UK)
- 9. [Datasource naming policy](#Datasource-naming-policy)
- 10. [Datasource description template](#Datasource-description-template)
+ 9. [FR-OCS-GE2(référentiel de la région Grand-Est)](#FR-OCS-GE2)
+ 10. [Datasource naming policy](#Datasource-naming-policy)
+ 11. [Datasource description template](#Datasource-description-template)
 *******
 
 ## BDTOPO-FR 
@@ -61,7 +62,9 @@ Definition: Information about the change history of a feature that comprises the
 
 ## OSNGD-UK
 * **Documentation** : https://www.ordnancesurvey.co.uk/business-government/new-data-access-methods?_gl=1*13idjk8*_ga*NzE3NjU4MTY0LjE2ODEzNjk5Mjk.*_ga_59ZBN7DVBG*MTY4MTM2OTkyOS4xLjEuMTY4MTM3MDIxNy41OS4wLjA.&_ga=2.81454110.808952103.1681369930-717658164.1681369929
-* **Feedback** : this is an integration of OS data product into a unified product associated with user friendly web services to select relevant data. 
+* **Feedback** : this is an integration of OS data product into a unified product associated with user friendly web services to select relevant data.
+
+## FR-OCS-GE2(référentiel de la région Grand-Est)
 
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
