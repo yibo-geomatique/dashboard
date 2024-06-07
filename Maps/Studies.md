@@ -1,6 +1,6 @@
 # Studies
 
-List of studies. This list is very important to give shared identifiers to studies, but also to specify new maps -needed for the study-, to share the interpretation of maps.  
+List of studies. Studies are useful to foster the design of new maps, and, once maps have been produced, to share the usage of maps.  
 A description can be enclosed in this registry or in a separate file.
 
 *******
