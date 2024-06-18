@@ -65,7 +65,11 @@ Definition: Information about the change history of a feature that comprises the
 * **Feedback** : this is an integration of OS data product into a unified product associated with user friendly web services to select relevant data.
 
 ## OCS-GE2-FR
+* **Documentation** : https://ocs.geograndest.fr/compare
+* **Feedback** : Access to a comparative tool between two available datasets (2007-2010 and 2010-2019)
+An exploration of the data reveals that there have been no notable changes in the evolution of land use themes over the period studied. For example, if we look at changes in land use between 2010 and 2019, we only see an increase of 49 ha in built-up areas, but with a decrease in areas undergoing change and agricultural areas.
 
+Translated with DeepL.com (free version)
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
 
