@@ -6,6 +6,8 @@ A description can be enclosed in this registry or in a separate file.
 *******
  
  1. [StrasbourgStudy](#StrasbourgStudy)
+ 2. [LiverpoolStudy](#LiverpoolStudy)
+ 2. [DortmundStudy](#DortmundStudy)
  
 *******
 
@@ -15,3 +17,11 @@ A description can be enclosed in this registry or in a separate file.
 - Existe-t-il une corrélation entre la densification et l'accessibilité (transport public, accès aux services, etc.) ?
 - Quelles sont les différences marquées dans l'évolution de l'urbanisation et de l'accessibilité entre les quartiers centraux et périphériques de Strasbourg ?
 - Quels facteurs (politiques d'aménagement, développements économiques, etc.) semblent avoir influencé l'évolution de la densification et de l'accessibilité à Strasbourg ?
+* **Studied concepts** : Building, BuildingEvolution, Density
+* **Maps** : Map_FR-STR-FUA-Evolution-2011-2021
+
+## LiverpoolStudy
+
+
+
+## DortmundStudy
