@@ -13,22 +13,25 @@ List of datasources potentially relevant for the dashboard, and associated comme
  8. [OSNGD-UK](#OSNGD-UK)
  9. [OCS-GE2-FR](#OCS-GE2-FR)
  10. [Datasource naming policy](#Datasource-naming-policy)
- 11. [Datasource description template](#Datasource-description-template)
 *******
 
 ## BDTOPO-FR 
-* **Building** :
-  * Conceptual model "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
-  * representation : classe Batiment 
-* **Available Metadata and Documentation** :
+* **Available Documentation** :
   * Standard ISO19139 metadata : https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html 
-  * Detailed documentation : different documents describe the current product and past versions, https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo
+  * Detailed documentation : different documents describe the current product and past versions, https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo, a key document is DC_BDTOPO_3-3 https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf 
   * Quality control : the results of quality control are available per departement, like https://geoservices.ign.fr/sites/default/files/2024-01/RCQ_BDTOPO_D67.pdf 
   * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
   * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, their fine description is https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16 
-* **Retrieving Building Data on Temporal and Spatial scope of interest** :
+* **Clues to prepare BuildingDataSet on Temporal and Spatial scope of interest** :
   * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
-* **DocumentationQuoteRelevantToAStudy** : For the StrasbourgStudy, specific quotes of documentation relevant are hereafter :    
+* **Quotes of Documentation RelevantToAStudy** :
+* the conceptual model for building in BDTopo is "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf DC_BDTopo p54
+* representation of the concept of building : classe Batiment 
+* selection criteria to represent buildings in the data : "Initialement, les seuils de sélection des bâtiments étaient les suivants : Tous les bâtiments de plus de 50 m² sont inclus. Les bâtiments faisant entre 20 et 50 m² sont sélectionnés en fonction de leur environnement et de leur aspect. Les bâtiments de moins de 20 m² sont représentés par un objet de classe Construction ponctuelle s’ils sont très
+hauts, ou s’ils sont spécifiquement désignés sur la carte au 1 : 25 000 en cours (ex: antenne, transformateur…). Après unification de la BD TOPO® avec la BD PARCELLAIRE®, Tous les bâtiments présents dans la dernière édition de la BD PARCELLAIRE® vecteur sont inclus, sauf éventuellement des bâtiments manifestement détruits depuis la date de validité de la BD PARCELLAIRE®. Les petits bâtiments de la BD PARCELLAIRE® qui représentent des constructions ponctuelles (exemple des transformateurs) ou des constructions linéaires (exemple des murs de remparts) sont saisis avec leur modélisation initiale respective en BD TOPO®.
+Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant, si une nouvelle saisie photogrammétrique a lieu après les phases d’unification du bâti, les nouveaux bâtiments ne posséderont pas la granularité de la BD PARCELLAIRE®. Pour la restitution, les seuils de sélection initiaux sont alors appliqués (bâtiments de plus de 50 m² et bâtiments de 20 à 50 m² en fonction de leur environnement et de leur aspect)."
+p55 "Les bâtiments BD PARCELLAIRE® ont une granularité plus fine que les bâtiments issus de BD TOPO® (découpage aux parcelles, aux extensions de bâtiment…). En conséquence, ce qui n’était qu’un bâtiment en BD TOPO® est représenté par plusieurs bâtiments après unification."
+    
 
 ## EUBUCCO
 * **Documentation** : https://docs.eubucco.com/ 
