@@ -21,13 +21,14 @@ List of datasources potentially relevant for the dashboard, and associated comme
   * Conceptual model "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
   * representation : classe Batiment 
 * **Available Metadata and Documentation** :
-  * Standard ISO19139 metadata : 
+  * Standard ISO19139 metadata : https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html 
+  * Detailed documentation : different documents describe the current product and past versions, https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo
+  * Quality control : the results of quality control are available per departement, like https://geoservices.ign.fr/sites/default/files/2024-01/RCQ_BDTOPO_D67.pdf 
   * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
-  * Documentation of evolutions :
   * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, their fine description is https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16 
 * **Retrieving Building Data on Temporal and Spatial scope of interest** :
   * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
-* **Feedback** :  
+* **DocumentationQuoteRelevantToAStudy** : For the StrasbourgStudy, specific quotes of documentation relevant are hereafter :    
 
 ## EUBUCCO
 * **Documentation** : https://docs.eubucco.com/ 
