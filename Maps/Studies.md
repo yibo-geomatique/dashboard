@@ -18,7 +18,7 @@ A description can be enclosed in this registry or in a separate file.
 - Quelles sont les différences marquées dans l'évolution de l'urbanisation et de l'accessibilité entre les quartiers centraux et périphériques de Strasbourg ?
 - Quels facteurs (politiques d'aménagement, développements économiques, etc.) semblent avoir influencé l'évolution de la densification et de l'accessibilité à Strasbourg ?
 * **Studied concepts** : Building, BuildingEvolution, Density
-* **Maps** : Map_FR-STR-FUA-Evolution-2011-2021
+* **Maps** : Map_FR-STR-FUA-Evolution-2011-21
 
 ## LiverpoolStudy
 
