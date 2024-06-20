@@ -5,7 +5,7 @@ List of datasources potentially relevant for the dashboard, and associated comme
 *******
  1. [BDTOPO-FR](#BDTOPO-FR)
  2. [EUBUCCO](#EUBUCCO)
- 3. [GEOBASIS-DE](#GEOBASIS-DE)
+ 3. [ATKIS-DE](#ATKIS-DE)
  4. [GHSL UCDB](#GHSL-UCDB)
  5. [OPENZOOM-UK](#OPENZOOM-UK)
  6. [OSM](#OSM)
@@ -41,7 +41,7 @@ Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant
 * **Documentation** : https://docs.eubucco.com/ 
 * * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
 https://geoservices.ign.fr/contoursiris
-## GEOBASIS-DE
+## ATKIS-DE
 * **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
 ## GHSL-UCDB
