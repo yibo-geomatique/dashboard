@@ -12,7 +12,8 @@ List of datasources potentially relevant for the dashboard, and associated comme
  7. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
  8. [OSNGD-UK](#OSNGD-UK)
  9. [OCS-GE2-FR](#OCS-GE2-FR)
- 10. [Datasource naming policy](#Datasource-naming-policy)
+ 10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
+ 11. [Datasource naming policy](#Datasource-naming-policy)
 *******
 
 ## BDTOPO-FR 
@@ -73,6 +74,10 @@ Definition: Information about the change history of a feature that comprises the
 * **Documentation** : https://ocs.geograndest.fr/compare
 * **Feedback** : Access to a comparative tool between two available datasets (2007-2010 and 2010-2019)
 An exploration of the data reveals that there have been no notable changes in the evolution of land use themes over the period studied. For example, if we look at changes in land use between 2010 and 2019, we only see an increase of 49 ha in built-up areas, but with a decrease in areas undergoing change and agricultural areas.
+
+## OpenDataStrasbourg-FR
+* **Documentation** : https://data.strasbourg.eu/explore/?sort=modified
+* **Feedback** : The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data. Although this data is regularly updated and contains up-to-date information, it is presented in the form of vintages with only the most recent date. This presentation limits our ability to directly observe changes over time. Looking at the metadata associated with these datasets, it is clear that updates are being made to the attributes of the entities. This suggests that, although direct historical data is not available, changes are taking place at the attribute level which could indicate modifications or developments in the urban space. 
 
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
