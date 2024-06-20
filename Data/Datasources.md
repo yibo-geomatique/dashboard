@@ -13,7 +13,9 @@ List of datasources potentially relevant for the dashboard, and associated comme
  8. [OSNGD-UK](#OSNGD-UK)
  9. [OCS-GE2-FR](#OCS-GE2-FR)
  10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
- 11. [Datasource naming policy](#Datasource-naming-policy)
+ 11. [DonnéesSocioÉconomique-INSEE-FR](#DonnéesSocioÉconomique-INSEE-FR)
+ 12. [Géométries-des-IRIS-IGN-FR](#Géométries-des-IRIS-IGN-FR)
+ 13. [Datasource naming policy](#Datasource-naming-policy)
 *******
 
 ## BDTOPO-FR 
@@ -28,7 +30,7 @@ List of datasources potentially relevant for the dashboard, and associated comme
 * **Quotes of Documentation RelevantToAStudy** :
 * the conceptual model for building in BDTopo is "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf DC_BDTopo p54
 * product versions : the current version of the product is 3.3. Shift from v2 to v3 took place between 2018 and 2019.
-* stable identifier : see https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html "Depuis la version 3.0, tous les objets possèdent un identifiant unique et stable dans le temps." 
+* stable identifier : see https://geoservices.ign.fr/sites/default/filhttps://geoservices.ign.fr/contoursirises/2023-01/IGNF_BDTOPOr_3-3.html "Depuis la version 3.0, tous les objets possèdent un identifiant unique et stable dans le temps." 
 * change in selection criteria to represent buildings in the data : "Initialement, les seuils de sélection des bâtiments étaient les suivants : Tous les bâtiments de plus de 50 m² sont inclus. Les bâtiments faisant entre 20 et 50 m² sont sélectionnés en fonction de leur environnement et de leur aspect. Les bâtiments de moins de 20 m² sont représentés par un objet de classe Construction ponctuelle s’ils sont très
 hauts, ou s’ils sont spécifiquement désignés sur la carte au 1 : 25 000 en cours (ex: antenne, transformateur…). Après unification de la BD TOPO® avec la BD PARCELLAIRE®, Tous les bâtiments présents dans la dernière édition de la BD PARCELLAIRE® vecteur sont inclus, sauf éventuellement des bâtiments manifestement détruits depuis la date de validité de la BD PARCELLAIRE®. Les petits bâtiments de la BD PARCELLAIRE® qui représentent des constructions ponctuelles (exemple des transformateurs) ou des constructions linéaires (exemple des murs de remparts) sont saisis avec leur modélisation initiale respective en BD TOPO®.
 Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant, si une nouvelle saisie photogrammétrique a lieu après les phases d’unification du bâti, les nouveaux bâtiments ne posséderont pas la granularité de la BD PARCELLAIRE®. Pour la restitution, les seuils de sélection initiaux sont alors appliqués (bâtiments de plus de 50 m² et bâtiments de 20 à 50 m² en fonction de leur environnement et de leur aspect)."
@@ -38,7 +40,7 @@ Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant
 ## EUBUCCO
 * **Documentation** : https://docs.eubucco.com/ 
 * * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
-
+https://geoservices.ign.fr/contoursiris
 ## GEOBASIS-DE
 * **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
@@ -77,7 +79,17 @@ An exploration of the data reveals that there have been no notable changes in th
 
 ## OpenDataStrasbourg-FR
 * **Documentation** : https://data.strasbourg.eu/explore/?sort=modified
-* **Feedback** : The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data. Although this data is regularly updated and contains up-to-date information, it is presented in the form of vintages with only the most recent date. This presentation limits our ability to directly observe changes over time. Looking at the metadata associated with these datasets, it is clear that updates are being made to the attributes of the entities. This suggests that, although direct historical data is not available, changes are taking place at the attribute level which could indicate modifications or developments in the urban space. 
+* **Feedback** : The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data. Although this data is regularly updated and contains up-to-date information, it is presented in the form of vintages with only the most recent date. This presentation limits our ability to directly observe changes over time. Looking at the metadata associated with these datasets, it is clear that updates are being made to the attributes of the entities. This suggests that, although direct historical data is not available, changes are taking place at the attribute level which could indicate modifications or developments in the urban space.
+
+## DonnéesSocioÉconomique-INSEE-FR
+* **Avalaible Documentation** : Recensement de la population à la commune/canton/département/IRIS 
+  *Les données recensement de la population au niveau communal et départemental:  https://www.insee.fr/fr/statistiques/1893204
+  * Les données recensement de la population à l’IRIS: https://www.insee.fr/fr/statistiques?debut=20&idprec=2028582&theme=1&categorie=1&geo=IRIS-1
+* **Feedback** :
+
+## Géométries-des-IRIS-IGN-FR
+* **Documentation** : Recensement de la population à la commune/canton/département/IRIS : https://geoservices.ign.fr/contoursiris
+* **Feedback** : 
 
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
