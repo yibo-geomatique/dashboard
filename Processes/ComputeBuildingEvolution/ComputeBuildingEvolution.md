@@ -16,8 +16,6 @@ MatchingLinks between homologous features from the 2011 and 2021 datasets.
 
 This first step is fully automatic. It uses matching libraries to produce matching links and automatically derive BuildingEvolution from these links.  
 
-## Requirements for Windows Users:
-
 1. **Clone the Subdense Matching Repository**:
    - If not installed yet install GitHub Desktop available at [GitHub Desktop's official website](https://desktop.github.com/).
    - Visit the [Subdense Matching repository on GitHub](https://github.com/subdense/matching).
