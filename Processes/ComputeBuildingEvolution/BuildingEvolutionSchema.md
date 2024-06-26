@@ -2,7 +2,9 @@
 
 This schema structures data describing evolutions in building, based on observed evolution in building data and with the purpose to represent evolution of building entities in reality. 
 
-Structure : 
+Fields : 
+
+** geometry : a geometry useful to display the evolution on a map. In case of an evolution of type "disappeared" it is the geometry of the 2011 building that participates to the evolution. In case of an evolution of another type the geometry is the joint geometry of the 2021 building that participates to the evolution. 
 
 ** id: id given by the computation procedure, unique within the BuildingEvolution dataset 
 
