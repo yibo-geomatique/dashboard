@@ -1,7 +1,10 @@
 # Process : ComputeBuildingEvolution 
 
-## Input Data :
-BuildingDataSet at time 2011 and BuildingDataSet at time 2021, prepared with the Process BuildingDataPreparation
+## Input Data 1 and 2 :
+
+BuildingDataSet at time 2011 and BuildingDataSet at time 2021 on the area of interest
+
+(these can be prepared with the Process BuildingDataPreparation)
 
 ## Output Data 1:
 
