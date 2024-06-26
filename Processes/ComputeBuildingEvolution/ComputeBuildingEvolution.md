@@ -3,28 +3,22 @@
 ## Input Data :
 BuildingDataSet at time 2011 and BuildingDataSet at time 2021, prepared with the Process BuildingDataPreparation
 
-## Output Data :
-BuildingEvolutionDataSet, a dataset corresponding to evolutions of buildings data, with the schema depicted in this folder, with the correct file naming, and a description of this dataset, through a Subdense “Dataset” description so that others can know it exists and reuse it.
+## Output Data 1:
 
-### BuildingEvolution_Strasbourg_2011_2021:
+* A BuildingEvolutionDataSet, a dataset corresponding to evolutions of buildings data, structured after the BuildingEvolutionSchema depicted in this folder, with the correct file naming, that is prepared as a geopackage containing the dataset plus a dedicated stylesheet (BuildingEvolution_style.qml) and ready to display 
 
-This dataset classifies the evolution of buildings in Strasbourg from 2011 to 2021, using five distinct typologies to categorize the changes.The dataset includes the following five typologies:
-- Appeared: Buildings that were constructed between 2011 and 2021.
-- Disappeared: Buildings that existed in 2011 but were no longer present by 2021.
-- Merged: Buildings that have combined with other structures or buildings between the two years.
-- Split: Buildings that have been divided into multiple structures or units over the time period.
-- Stable: Buildings that have not undergone significant changes or alterations between 2011 and 2021.
-- Recomposed: 
+* A description of this dataset within Subdense “Dataset” registry.
 
-For a thorough and detailed understanding of our "BuildingEvolution" dataset's structure, we invite you to consult the data structure schema available in "BuildingEvolutionComputation." This schema provides comprehensive information on the data fields, their meanings, and their use in the context of our urban evolution analysis.The "BuildingEvolution" dataset is available in three main formats to ensure optimal compatibility and accessibility:
-
+The "BuildingEvolution" dataset is available in three main formats to ensure optimal compatibility and accessibility:
 - Shapefile `.shp`: A widely used and recognized format in GIS, ideal for extended compatibility with various mapping tools and software.
 - GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility, particularly suited for managing complex and voluminous data.
 - Geojson `json`:
 
-### MatchingLinks_BdTopo_Strasbourg_2011_2021:
+## Output Data 2 : 
+ 
+* MatchingLinks
 
-This layer illustrates the matching links between homologous features from the 2011 and 2021 datasets. These links are instrumental in tracing and understanding the evolution of each building or structure over the decade.
+Matching links between homologous features from the 2011 and 2021 datasets. 
 
 
 ## Method : Automatic production of building evolution data
