@@ -4,9 +4,9 @@
 
 ## Step 1: Download Topographic Data from Geoservice Web(https://geoservices.ign.fr/)
 
-Step 1 consists in downloading/retrieving building data on the scope of the map : inital and final dates as well as spatial extent (functional urban area of a given city). These functional urban areas are computed with the process DeliminateStudyArea described on this git.
-
-For FR-BDTopo, data retrieval can be done either : whole France, region, department. We identify departments that intersect the scope of the maps, i.e. the functional urban area of Strasbourg and of Toulouse. 
+Step 1 consists in downloading/retrieving building data on the scope of the map : inital and final dates as well as spatial extent (functional urban area of a given city). 
+These functional urban areas are computed with the process DeliminateStudyArea described on this git.
+For FR-BDTopo, data retrieval can be done either : whole France, region, department. We identify departments that intersect the spatial extent. 
 
 ## Step 2: Data Cleaning and Merging
 * Program: QGIS
