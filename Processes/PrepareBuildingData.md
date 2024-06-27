@@ -1,4 +1,6 @@
-# Process: GetBdTopoBuildingData (for Strasbourg FUA and Toulouse FUA)
+# Process: PrepareBuildingData 
+
+# Specialisation : PrepareBuildingData on french cities with BDTopo data source
 
 ## Step 1: Download Topographic Data from Geoservice Web(https://geoservices.ign.fr/)
 
