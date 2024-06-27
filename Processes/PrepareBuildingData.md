@@ -5,17 +5,16 @@
 ## Step 1: Download Topographic Data from Geoservice Web
 
 Step 1 consists in downloading/retrieving building data on the scope of the map : inital and final dates as well as spatial extent (functional urban area of a given city). 
-These functional urban areas are computed with the process DeliminateStudyArea described on this git.
+These functional urban areas can be computed with the process DeliminateStudyArea described on this git or by using the QGIS extension ORS Tool to compute a 45 mn car isochrone arod the city center of interest. 
 
-For FR-BDTopo, data can be retrieved from geoservice.ign.fr data retrieval : whole France, region, department. 
-We identify departments that intersect the spatial extent. 
+For FR-BDTopo, data can be retrieved from geoservice.ign.fr data retrieval : whole France, region, department. Whole France is very heavy so we identify departments and region that intersect the spatial scope of the map and retrieve either the region of department   
 https://geoservices.ign.fr/bdtopo#telechargementshpdept 
+The download contains several files we keep the BATI. 
 
 ## Step 2: Data Cleaning and Merging
-* Program: QGIS
-* We combined the layers from different departments that fall within the isochrones to create a comprehensive dataset.
-* We specifically targeted building data, filtering out irrelevant information to focus on the structural changes over the years.
-* Due to version differences in the dataset, the 2011 building data required merging of various building themes. This was accomplished using QGIS and the "Merge Vector Layers" algorithm. This algorithm combines multiple vector layers of the same geometric type into a single layer.
+
+* We load the BATI layers
+* * Due to version differences in the dataset, the 2011 building data required merging of various building themes. This was accomplished using QGIS and the "Merge Vector Layers" algorithm. This algorithm combines multiple vector layers of the same geometric type into a single layer.
 
 <p float="left">
   <img src="/img/buildingFusion.png" width="48%" />
