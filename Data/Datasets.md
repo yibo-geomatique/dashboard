@@ -20,8 +20,8 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * DOI : tbc, https://doi.org/10.57745/RFKKYX
 * Provenance :
   * realisation of process "PrepareBuildingData" to prepare the building datasets on the area of interest and at time t1 (2011) and t2 (2021). These dataset are identified on the dashboard as FR-STR-FUA-Building-2011 and FR-STR-FUA-Building-2021
-  * realisation of process "ComputeBuildingEvolution" to derive and refine the evolution data based on building data, and to add a stylesheet to generate a geopackage.
-  * realisation of process "RefineEvolutionBDTopo" to 
+  * realisation of process "ComputeBuildingEvolution" to derive the evolution data based on building data.
+  * realisation of process "RefineEvolutionBDTopo" to refine the evolution data,perform initial quality control on the results and to add a stylesheet to generate a geopackage.
 * Usage : used to study the densification of Strasbourg see details in Strasbourg study file
 * Distribution : open licence, can be shared within the consortium through our specific ftp, and through a research data platform (see DOI)
 
