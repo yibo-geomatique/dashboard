@@ -4,15 +4,15 @@ List of processes that are relevant to the Subdense dashboard production. These 
 
 
 *******
- [DataPreProcessing](./DataPreProcessing)
-
- [ComputeBuildingEvolution](./ComputeBuildingEvolution)
+ [Delimitation of study areas](./DeliminateStudyArea.md)
  
- [Delimitation of study areas](./DemliminateStudyArea)
+ [PrepareBuildingData](./PrepareBuildingData.md)
+
+ [ComputeBuildingEvolution](./ComputeBuildingEvolution.md)
  
  [Get building data from OpenStreetMap](./GetOpenStreetMapBuildingData)
  
- [Change built-up area per parcel](./Change_builtup_area)
+ [Compute change in built-up area per parcel](./ComputeChangeInBuiltup_area.md)
 
  [Process template](#Process-template)
  
