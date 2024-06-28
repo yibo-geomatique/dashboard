@@ -1,10 +1,11 @@
 
-# Descriptions of data sources and data sets 
+# Identification and Description of data sources and data sets 
 
-- Datasources.docx : list of datasources, with a specific name to be used throughout the dashboard and specific description items relevant to Subdense. A datasource can be described in a specific file but all data sources must be registered on the list with their identifier to be used throughout the dashboard. For a given source, like for exemple french BDTopo, german GeoBASIS or british MasterMap, we don't create different items for the different versions. The possible differences from one version to another are described in the datasource description. The standard metadata are not duplicated on the dashboard but the link to access them is indicated. 
-- Datasets.docx : list of datasets, with a specific name to be used throughout the dashboard and specific description relevant to Subdense.
+- Datasources.docx : list of datasources, with a specific name to be used throughout the dashboard and specific description items relevant to Subdense. A datasource can be described in a specific file but all data sources must be registered on the list with their identifier to be used throughout the dashboard. For a given source, like for exemple french BDTopo, german GeoBASIS or british MasterMap, we don't create different items for the different versions. The possible differences from one version to another are described in the datasource description. The standard metadata are not duplicated on the dashboard but the link to access them is indicated.
+  
+- Datasets.docx : list of datasets, with a specific name to be used throughout the dashboard and specific description relevant to Subdense. Not all datasets need to be registered but only these who need to have a unique identifier. 
 
-Note : in the description of Datasources and datasets, we don't duplicate existing metadata but rather focus on additional description relevant to the dashboard processes. We use the term "feedback" to introduce this description as a reference to the  standard "Geospatial User Feedback" that has been proposed by the geographic information community to enrich the description of geodata with users feedback. 
+- Description content  : in the description of Datasources and datasets, we don't duplicate existing metadata but rather focus on additional description relevant to the dashboard processes. This is similar to the readme file that some research data repository suggest to add to dataset.  
 
 
 
