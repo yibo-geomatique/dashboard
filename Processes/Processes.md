@@ -4,13 +4,15 @@ List of processes that are relevant to the Subdense dashboard production. These 
 
 
 *******
- [Delimitation of study areas](DeliminateStudyArea.md)
+ [Delimitation of study areas](DeliminateStudyArea.md) : procedure to compute a functional urban area in QGIS (uses a QGIS model)
  
- [PrepareBuildingData](PrepareBuildingData.md)
+ [PrepareBuildingData](PrepareBuildingData.md) : general procedure to prepare the BuildingData from a given source on an specific area of interest and time of interest.
 
- [ComputeBuildingEvolution](ComputeBuildingEvolution.md)
- 
- [Get building data from OpenStreetMap](GetOpenStreetMapBuildingData)
+ [PrepareBuildingDataBDTopo](PrepareBuildingDataBDTopo.md) : prepare BuildingData on a french city with BDTopo
+
+ [PrepareBuildingDataOSM](PrepareBuildingDataOSM.md) : prepare BuildingData on any city with OSM
+
+ [ComputeBuildingEvolution](ComputeBuildingEvolution.md) : derive and refine BuildingEvolution data based on BuildingData at time t1 and t2
  
  [Compute change in built-up area per parcel](ComputeChangeInBuiltup_area.md)
 
