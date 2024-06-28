@@ -17,11 +17,11 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 ## FR-STR-FUA-Evolution-2011-21
 * Building evolution data computed from BDTopo building data on the functional area of the city Strasbourg between 2011 and 2021
-* DOI : (tba)
+* DOI : tbc, https://doi.org/10.57745/RFKKYX
 * Provenance :
-  * realisation of process "PrepareBuildingData" to prepare FR-STR-FUA-Building-2011 and FR-STR-FUA-Building-2021
-  * realisation of process "ComputeBuildingEvolution" 
-* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](/Maps/Maps.md)
+  * realisation of process "PrepareBuildingData" to prepare the building datasets on the area of interest and at time t1 (2011) and t2 (2021). These dataset are identified on the dashboard as FR-STR-FUA-Building-2011 and FR-STR-FUA-Building-2021
+  * realisation of process "ComputeBuildingEvolution" to derive and refine the evolution data based on building data, and to add a stylesheet to generate a geopackage.  
+* Usage : used to study the densification of Strasbourg see details in Strasbourg study file
 * Distribution : open licence, can be shared within the consortium through our specific ftp, and through a research data platform (see DOI)
 
 ## DE-DOR-FUA-Evolution-2011-21
