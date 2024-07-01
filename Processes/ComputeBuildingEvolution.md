@@ -72,7 +72,7 @@ This step aims at refining the evolution to identify evolutions probably related
 - **Quality Control**: Perform an initial quality control to ensure data accuracy.
 
 ### Process
-The `[RefineEvolutionBDTopo.py](RefineEvolutionBDTopo.py)` script is used to achieve the following refinements:
+The [RefineEvolutionBDTopo.py](RefineEvolutionBDTopo.py) script is used to achieve the following refinements:
 
 - Buildings of type `appeared` with an area less than 50 m² were identified and their type was changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
 - Buildings of type `split` were identified and their type was also changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
