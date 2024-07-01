@@ -60,10 +60,28 @@ At the end of step 4, after running the code, two new files are generated in the
 Prepare an entry in the Dataset.md registry to register these data -at least the Evolution dataset- and put the minimal info. 
 
 5. **Apply Stylesheet**:
-   - Open FR-STR_EVOLUTION in QGIS for analysis and visualization, apply the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
+   - Open FR-STR-FUA-EVOLUTION in QGIS for analysis and visualization, apply the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
 
 ## Step 2 : Refinement and Quality Check
 
 This step aims at refining the evolution to identify evolutions probably related by product evolution and to perform some first quality control on the result. 
+
+### Objectives
+
+- **Data Refinement**: Identify building evolutions related to the evolution of the BdTopo product and in the real world.
+- **Quality Control**: Perform an initial quality control to ensure data accuracy.
+
+### Process
+The `RefineEvolutionBDTopo.py` script is used to achieve the following refinements:
+
+- Buildings of type `appeared` with an area less than 50 m² were identified and their type was changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
+- Buildings of type `split` were identified and their type was also changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
+- The data were verified using orthophoto images to ensure the quality of the results.
+
+### Number of Evolutions Detected
+
+- **Detected buildings of type appeared (< 50 m²)**: `105417`
+- **Detected buildings of type split**: `451458`
+
 
 
