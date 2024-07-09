@@ -15,7 +15,9 @@ List of datasources potentially relevant for the dashboard, and associated comme
  10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
  11. [DonnéesSocioÉconomique-INSEE-FR](#DonnéesSocioÉconomique-INSEE-FR)
  12. [Géométries-des-IRIS-IGN-FR](#Géométries-des-IRIS-IGN-FR)
- 13. [Datasource naming policy](#Datasource-naming-policy)
+ 13. [CadastralData-FR](#CadastralData-FR)
+ 14. [FONCIER-CEREMA-FR](#FONCIER-CEREMA-FR)
+ 15. [Datasource naming policy](#Datasource-naming-policy)
 *******
 
 ## BDTOPO-FR 
@@ -89,7 +91,19 @@ An exploration of the data reveals that there have been no notable changes in th
 
 ## Géométries-des-IRIS-IGN-FR
 * **Documentation** : Recensement de la population à la commune/canton/département/IRIS : https://geoservices.ign.fr/contoursiris
-* **Feedback** : 
+* **Feedback** :
+
+## CadastralData-FR
+* **Documentation** : https://cadastre.data.gouv.fr/datasets
+* **Feedback** : Cadastral data is available with several editions ranging from 2017 to 2024 through the Computerized Cadastral Plan and cadastral data from the Eurometropolis of Strasbourg. The departmental files of computerized lineage documents (DFI) provide access to the history of cadastral parcels, including modifications since their digitization in the 1980s and 1990s. They detail the origin and dates of updates, derived from various documents such as surveys or reworkings. They track some of the parcel changes since 1990.
+
+## FONCIER-CEREMA-FR
+* **Documentation** : https://datafoncier.cerema.fr/obtention-des-donnees-foncieres
+* **Feedback** : The property files come from the MAJIC application of the DGFIP and are supplemented by Cerema. They contain fiscal information primarily related to property tax, covering characteristics of the premises (such as the construction date and surface area), specifics of the parcels, as well as details about the owners, including their status (public or private) and addresses. This is an interesting source as it can be used for various purposes, particularly in observing territorial changes. These are annual data and can allow multi-period analyses ranging from broad dissemination to more detailed geolocation at the parcel level. The data is available and free for entitled parties. In accordance with the CNIL declaration signed by DGALN, they can provide us with previous editions within the limit of 10 years, from 2013 to 2022 (the oldest data dating back to 2009, we will not be able to go back 20 or 30 years).
+
+Access to this data is subject to an agreement with Cerema.
+
+
 
 ## Datasource-naming-policy
 * Using the source usual name and add then -UK, -FR, -DE if the product is specific to a given country
