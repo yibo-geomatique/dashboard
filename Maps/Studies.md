@@ -4,24 +4,49 @@ List of studies. Studies are useful to foster the design of new maps, and, once 
 A description can be enclosed in this registry or in a separate file.
 
 *******
- 
- 1. [StrasbourgStudy](#StrasbourgStudy)
- 2. [LiverpoolStudy](#LiverpoolStudy)
- 2. [DortmundStudy](#DortmundStudy)
- 
+
+1. [StrasbourgStudy](#strasbourgstudy)
+2. [LiverpoolStudy](#liverpoolstudy)
+3. [DortmundStudy](#dortmundstudy)
+
 *******
 
 ## StrasbourgStudy
-* **Motivation and questions** : L'objectif principal de cette recherche est d'étudier l'évolution du territoire urbain (ou aire urbaine) à travers la densification urbaine et l'accessibilité dans la ville de Strasbourg sur une période de 10 ans(peut-être un peu court 10 ans ?).
-- Quels quartiers ont connu une densification ou une dédensification significative ? Est-ce lié à des créations ou destructions de bâtiments.
-- Existe-t-il une corrélation entre la densification et l'accessibilité (transport public, accès aux services, etc.) ?
-- Quelles sont les différences marquées dans l'évolution de l'urbanisation et de l'accessibilité entre les quartiers centraux et périphériques de Strasbourg ?
-- Quels facteurs (politiques d'aménagement, développements économiques, etc.) semblent avoir influencé l'évolution de la densification et de l'accessibilité à Strasbourg ?
-* **Studied concepts** : Building, BuildingEvolution, Density
-* **Maps** : Map_FR-STR-FUA-Evolution-2011-21
+
+* **Motivation and Questions**:
+    - **Main Objective**: The primary goal of this research is to study the evolution of the urban territory in the city of Strasbourg over a period of 10 years. This involves analyzing urban densification and accessibility within the urban area.
+    - **Key Questions**:
+        - Which neighborhoods have experienced significant densification or de-densification?
+        - How are these changes related to the creation or destruction of buildings?
+        - How do building evolutions correlate with population dynamics and other demographic factors?
+
+* **Studied Concepts**:
+    - **Building**: Analysis of the built environment, including the types and characteristics of buildings.
+    - **Building Evolution**: Understanding the different types of building changes (e.g., appeared, disappeared, stable, recomposed, merged) over time.
+    - **Density**: Evaluating both population density and building density to understand urban dynamics.
+
+* **Maps**:
+    - **Map_FR-STR-FUA-Evolution-2011-21**: 
+### Objective
+
+The primary goal of this study is to develop and clarify the necessary concepts and methodologies to effectively describe building evolutions within the city of Strasbourg. The study aims to propose visual analysis methods for mapping building evolutions and correlating these changes with population-related information.
+
+#### Key Focus
+
+1. **Clarifying Building Evolution Concepts**: Understanding and defining the different types of building changes (e.g., appeared, disappeared, stable, recomposed, merged) and how they can be represented on a map.
+
+2. **Developing Visual Analysis Methods**: Creating methodologies to visually represent these building evolutions on maps. This involves making complex spatial changes understandable and analyzable through clear and effective visualizations.
+
+3. **Correlating Building Evolutions with Population Data**: Investigating the relationship between building evolutions and population dynamics. This includes analyzing how changes in the built environment relate to shifts in population density, distribution, and other demographic factors.
+
+#### Challenges and Objectives
+
+The challenge lies in making building evolutions readable and analyzable on a map, allowing stakeholders to quickly grasp the extent and nature of changes in the built environment. The ultimate objective is to enable more informed decision-making by providing clear, data-driven visualizations that link physical changes in buildings with demographic trends.
+
+---
 
 ## LiverpoolStudy
-
-
+* **To be defined...**
 
 ## DortmundStudy
+* **To be defined...**
