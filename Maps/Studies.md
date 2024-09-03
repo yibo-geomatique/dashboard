@@ -1,52 +1,21 @@
-# Studies
+# StrasbourgStudy
 
-List of studies. Studies are useful to foster the design of new maps, and, once maps have been produced, to share the usage of maps.  
-A description can be enclosed in this registry or in a separate file.
-
-*******
-
-1. [StrasbourgStudy](#strasbourgstudy)
-2. [LiverpoolStudy](#liverpoolstudy)
-3. [DortmundStudy](#dortmundstudy)
-
-*******
-
-## StrasbourgStudy
-
-* **Motivation and Questions**:
-    - **Main Objective**: The primary goal of this research is to study the evolution of the urban territory in the city of Strasbourg over a period of 10 years. This involves analyzing urban densification and accessibility within the urban area.
-    - **Key Questions**:
-        - Which neighborhoods have experienced significant densification or de-densification?
-        - How are these changes related to the creation or destruction of buildings?
-        - How do building evolutions correlate with population dynamics and other demographic factors?
-
-* **Studied Concepts**:
-    - **Building**: Analysis of the built environment, including the types and characteristics of buildings.
-    - **Building Evolution**: Understanding the different types of building changes (e.g., appeared, disappeared, stable, recomposed, merged) over time.
-    - **Density**: Evaluating both population density and building density to understand urban dynamics.
-
-* **Maps**:
-    - **Map_FR-STR-FUA-Evolution-2011-21**: 
 ### Objective
 
-The primary goal of this study is to develop and clarify the necessary concepts and methodologies to effectively describe building evolutions within the city of Strasbourg. The study aims to propose visual analysis methods for mapping building evolutions and correlating these changes with population-related information.
+1) To design maps about building evolutions within the functional urban area of Strasbourg that can be used by stakeholders with different expertise (citizens, scientists, ...) to discuss about densification, which is a concept more difficult to relate to observations than building.
+2) To allow stakeholders to grasp the extent and nature of changes in the built environment, possibly to zoom in or zoom out and browse different maps some of which can be adapted only to expert groups.
+3) Stakeholders identified questions : 
+   
+#### Studied Concepts
 
-#### Key Focus
+Many concepts are transversal to the dashboard and are described in the Concepts.md section :  
+**Building**, **Building Evolution**, **Built up area**
 
-1. **Clarifying Building Evolution Concepts**: Understanding and defining the different types of building changes (e.g., appeared, disappeared, stable, recomposed, merged) and how they can be represented on a map.
+### Method 
 
-2. **Developing Visual Analysis Methods**: Creating methodologies to visually represent these building evolutions on maps. This involves making complex spatial changes understandable and analyzable through clear and effective visualizations.
+Use individual building evolutions and derive different cartographic data out of these, including data at the scale of urban block, at the scale of the FUA. 
+**Map_FR-STR-FUA-Evolution-2011-21**: map of raw building evolutions on the french part of the FUA of Strasbourg beteen 2011 and 2021
 
-3. **Correlating Building Evolutions with Population Data**: Investigating the relationship between building evolutions and population dynamics. This includes analyzing how changes in the built environment relate to shifts in population density, distribution, and other demographic factors.
+Characterize municipalities based on indicators that relate to building evolutions 
 
-#### Challenges and Objectives
-
-The challenge lies in making building evolutions readable and analyzable on a map, allowing stakeholders to quickly grasp the extent and nature of changes in the built environment. The ultimate objective is to enable more informed decision-making by providing clear, data-driven visualizations that link physical changes in buildings with demographic trends.
-
----
-
-## LiverpoolStudy
-* **To be defined...**
-
-## DortmundStudy
-* **To be defined...**
+Derive correlation maps with population-related information.
