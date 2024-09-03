@@ -4,7 +4,7 @@
 
 1) To design maps about building evolutions within the functional urban area of Strasbourg that can be used by stakeholders with different expertise (citizens, scientists, ...) to discuss about densification, which is a concept more difficult to relate to observations than building.
 2) To allow stakeholders to grasp the extent and nature of changes in the built environment, possibly to zoom in or zoom out and browse different maps some of which can be adapted only to expert groups.
-3) Stakeholders identified questions : 
+
    
 #### Studied Concepts
 
