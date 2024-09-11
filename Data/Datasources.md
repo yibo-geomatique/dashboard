@@ -83,6 +83,10 @@ An exploration of the data reveals that there have been no notable changes in th
 * **Documentation** : https://data.strasbourg.eu/explore/?sort=modified
 * **Feedback** : The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data. Although this data is regularly updated and contains up-to-date information, it is presented in the form of vintages with only the most recent date. This presentation limits our ability to directly observe changes over time. Looking at the metadata associated with these datasets, it is clear that updates are being made to the attributes of the entities. This suggests that, although direct historical data is not available, changes are taking place at the attribute level which could indicate modifications or developments in the urban space.
 
+## Bâtiments URBS  
+
+Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de données sur 10 ans. D’après eux, la temporalité des données ne couvre que 3 années et seul le format déposé sur datagouv (couvrant l’année 2022) est actuellement disponible en open data. Un prochain versionning est prévu sur ce printemps. 
+
 ## DonnéesSocioÉconomique-INSEE-FR
 * **Avalaible Documentation** : Recensement de la population à la commune/canton/département/IRIS 
   *Les données recensement de la population au niveau communal et départemental:  https://www.insee.fr/fr/statistiques/1893204
