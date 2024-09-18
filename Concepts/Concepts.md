@@ -1,6 +1,10 @@
 # Concepts
 
-List of concepts which are useful to study suburban densification and for which 1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities 2) it is useful to specify how the concept can be observed through data. This list is written mostly in english but distinguishes local concepts/words that can be different even if they are used as the translation 
+This is a registry to list concepts useful to study suburban densification and for which 
+1) it is relevant to go beyond commonsense knowledge and possibly to highlight elements to have in mind when comparing situations across times and cities
+2) it is useful to specify how the concept can be observed through data.
+This list is written mostly in english but distinguishes local concepts/words that can be different even if they are used as the translation 
+  
 
 *******
  1. [Suburb](#Suburb)
