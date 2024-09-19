@@ -1,6 +1,8 @@
 # Processes
 
-List of processes that are relevant to the Subdense dashboard production. These processes can be either simply described on this git or shared. The stakes of registering and describing them are mainly : collaboration (to facilitate collaborative production of the dashboard), comparable resulting maps (to adopt as much as possible similar choices for the resulting maps to be comparable), documenting the provenance of datasets and maps in the project (by referring to a production process in the description of the map and of the dataset). 
+List of processes that are relevant to the Subdense dashboard production. The stakes of registering and describing them are 1) to facilitate collaborative production of the dashboard 2) to adopt as much as possible similar choices for the resulting maps to be comparable 3) documenting the provenance of datasets and maps in the project.
+
+To add a process to the dashboard, please 1)register the process on this file by giving it an informative name, add a description, either within the register, or on a separate `.md` file with the same name as that in the registry and that contains a minimal description of the process, or a subfolder, with the same name as that in the registry, containing its description in a readme and additional files necessary to describe, reproduce, run, modify, etc. it.
 
 
 *******
