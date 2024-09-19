@@ -1,3 +1,0 @@
-Global Human Settlement Layer
-https://ghsl.jrc.ec.europa.eu/
-

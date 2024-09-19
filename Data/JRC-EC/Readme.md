@@ -1,3 +1,0 @@
-Data produced/provided by the Joint Research Center, European Commission
-https://joint-research-centre.ec.europa.eu/index_en
-
