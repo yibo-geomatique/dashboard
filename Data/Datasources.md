@@ -49,7 +49,12 @@ https://geoservices.ign.fr/contoursiris
 
 ## GHSL-UCDB
 * Global Human Settlement Layer Urban Center Database, https://ghsl.jrc.ec.europa.eu/
-* **Documentation**  https://ghsl.jrc.ec.europa.eu/degurbaDefinitions.php 
+* **Documentation**  https://ghsl.jrc.ec.europa.eu/degurbaDefinitions.php
+* {raw_data_link:"http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_FUA_UCDB2015_GLOBE_R2019A/V1-0/GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
+dataset_citation:"Schiavina M., Moreno-Monroy A., Maffenini L., Veneri P. (2019).: GHS-FUA R2019A - GHS functional urban areas, derived from GHS-UCDB R2019A, (2015), R2019A.European Commission, Joint Research Centre (JRC) 10.2905/347F0337-F2DA-4592-87B3-E25975EC2C95 PID:http://data.europa.eu/89h/347f0337-f2da-4592-87b3-e25975ec2c95",
+paper_citation:"Moreno-Monroy A., Schiavina M., Veneri P. (2020). Metropolitan areas in the world. Delineation and population trends. Journal of Urban Economics. doi:10.1016/j.jue.2020.103242",
+information:"https://ghsl.jrc.ec.europa.eu/ghs_fua.php"
+}
 
 ## OPENZOOM-UK
 * **Documentation** : https://beta.ordnancesurvey.co.uk/products/os-open-zoomstack , english
