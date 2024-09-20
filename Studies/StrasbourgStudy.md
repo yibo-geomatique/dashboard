@@ -1,6 +1,6 @@
 # StrasbourgStudy
 
-**This md file describes the specific study conducted on Strasbourg and provides references to related ressources on the dashboard.**
+*This md file describes the specific study conducted on Strasbourg and provides references to related ressources on the dashboard.*
 
 ## Stakes, questions from stakeholders
 
