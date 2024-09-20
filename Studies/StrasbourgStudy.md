@@ -3,8 +3,8 @@
 ## Objective - stakes
 
 To identify words and maps that can support the identification of "densification potential", discussions on densification.
-
 To integrate in the analysis the different benefits brought by vacant plots to biodiversity. 
+To get inspiration from other cities, for example their strategies to develop elevation
 
 ## Development  
 
