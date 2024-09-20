@@ -93,7 +93,9 @@ An exploration of the data reveals that there have been no notable changes in th
 
   
 ## OpenDataStrasbourg-FR
-* **Documentation** : https://data.strasbourg.eu/explore/?sort=modified  The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data
+* **Documentation** : https://data.strasbourg.eu/explore/?sort=modified  The open data provided by OpenDataStrasbourg provides several datasets valuable for our analysis :
+* ***  
+* ***
 * **Feedback** : le portail dispose plusieurs jeux de données, nous avons voulu remonter 10 ans en arrière mais nous ne pouvons pas télécharger les jeux de données par millésimes, nous avons  uniquement accès à la version la plus récente. Cette source est à suivre de près car elle présente une granularité plus fine dans le cadre l'étude sur Strasbourg.
 
 
