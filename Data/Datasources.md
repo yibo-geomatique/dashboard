@@ -22,6 +22,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
 *******
 
 ## BDTOPO-FR 
+* **status related to dashboard process** : has been used on StrasbourgStudy, to be used for ToulouseStudy (late 2024)
 * **Available Documentation** :
   * Standard ISO19139 metadata : https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html 
   * Detailed documentation : different documents describe the current product and past versions, https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo, a key document is DC_BDTOPO_3-3 https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf 
@@ -41,14 +42,17 @@ Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant
     
 
 ## EUBUCCO
+* **status related to dashboard process** : has been identified, and documentation briefly reviewed, and feedback writen below
 * **Documentation, short description** : https://docs.eubucco.com/  EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
 * **Feedback** :  not available on the past decade. Yet, to follow up because the attributes are very relevant to the dashboard focus.
 
 ## ATKIS-DE
+* **status related to dashboard process** : has been used on Dortmund, to be used for Frankfurt too (late 2024)
 * **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
 ## GHSL-UCDB
-* Global Human Settlement Layer Urban Center Database, https://ghsl.jrc.ec.europa.eu/
+* **status related to dashboard process** : ??
+* * Global Human Settlement Layer Urban Center Database, https://ghsl.jrc.ec.europa.eu/
 * **Documentation**  https://ghsl.jrc.ec.europa.eu/degurbaDefinitions.php
 * {raw_data_link:"http://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_FUA_UCDB2015_GLOBE_R2019A/V1-0/GHS_FUA_UCDB2015_GLOBE_R2019A_54009_1K_V1_0.zip",
 dataset_citation:"Schiavina M., Moreno-Monroy A., Maffenini L., Veneri P. (2019).: GHS-FUA R2019A - GHS functional urban areas, derived from GHS-UCDB R2019A, (2015), R2019A.European Commission, Joint Research Centre (JRC) 10.2905/347F0337-F2DA-4592-87B3-E25975EC2C95 PID:http://data.europa.eu/89h/347f0337-f2da-4592-87b3-e25975ec2c95",
@@ -57,6 +61,7 @@ information:"https://ghsl.jrc.ec.europa.eu/ghs_fua.php"
 }
 
 ## OPENZOOM-UK
+* **status related to dashboard process** : has been identified when searching for documentation of OSMasterMap, not used yet
 * **Documentation** : https://beta.ordnancesurvey.co.uk/products/os-open-zoomstack , english
 * **Feedback** : Analysis and quotation of documentation relevant to SUBDENSE : 
 https://www.ordnancesurvey.co.uk/documents/os-open-zoomstack-technical-specification.pdf?_gl=1*1jxmav3*_ga*NzE3NjU4MTY0LjE2ODEzNjk5Mjk.*_ga_59ZBN7DVBG*MTY4MTM2OTkyOS4xLjAuMTY4MTM2OTkyOS42MC4wLjA.&_ga=2.2835769.808952103.1681369930-717658164.1681369929 , p5 : “Generalised building footprints at both local and district resolutions. The local buildings have a unique identifier which can be used to style features distinctly.
@@ -64,6 +69,8 @@ The identifier will not be persistent between product versions and therefore the
 will be no change history information for a feature.”
 
 ## OSM 
+* **status related to dashboard process** : has been used in experiences to generate building evolution data but not adopted yet.
+* **Feedback** : heterogeneity and lack of completeness in 2011 on some cities of interest
 
 ## OSMASTERMAP-UK
 * **Documentation** : https://beta.ordnancesurvey.co.uk/products/os-mastermap-topography-layer 
