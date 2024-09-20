@@ -19,10 +19,12 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - admonition
 nav:
-  - Home: readme.md
+  - Home: index.md
   - Concepts: Concepts.md
-  - Datasets: Datasets.md
-  - Datasources: Datasources.md
+  - Data:
+    - Datasets: Datasets.md
+    - Datasources: Datasources.md
   - Maps: Maps.md
   - Processes: Processes.md
-  - StrasbourgStudy: StrasbourgStudy.md
+  - Studies:
+    - StrasbourgStudy: StrasbourgStudy.md
