@@ -10,7 +10,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 3. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
 4. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
 5. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
-6. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allscr_2020_reduced)
+6. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
 7. [Dataset naming policy](#dataset-naming-policy)
 8. [Dataset description template](#dataset-description-template)
 *******
@@ -27,25 +27,25 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 ## DE-DOR-FUA-Evolution-2011-21
 * Building evolution data computed from ATKIS Building data on the functional area of the city Dortmund between 2011 and 2021
-* Provenance : described in detail in [the process](/Processes/ComputeBuildingEvolution/ComputeBuildingEvolution.md)
-* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](/Maps/Maps.md)
+* Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
 * Distribution : not open licence
 
 ## UK-LIV-FUA-Evolution-2011-21
 * Building evolution data computed from OSMasterMap on the functional area of the city Liverpool between 2011 and 2021
-* Provenance : described in detail in [the process](/Processes/ComputeBuildingEvolution/ComputeBuildingEvolution.md)
-* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](/Maps/Maps.md)
+* Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
 * Distribution : not open licence
 
 ## FR-STR-FUA-Building-2011
 * Building data from BDTopo on the functional area of the city Strasbourg in 2011
-* Provenance : the generic process is described here [the process](/Processes/DataPreProcessing/PreProcessing.md). For this dataset, the downloaded departments are : La Moselle (57), Le Haut-Rhin (68) et Le Bas-Rhin (67).
+* Provenance : the generic process is described here [the process](Processes/PrepareBuildingData.md). For this dataset, the downloaded departments are : La Moselle (57), Le Haut-Rhin (68) et Le Bas-Rhin (67).
 * Usage : used to derive Evolution data between 2011 and 2021
 * Distribution : open licence, can be shared within the consortium through our specific ftp, will be shared more widely through a research data platform to be identified within Subdense research data management plan)
 
 ## FR-STR-FUA-Building-2021
 * Building data from BDTopo on the functional area of the city Strasbourg in 2021
-* Provenance : described in detail in [the process](/Processes/DataPreProcessing/PreProcessing.md). For this dataset, the downloaded departments are : La Moselle (57), Le Haut-Rhin (68) et Le Bas-Rhin (67).
+* Provenance : described in detail in [the process](Processes/PrepareBuildingDataBDTopo.md). For this dataset, the downloaded departments are : La Moselle (57), Le Haut-Rhin (68) et Le Bas-Rhin (67).
 * Usage : used to derive Evolution data between 2011 and 2021
 * Distribution : open licence, can be shared within the consortium through our specific ftp, will be shared more widely through a research data platform to be identified within Subdense research data management plan)
 

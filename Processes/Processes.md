@@ -18,7 +18,7 @@ To add a process to the dashboard, please 1)register the process on this file by
  
  [Compute change in built-up area per parcel](ComputeChangeInBuiltup_area.md)
 
- [Process template](#Process-template)
+ [Process template](#process-template)
  
  *******
 

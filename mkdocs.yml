@@ -24,7 +24,14 @@ nav:
   - Data:
     - Datasets: Datasets.md
     - Datasources: Datasources.md
-  - Maps: Maps.md
-  - Processes: Processes.md
+  - Maps: Maps/Maps.md
+  - Processes:
+    - Processes: Processes/Processes.md
+    - ComputeBuildingEvolution: Processes/ComputeBuildingEvolution.md
+    - ComputeChangeInBuiltup_area: Processes/ComputeChangeInBuiltup_area.md
+    - DeliminateStudyArea: Processes/DeliminateStudyArea.md
+    - PrepareBuildingData: Processes/PrepareBuildingData.md
+    - PrepareBuildingDataBDTopo: Processes/PrepareBuildingDataBDTopo.md
+    - PrepareBuildingDataOSM: Processes/PrepareBuildingDataOSM.md
   - Studies:
     - StrasbourgStudy: StrasbourgStudy.md

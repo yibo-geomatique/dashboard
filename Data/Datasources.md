@@ -13,7 +13,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
  8. [OSNGD-UK](#osngd-uk)
  9. [OCS-GE2-FR](#ocs-ge2-fr)
  10. [OpenDataStrasbourg-FR](#opendatastrasbourg-fr)
- 11. [BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments](#basededonneesnationaleimope-inventairemulti-objetsdesbatiments)
+ 11. [BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments](#base_de_donnees_nationale_imope_-_inventaire_multi-objets_des_batiments)
  12. [DonnéesSocioÉconomique-INSEE-FR](#donneessocioeconomique-insee-fr)
  13. [Géométries-des-IRIS-IGN-FR](#geometries-des-iris-ign-fr)
  14. [CadastralData-FR](#cadastraldata-fr)
@@ -24,7 +24,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
 * **status related to dashboard process** : has been used on StrasbourgStudy, to be used for ToulouseStudy (late 2024)
 * **Available Documentation** :
     * [Standard ISO19139 metadata](https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html)
-    * Detailed documentation : [different documents describe the current product and past versions](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo), a key document is [here](DC_BDTOPO_3-3 https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf)
+    * Detailed documentation : [different documents describe the current product and past versions](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo), a key document is [DC_BDTOPO_3-3](https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf)
     * Quality control : the results of quality control are available per departement, like [for 67](https://geoservices.ign.fr/sites/default/files/2024-01/RCQ_BDTOPO_D67.pdf)
     * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an [interactive interface](https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu)
     * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, [their fine description](https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16)

@@ -1,0 +1,1 @@
+../../Processes/PrepareBuildingDataOSM.md
