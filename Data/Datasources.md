@@ -13,7 +13,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
  8. [OSNGD-UK](#OSNGD-UK)
  9. [OCS-GE2-FR](#OCS-GE2-FR)
  10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
- 11. [Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments](#Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments)
+ 11. [BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments](#BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments)
  12. [DonnéesSocioÉconomique-INSEE-FR](#DonnéesSocioÉconomique-INSEE-FR)
  13. [Géométries-des-IRIS-IGN-FR](#Géométries-des-IRIS-IGN-FR)
  14. [CadastralData-FR](#CadastralData-FR)
@@ -87,10 +87,11 @@ Definition: Information about the change history of a feature that comprises the
 * **Feedback** : this is an integration of OS data product into a unified product associated with user friendly web services to select relevant data.
 
 ## OCS-GE2-FR
-* **Documentation** : https://ocs.geograndest.fr/compare
-* **Feedback** : Access to a comparative tool between two available datasets (2007-2010 and 2010-2019)
+* **Documentation** : https://ocs.geograndest.fr/compare   Access to a comparative tool between two available datasets (2007-2010 and 2010-2019)
 An exploration of the data reveals that there have been no notable changes in the evolution of land use themes over the period studied. For example, if we look at changes in land use between 2010 and 2019, we only see an increase of 49 ha in built-up areas, but with a decrease in areas undergoing change and agricultural areas.
+* **Feedback** : j'avais consulté cet outil pour voir si on peut observer une évolution de l'usage des sols, cette source peut être utile pour distinguer les zones constructibles ou potentiels de densifications.
 
+  
 ## OpenDataStrasbourg-FR
 * **Documentation** : https://data.strasbourg.eu/explore/?sort=modified  The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data
 * **Feedback** : le portail dispose plusieurs jeux de données, nous avons voulu remonter 10 ans en arrière mais nous ne pouvons pas télécharger les jeux de données par millésimes, nous avons  uniquement accès à la version la plus récente. Cette source est à suivre de près car elle présente une granularité plus fine dans le cadre l'étude sur Strasbourg.
