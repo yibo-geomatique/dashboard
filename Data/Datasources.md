@@ -99,7 +99,7 @@ An exploration of the data reveals that there have been no notable changes in th
 
 ## Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments  
 * **Documentation** : https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-imope-inventaire-multi-objets-des-batiments
-* **Feedback** :  Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de données sur 10 ans. D’après eux, la temporalité des données ne couvre que 3 années et seul le format déposé sur datagouv (couvrant l’année 2022) est actuellement disponible en open data. Toutefois le suivi de cette base de données est recommendé car elle présente des attributs pertinent
+* **Feedback** :  Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de données sur 10 ans. D’après eux, la temporalité des données ne couvre que 3 années et seul le format déposé sur datagouv (couvrant l’année 2022) est actuellement disponible en open data. Toutefois le suivi de cette base de données est recommendé car elle présente des attributs pertinents
 
   
 ## DonnéesSocioÉconomique-INSEE-FR
