@@ -41,9 +41,9 @@ Il n’existe plus de seuil minimal pour la superficie des bâtiments. Cependant
     
 
 ## EUBUCCO
-* **Documentation** : https://docs.eubucco.com/ 
-* * **Feedback** : EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
-https://geoservices.ign.fr/contoursiris
+* **Documentation, short description** : https://docs.eubucco.com/  EUBUCCO is a scientific database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings. EUBUCCO is composed of 50 open government datasets and OpenStreetMap that have been collected, harmonized and partly validated. 
+* **Feedback** :  not available on the past decade. Yet, to follow up because the attributes are very relevant to the dashboard focus.
+
 ## ATKIS-DE
 * **Documentation** for buildings on national level: https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/amtliche-hausumringe-deutschland-hu-de.html
 
@@ -100,8 +100,8 @@ Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de
 * **Feedback** :
 
 ## Géométries-des-IRIS-IGN-FR
-* **Documentation** : Recensement de la population à la commune/canton/département/IRIS : https://geoservices.ign.fr/contoursiris
-* **Feedback** :
+* **Documentation** : géométries des zones IRIS utilisées dans les données statistiques INSEE : https://geoservices.ign.fr/contoursiris
+* **Feedback** : utile pour les intégrer dans le projet QGIS afin de réaliser des corrélations entre évolutions de batiments (agrégées a chaque IRIS) et données statistiques socioéconomiques.
 
 ## CadastralData-FR
 * **Documentation** : https://cadastre.data.gouv.fr/datasets
