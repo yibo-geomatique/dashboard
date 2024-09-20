@@ -13,7 +13,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
  8. [OSNGD-UK](#OSNGD-UK)
  9. [OCS-GE2-FR](#OCS-GE2-FR)
  10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
- 11. [BatimentsUrbs-FR](#BatimentsUrbs-FR)
+ 11. [Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments](#Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments)
  12. [DonnéesSocioÉconomique-INSEE-FR](#DonnéesSocioÉconomique-INSEE-FR)
  13. [Géométries-des-IRIS-IGN-FR](#Géométries-des-IRIS-IGN-FR)
  14. [CadastralData-FR](#CadastralData-FR)
@@ -92,13 +92,15 @@ Definition: Information about the change history of a feature that comprises the
 An exploration of the data reveals that there have been no notable changes in the evolution of land use themes over the period studied. For example, if we look at changes in land use between 2010 and 2019, we only see an increase of 49 ha in built-up areas, but with a decrease in areas undergoing change and agricultural areas.
 
 ## OpenDataStrasbourg-FR
-* **Documentation** : https://data.strasbourg.eu/explore/?sort=modified
-* **Feedback** : The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data. Although this data is regularly updated and contains up-to-date information, it is presented in the form of vintages with only the most recent date. This presentation limits our ability to directly observe changes over time. Looking at the metadata associated with these datasets, it is clear that updates are being made to the attributes of the entities. This suggests that, although direct historical data is not available, changes are taking place at the attribute level which could indicate modifications or developments in the urban space.
+* **Documentation** : https://data.strasbourg.eu/explore/?sort=modified  The open data provided by OpenDataStrasbourg is valuable for our analysis of urban development. However, a challenge lies in how to calculate the evolution of urban entities, such as buildings and addresses, due to the structure of the available data
+* **Feedback** : le portail dispose plusieurs jeux de données, nous avons voulu remonter 10 ans en arrière mais nous ne pouvons pas télécharger les jeux de données par millésimes, nous avons  uniquement accès à la version la plus récente. Cette source est à suivre de près car elle présente une granularité plus fine dans le cadre l'étude sur Strasbourg.
 
-## Bâtiments URBS  
 
-Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de données sur 10 ans. D’après eux, la temporalité des données ne couvre que 3 années et seul le format déposé sur datagouv (couvrant l’année 2022) est actuellement disponible en open data. Un prochain versionning est prévu sur ce printemps. 
+## Base de Données Nationale IMOPE - Inventaire Multi-Objets des Bâtiments  
+* **Documentation** : https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-imope-inventaire-multi-objets-des-batiments
+* **Feedback** :  Contacts pris, les coordinateurs ont indiqué qu’ils n’avaient pas encore de données sur 10 ans. D’après eux, la temporalité des données ne couvre que 3 années et seul le format déposé sur datagouv (couvrant l’année 2022) est actuellement disponible en open data. Toutefois le suivi de cette base de données est recommendé car elle présente des attributs pertinent
 
+  
 ## DonnéesSocioÉconomique-INSEE-FR
 * **Avalaible Documentation** : Recensement de la population à la commune/canton/département/IRIS 
   *Les données recensement de la population au niveau communal et départemental:  https://www.insee.fr/fr/statistiques/1893204
