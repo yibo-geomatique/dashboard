@@ -1,6 +1,6 @@
 # Datasources 
 
-List of datasources potentially relevant for the dashboard, and associated comments  
+List of datasources mentioned, investigated, possibly used for the dashboard. The purpose of this registry is not to duplicate existing catalogues but rather to log and share feedback on their relevance and usability in the dashboard context. A datasource can be : a product, a project, a web portal.  
 
 *******
  1. [BDTOPO-FR](#BDTOPO-FR)
