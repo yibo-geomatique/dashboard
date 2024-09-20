@@ -1,6 +1,6 @@
 # StrasbourgStudy
 
-## Objective - stakes
+## Stakes, questions from stakeholders
 
 * To identify words and maps that can support the identification of "densification potential", discussions on densification.
 * To integrate in the analysis the different benefits brought by vacant plots to biodiversity. 
