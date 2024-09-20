@@ -1,0 +1,28 @@
+site_name: SUBDENSE Dashboad
+repo_url: https://github.com/subdense/dashboard/
+site_url: https://subdense.github.io/dashboard/
+theme:
+  name: material
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+nav:
+  - Home: readme.md
+  - Concepts: Concepts.md
+  - Datasets: Datasets.md
+  - Datasources: Datasources.md
+  - Maps: Maps.md
+  - Processes: Processes.md
+  - StrasbourgStudy: StrasbourgStudy.md

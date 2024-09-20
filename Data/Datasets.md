@@ -5,23 +5,23 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 *******
 
-1. [FR-STR-FUA-Evolution-2011-21](#FR-STR-FUA-Evolution-2011-21)
-2. [DE-DOR-FUA-Evolution-2011-21](#DE-DOR-FUA-Evolution-2011-21)
-3. [UK-LIV-FUA-Evolution-2011-21](#UK-LIV-FUA-Evolution-2011-21)
-4. [FR-STR-FUA-Building-2011](#FR-STR-FUA-Building-2011)
-5. [FR-STR-FUA-Building-2021](#FR-STR-FUA-Building-2021)
-6. [GHS_POP_ALLCSR_2020_reduced](#GHS_POP_ALLCSR_2020_reduced)
-7. [Dataset naming policy](#Dataset-naming-policy)
-8. [Dataset description template](#Dataset-description-template)
+1. [FR-STR-FUA-Evolution-2011-21](#fr-str-fua-evolution-2011-21)
+2. [DE-DOR-FUA-Evolution-2011-21](#de-dor-fua-evolution-2011-21)
+3. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
+4. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
+5. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
+6. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allscr_2020_reduced)
+7. [Dataset naming policy](#dataset-naming-policy)
+8. [Dataset description template](#dataset-description-template)
 *******
 
 ## FR-STR-FUA-Evolution-2011-21
 * Building evolution data computed from BDTopo building data on the french part of the functional area of the city Strasbourg between 2011 and 2021
-* DOI : tbc, https://doi.org/10.57745/RFKKYX
+* [DOI: 10.57745/RFKKYX](https://doi.org/10.57745/RFKKYX)
 * Provenance :
-  * realisation of process "PrepareBuildingData" to prepare the building datasets on the area of interest and at time t1 (2011) and t2 (2021). These dataset are identified on the dashboard as FR-STR-FUA-Building-2011 and FR-STR-FUA-Building-2021
-  * realisation of process "ComputeBuildingEvolution" to derive the evolution data based on building data.
-  * realisation of process "RefineEvolutionBDTopo" to refine the evolution data,perform initial quality control on the results and to add a stylesheet to generate a geopackage.
+    * realisation of process "PrepareBuildingData" to prepare the building datasets on the area of interest and at time t1 (2011) and t2 (2021). These dataset are identified on the dashboard as FR-STR-FUA-Building-2011 and FR-STR-FUA-Building-2021
+    * realisation of process "ComputeBuildingEvolution" to derive the evolution data based on building data.
+    * realisation of process "RefineEvolutionBDTopo" to refine the evolution data,perform initial quality control on the results and to add a stylesheet to generate a geopackage.
 * Usage : used to study the densification of Strasbourg see details in Strasbourg study file
 * Distribution : open licence, can be shared within the consortium through our specific ftp, and through a research data platform (see DOI)
 
@@ -52,7 +52,7 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 ## GHS_POP_ALLCSR_2020_reduced
 * **Provenance**: data from GHSL-UCDB, application of process CreateGHS_POP_2020_ALLCSR_reduced, cropped with DeliminateStudyArea and filtered to "perc_inside" >= 0.2
 * **Usages**: use as input for cluster analysis
-* [**How to cite**](https://ghsl.jrc.ec.europa.eu/datasets.php): Schiavina M., Freire S., Carioli A., MacManus K. (2023): GHS-POP R2023A - GHS population grid multitemporal (1975-2030).European Commission, Joint Research Centre (JRC) PID: http://data.europa.eu/89h/2ff68a52-5b5b-4a22-8f40-c41da8332cfe, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE
+* [**How to cite**](https://ghsl.jrc.ec.europa.eu/datasets.php): Schiavina M., Freire S., Carioli A., MacManus K. (2023): GHS-POP R2023A - GHS population grid multitemporal (1975-2030).European Commission, Joint Research Centre (JRC) PID: [page](http://data.europa.eu/89h/2ff68a52-5b5b-4a22-8f40-c41da8332cfe), doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE
 
 ## Dataset-naming-policy
 The name of the dataset is a set of characterstrings attached with "_". 

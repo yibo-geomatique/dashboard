@@ -3,35 +3,35 @@
 List of datasources mentioned, investigated, possibly used for the dashboard. The purpose of this registry is not to duplicate existing catalogues but rather to log and share feedback on their relevance and usability in the dashboard context. A datasource can be : a product, a project, a web portal.  
 
 *******
- 1. [BDTOPO-FR](#BDTOPO-FR)
- 2. [EUBUCCO](#EUBUCCO)
- 3. [ATKIS-DE](#ATKIS-DE)
- 4. [GHSL UCDB](#GHSL-UCDB)
- 5. [OPENZOOM-UK](#OPENZOOM-UK)
- 6. [OSM](#OSM)
- 7. [OSMASTERMAP-UK](#OSMASTERMAP-UK)
- 8. [OSNGD-UK](#OSNGD-UK)
- 9. [OCS-GE2-FR](#OCS-GE2-FR)
- 10. [OpenDataStrasbourg-FR](#OpenDataStrasbourg-FR)
- 11. [BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments](#BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments)
- 12. [DonnéesSocioÉconomique-INSEE-FR](#DonnéesSocioÉconomique-INSEE-FR)
- 13. [Géométries-des-IRIS-IGN-FR](#Géométries-des-IRIS-IGN-FR)
- 14. [CadastralData-FR](#CadastralData-FR)
- 15. [FONCIER-CEREMA-FR](#FONCIER-CEREMA-FR)
+ 1. [BDTOPO-FR](#bdtopo-fr)
+ 2. [EUBUCCO](#eubucco)
+ 3. [ATKIS-DE](#atkis-de)
+ 4. [GHSL UCDB](#ghsl-ucdb)
+ 5. [OPENZOOM-UK](#openzoom-uk)
+ 6. [OSM](#osm)
+ 7. [OSMASTERMAP-UK](#osmastermap-uk)
+ 8. [OSNGD-UK](#osngd-uk)
+ 9. [OCS-GE2-FR](#ocs-ge2-fr)
+ 10. [OpenDataStrasbourg-FR](#opendatastrasbourg-fr)
+ 11. [BasedeDonnéesNationaleIMOPE-InventaireMulti-ObjetsdesBâtiments](#basededonneesnationaleimope-inventairemulti-objetsdesbatiments)
+ 12. [DonnéesSocioÉconomique-INSEE-FR](#donneessocioeconomique-insee-fr)
+ 13. [Géométries-des-IRIS-IGN-FR](#geometries-des-iris-ign-fr)
+ 14. [CadastralData-FR](#cadastraldata-fr)
+ 15. [FONCIER-CEREMA-FR](#foncier-cerema-fr)
 *******
 
 ## BDTOPO-FR 
 * **status related to dashboard process** : has been used on StrasbourgStudy, to be used for ToulouseStudy (late 2024)
 * **Available Documentation** :
-  * Standard ISO19139 metadata : https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html 
-  * Detailed documentation : different documents describe the current product and past versions, https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo, a key document is DC_BDTOPO_3-3 https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf 
-  * Quality control : the results of quality control are available per departement, like https://geoservices.ign.fr/sites/default/files/2024-01/RCQ_BDTOPO_D67.pdf 
-  * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an interactive interface : https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu
-  * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, their fine description is https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16 
+    * [Standard ISO19139 metadata](https://geoservices.ign.fr/sites/default/files/2023-01/IGNF_BDTOPOr_3-3.html)
+    * Detailed documentation : [different documents describe the current product and past versions](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo), a key document is [here](DC_BDTOPO_3-3 https://geoservices.ign.fr/sites/default/files/2024-05/DC_BDTOPO_3-3.pdf)
+    * Quality control : the results of quality control are available per departement, like [for 67](https://geoservices.ign.fr/sites/default/files/2024-01/RCQ_BDTOPO_D67.pdf)
+    * BD TOPO® | Géoservices (ign.fr), french, a fine description of content is available in french through an [interactive interface](https://geoservices.ign.fr/bd-topor-explorer-descriptif-de-contenu)
+    * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, [their fine description](https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16)
 * **Clues to prepare BuildingDataSet on Temporal and Spatial scope of interest** :
-  * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
+    * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
 * **Quotes of Documentation RelevantToAStudy** :
-* the conceptual model for building in BDTopo is "	Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf DC_BDTopo p54
+    * the conceptual model for building in BDTopo is "Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf DC_BDTopo p54
 * product versions : the current version of the product is 3.3. Shift from v2 to v3 took place between 2018 and 2019.
 * stable identifier : see https://geoservices.ign.fr/sites/default/filhttps://geoservices.ign.fr/contoursirises/2023-01/IGNF_BDTOPOr_3-3.html "Depuis la version 3.0, tous les objets possèdent un identifiant unique et stable dans le temps." 
 * change in selection criteria to represent buildings in the data : "Initialement, les seuils de sélection des bâtiments étaient les suivants : Tous les bâtiments de plus de 50 m² sont inclus. Les bâtiments faisant entre 20 et 50 m² sont sélectionnés en fonction de leur environnement et de leur aspect. Les bâtiments de moins de 20 m² sont représentés par un objet de classe Construction ponctuelle s’ils sont très
