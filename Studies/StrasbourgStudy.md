@@ -1,5 +1,7 @@
 # StrasbourgStudy
 
+**This md file describes the specific study conducted on Strasbourg and provides references to related ressources on the dashboard.**
+
 ## Stakes, questions from stakeholders
 
 * To identify words and maps that can support the identification of "densification potential", discussions on densification.
