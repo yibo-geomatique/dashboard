@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Install Python dependencies
+        run: |
+          pip install setuptools wheel
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
+          pip install pymdown-extensions
+      - name: Deploy site
+        run: |
+          mkdocs gh-deploy --force
+          mkdocs --version
