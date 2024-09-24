@@ -96,7 +96,10 @@ An exploration of the data reveals that there have been no notable changes in th
 * **status related to dashboard process** : To be used for StrasbourgStudy
 * **Documentation** : https://data.strasbourg.eu/explore/?sort=modified  The open data provided by OpenDataStrasbourg provides several datasets valuable for our analysis :
     * A.  referentiel-topographique-simplifie : https://data.strasbourg.eu/explore/dataset/referentiel-topographique-simplifie/information/
+        Ce jeu comporte plusieurs couches à savoir les adresses de début et de fin de tronçons, le bâti, le bâti public, les voies de communication, l’hydrographie et la toponymie. 
     * B.  referentiel_adresse_eurometrostras  : https://data.strasbourg.eu/explore/dataset/referentiel_adresse_eurometrostras/information/
+    * C.  odata3d_lidar(Nuage de points 3D)   : https://data.strasbourg.eu/explore/dataset/odata3d_lidar/information/ 
+        Nuage de points 3D haute densité obtenu par procédé Lidar aéroporté. On peut également faire des évolutions comparatives avce l'outil de visualisations sur         https://3d.strasbourg.eu/
 * **Feedback** : le portail dispose plusieurs jeux de données, nous avons voulu remonter 10 ans en arrière mais nous ne pouvons pas télécharger les jeux de données par millésimes, nous avons  uniquement accès à la version la plus récente. Cette source est à suivre de près car elle présente une granularité plus fine dans le cadre l'étude sur Strasbourg.
 
 
