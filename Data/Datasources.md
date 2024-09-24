@@ -111,9 +111,10 @@ An exploration of the data reveals that there have been no notable changes in th
 ## DonnéesSocioÉconomique-INSEE-FR
 * **status related to dashboard process** : On going on StrasbourgStudy
 * **Documentation** : INSEE (National Institute of Statistics and Economic Studies) provides a wide range of socio-economic data for the French population, organized at different geographic levels (municipality, canton, department, and IRIS). The data cover various topics such as demographics, income, employment, education, and other socio-economic indicators. 
-  * A. Les données recensement de la population au niveau communal et départemental:  https://www.insee.fr/fr/statistiques/1893204
-  * B. Les données recensement de la population à l’IRIS: https://www.insee.fr/fr/statistiques?debut=20&idprec=2028582&theme=1&categorie=1&geo=IRIS-1
-* **Feedback** : Ces jeux de données sont utiles sur le calcul des indicateurs et disponibles également sur une temporalité de 10 ans; Sur l'étude de la densification, le croisement de ces données avec celles des bâtiments permet de calculer la corrélation entre l'évolution de la population par exemple et l'évolution des bâtiments.
+  * A. Série historique du recensement de la population : https://catalogue-donnees.insee.fr/fr/catalogue/recherche/DS_RP_SERIE_HISTORIQUE données historiques contenant les populations légales depuis 1968, des dénombrements sur les logements, des données d'état civil et de superficie. Période temporelle : 1968-2021
+  * B. Recensement de la population à l’IRIS: https://www.insee.fr/fr/statistiques?debut=20&idprec=2028582&theme=1&categorie=1&geo=IRIS-1
+  * C. base infracommunale « Logement »  : fournit des données sur des données sur les caractéristiques des résidences principales, la date d'emménagement, la possession d'une voiture ainsi que le parc de logements, maisons et appartements. temporalité : 2006-2020 https://www.insee.fr/fr/recherche/recherche-statistiques?q=iris&taille=50&debut=0&theme=7&categorie=5&geo=IRIS-1
+* **Feedback** : utile sur le calcul des indicateurs; Sur l'étude de la densification, le croisement de ces données avec celles des bâtiments permet de calculer la corrélation entre l'évolution de la population par exemple et l'évolution des bâtiments. Des analyses comparatives peuvent êtres faites à l'echelle des iris, communes ou quartiers.
 
 ## Géométries-des-IRIS-IGN-FR
 * **Documentation** : géométries des zones IRIS utilisées dans les données statistiques INSEE : https://geoservices.ign.fr/contoursiris
