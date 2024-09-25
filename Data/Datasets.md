@@ -10,11 +10,12 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 3. [FR-TLS-FUA-Evolution-2011-21](#fr-tls-fua-evolution-2011-21)
 4. [DE-DOR-FUA-Evolution-2011-21](#de-dor-fua-evolution-2011-21)
 5. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
-6. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
-7. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
-8. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
-9. [Dataset naming policy](#dataset-naming-policy)
-10. [Dataset description template](#dataset-description-template)
+6. [UK-BRI-FUA-Evolution-2011-21](#uk-bri-fua-evolution-2011-21)
+7. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
+8. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
+9. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
+10. [Dataset naming policy](#dataset-naming-policy)
+11. [Dataset description template](#dataset-description-template)
 *******
 
 ## FR-STR-FUA-Evolution-2011-21
@@ -55,8 +56,8 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
 * Distribution : not open licence
 
-## UK-BRST-FUA-Evolution-2011-21
-* Building evolution data computed from OSMasterMap on the functional area of the city Liverpool between 2011 and 2021
+## UK-BRI-FUA-Evolution-2011-21
+* Building evolution data computed from OSMasterMap on the functional area of the city Bristol between 2011 and 2021
 * Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
 * Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
 * Distribution : not open licence
