@@ -6,13 +6,15 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 *******
 
 1. [FR-STR-FUA-Evolution-2011-21](#fr-str-fua-evolution-2011-21)
-2. [DE-DOR-FUA-Evolution-2011-21](#de-dor-fua-evolution-2011-21)
-3. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
-4. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
-5. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
-6. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
-7. [Dataset naming policy](#dataset-naming-policy)
-8. [Dataset description template](#dataset-description-template)
+2. [DE-STR-FUA-Evolution-2011-21](#de-str-fua-evolution-2011-21)
+3. [FR-TLS-FUA-Evolution-2011-21](#fr-tls-fua-evolution-2011-21)
+4. [DE-DOR-FUA-Evolution-2011-21](#de-dor-fua-evolution-2011-21)
+5. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
+6. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
+7. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
+8. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
+9. [Dataset naming policy](#dataset-naming-policy)
+10. [Dataset description template](#dataset-description-template)
 *******
 
 ## FR-STR-FUA-Evolution-2011-21
@@ -25,6 +27,22 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * Usage : used to study the densification of Strasbourg see details in Strasbourg study file
 * Distribution : open licence, can be shared within the consortium through our specific ftp, and through a research data platform (see DOI)
 
+## DE-STR-FUA-Evolution-2011-21
+* Building evolution data computed from ATKIS Building data on the functional area of the city Strasbourg between 2011 and 2021
+* Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
+* Distribution : not open licence
+
+## FR-TLS-FUA-Evolution-2011-21
+* Building evolution data computed from BDTopo building data on the french part of the functional area of the city Toulouse between 2011 and 2021
+* Provenance :
+    * realisation of process "PrepareBuildingData" to prepare the building datasets on the area of interest and at time t1 (2011) and t2 (2021). These dataset are identified on the dashboard as FR-TLS-FUA-Building-2011 and FR-TLS-FUA-Building-2021
+    * realisation of process "ComputeBuildingEvolution" to derive the evolution data based on building data.
+    
+* Usage : to be used to study the densification of Toulouse.
+* Distribution : open licence, can be shared within the consortium through our specific ftp, and through a research data platform (see DOI)
+
+
 ## DE-DOR-FUA-Evolution-2011-21
 * Building evolution data computed from ATKIS Building data on the functional area of the city Dortmund between 2011 and 2021
 * Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
@@ -32,6 +50,12 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 * Distribution : not open licence
 
 ## UK-LIV-FUA-Evolution-2011-21
+* Building evolution data computed from OSMasterMap on the functional area of the city Liverpool between 2011 and 2021
+* Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
+* Distribution : not open licence
+
+## UK-BRST-FUA-Evolution-2011-21
 * Building evolution data computed from OSMasterMap on the functional area of the city Liverpool between 2011 and 2021
 * Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
 * Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
