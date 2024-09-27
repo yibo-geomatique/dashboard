@@ -9,13 +9,14 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 2. [DE-STR-FUA-Evolution-2011-21](#de-str-fua-evolution-2011-21)
 3. [FR-TLS-FUA-Evolution-2011-21](#fr-tls-fua-evolution-2011-21)
 4. [DE-DOR-FUA-Evolution-2011-21](#de-dor-fua-evolution-2011-21)
-5. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
-6. [UK-BRI-FUA-Evolution-2011-21](#uk-bri-fua-evolution-2011-21)
-7. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
-8. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
-9. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
-10. [Dataset naming policy](#dataset-naming-policy)
-11. [Dataset description template](#dataset-description-template)
+5. [DE-FFM-FUA-Evolution-2011-21](#de-ffm-fua-evolution-2011-21)
+6. [UK-LIV-FUA-Evolution-2011-21](#uk-liv-fua-evolution-2011-21)
+7. [UK-BRI-FUA-Evolution-2011-21](#uk-bri-fua-evolution-2011-21)
+8. [FR-STR-FUA-Building-2011](#fr-str-fua-building-2011)
+9. [FR-STR-FUA-Building-2021](#fr-str-fua-building-2021)
+10. [GHS_POP_ALLCSR_2020_reduced](#ghs_pop_allcsr_2020_reduced)
+11. [Dataset naming policy](#dataset-naming-policy)
+12. [Dataset description template](#dataset-description-template)
 *******
 
 ## FR-STR-FUA-Evolution-2011-21
@@ -45,6 +46,12 @@ List of datasets, either acquired from OTS products, or produced during Subdense
 
 
 ## DE-DOR-FUA-Evolution-2011-21
+* Building evolution data computed from ATKIS Building data on the functional area of the city Dortmund between 2011 and 2021
+* Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
+* Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
+* Distribution : not open licence
+
+## DE-FFM-FUA-Evolution-2011-21
 * Building evolution data computed from ATKIS Building data on the functional area of the city Dortmund between 2011 and 2021
 * Provenance : described in detail in [the process](Processes/ComputeBuildingEvolution.md)
 * Usage : used to portray Building Evolution Maps in order to show where changes are happening. Described in detail [here](Maps/Maps.md)
