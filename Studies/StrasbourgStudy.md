@@ -11,15 +11,17 @@
 * To get inspiration from other cities, for example their strategies to develop elevation
 
 
-## Maps/Data considered to bring evidences to answer the questions  
+## Clues to bring evidences to answer the questions  
 
-* Evolution of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 + housing data, on the Functional Urban Area (see Concepts) of Strasbourg
+* Evolution of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 + housing data, maybe also using building permits data, on the Functional Urban Area (see Concepts) of Strasbourg
 
 * ( Brendan master project ) based on the building evolutions identify infill development and prepare maps to organise stakeholders interviews around them
 
 * Map vacant plots and caracterise them wrt biodiversity
   
-* Identify elevation in other cities and display them in their context 
+* Identify elevation in other cities and display them in their context
+
+* Integrate evolutions with other data to detect drivers
     
 
 ## Map production process 
