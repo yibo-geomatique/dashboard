@@ -9,9 +9,9 @@
 * To get inspiration from other cities, for example their strategies to develop elevation
 
 
-## Data considered to bring evidences to answer the questions  
-Different data are considered for the study and the feedback on their relevance to the study is detailed in Data>DataSource : 
-- topographic building data from BDTopo in 2011 and 2021, on the Functional Urban Area (see Concepts) of Strasbourg
+## Maps/Data considered to bring evidences to answer the questions  
+Different data could connect these questions to evidences : 
+- Evolution of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 + housing data, on the Functional Urban Area (see Concepts) of Strasbourg
 - data from Strasbourg open data portal
 - fichiers fonciers    
 
