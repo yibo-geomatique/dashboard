@@ -4,16 +4,23 @@
 
 ## Stakes, questions from stakeholders
 
+( Practitioners from Eurometropole )
+
 * To identify words and maps that can support the identification of "densification potential", discussions on densification.
 * To integrate in the analysis the different benefits brought by vacant plots to biodiversity. 
 * To get inspiration from other cities, for example their strategies to develop elevation
 
 
 ## Maps/Data considered to bring evidences to answer the questions  
-Different data could connect these questions to evidences : 
-- Evolution of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 + housing data, on the Functional Urban Area (see Concepts) of Strasbourg
-- data from Strasbourg open data portal
-- fichiers fonciers    
+
+* Evolution of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 + housing data, on the Functional Urban Area (see Concepts) of Strasbourg
+
+* ( Brendan master project ) based on the building evolutions identify infill development and prepare maps to organise stakeholders interviews around them
+
+* Map vacant plots and caracterise them wrt biodiversity
+  
+* Identify elevation in other cities and display them in their context 
+    
 
 ## Map production process 
 
