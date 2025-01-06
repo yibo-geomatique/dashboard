@@ -1,4 +1,4 @@
-## BuildingEvolution DataSchema
+## BuildingChange DataSchema
 
 This schema structures data describing evolutions in building, based on observed evolution in building data and with the purpose to represent evolution of building entities in reality. 
 
