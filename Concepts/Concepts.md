@@ -13,7 +13,7 @@ This list is written mostly in english but distinguishes local concepts/words th
  2. [Urban Density](#urban-density)
  3. [Urban Densification](#urban-densification)
  4. [Building](#building)
- 5. [BuidingEvolution](#buildingevolution)
+ 5. [BuidingChange](#buildingevolution)
  6. [Functional Urban Area](#functional-urban-area)
  7. [Public Space](#public-space)
  8. [Concept template](#concept-template)
@@ -43,11 +43,11 @@ This list is written mostly in english but distinguishes local concepts/words th
 
 ## Building
 * **Definitions** : (from Wikipedia, which quotes the geographer Max Egenhofer) A building or edifice is an enclosed structure with a roof and walls, usually standing permanently in one place, such as a house or factory. 
-* **Relation with data** : In the french topographic product, BDTopo, buildings (bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo.
+* **Relation with data** : In the french topographic product, BDTopo, buildings (in french : bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo.
 
-## BuildingEvolution
-* **Definition** : we use the term BuildingEvolution to refer to what can happen to Buildings through time. This can be defined more precisely along three distinct categories of things, after [DOLCE ontology](https://arxiv.org/pdf/2308.01597) : changes of state, events, processes. 
-* **Relation with data** : a BuildingEvolution data schema is proposed in this dashboard to structure BuildingEvolution data that can correspond to changes of states observed in data and/or to change observed in reality. A process to produce such data based on topographic building data is proposed in this dashboard, see BuildingEvolutionComputation process and BuildingEvolution data schema.  
+## BuildingChange
+* **Definition** : we use the term BuildingChange to refer to what can happen to Buildings through time. This can be defined more precisely along three distinct categories of things, after [DOLCE ontology](https://arxiv.org/pdf/2308.01597) : changes of state, events, processes. 
+* **Relation with data** : a BuildingChange data schema is proposed in this dashboard to structure data that describe changes of states observed in data and/or changes of states in reality. A replicable procedure to produce such data based on topographic building data is proposed in this dashboard, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality.     
 
 ## Functional-Urban-Area
 * **Definitions** : (after [EC glossary for statistics](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Functional_urban_area)) Short definition: a functional urban area consists of a city and its commuting zone. Functional urban areas therefore consist of a densely inhabited city and a less densely populated commuting zone whose labour market is highly integrated with the city (OECD, 2012).    
