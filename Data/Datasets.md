@@ -2,6 +2,8 @@
 
 List of datasets, either acquired from OTS products, or produced during Subdense. It is useful to 1) register their identifiers in the project 2) give access to Subdense-specific metadata related to these datasets. Such metadata either or in this file beneath the dataset identifiers, or they are in a dedicated file with the identifier as file name and the extension md. 
 
+Note : the name are being changed to replace "Evolution" with "Change" everywhere so that some inconsistencies can remain.  
+
 
 *******
 
