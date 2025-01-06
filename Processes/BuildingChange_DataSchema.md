@@ -1,6 +1,6 @@
 ## BuildingChange DataSchema
 
-This schema structures data describing evolutions in building, based on observed evolution in building data and with the purpose to represent evolution of building entities in reality. 
+This schema structures data describing evolutions in building, based on observed evolution in building data and with the purpose to represent evolution of building entities in reality. It is written in a simple text file as it is work in progress and will be published as a formal vocabulary when it a stable version is achieved. 
 
 Fields : 
 
