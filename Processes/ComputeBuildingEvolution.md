@@ -1,12 +1,12 @@
-# Process : ComputeBuildingEvolution  
+# Process : ComputeBuildingChange  
 
 ## InputData 1 : BuildingDataSet_year1
 BuildingDataSet at the oldest time (see Process BuildingDataPreparation)
 ## InputData 2 : BuildingDataSet_year2 
 BuildingDataSet at a more recent time (see Process BuildingDataPreparation)
 
-## OutputData 1 : BuildingEvolutionDataSet  (and its metadata)
-Dataset corresponding to evolutions of buildings data, structured after the BuildingEvolutionSchema depicted in this folder, with the correct file naming, that is prepared as a shapefile, and as a geopackage containing the dataset plus a dedicated stylesheet (BuildingEvolution_style.qml) and ready to display. (Shapefile `.shp`: A widely used and recognized format in GIS. GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility)
+## OutputData 1 : BuildingChangeDataSet  (and its metadata)
+Dataset corresponding to changes detected in buildings data and further refined, structured after the BuildingChangeSchema depicted in this folder, with the correct file naming, that is prepared as a shapefile, and as a geopackage containing the dataset plus a dedicated stylesheet (BuildingEvolution_style.qml) and ready to display. (Shapefile `.shp`: A widely used and recognized format in GIS. GeoPackage `.gpkg`: A more modern format offering better performance and greater flexibility)
 A description of this dataset within Subdense “Dataset” registry.
 
 ## OutputData 2 : MatchingLinksSet (and its metadata) 
@@ -14,12 +14,12 @@ MatchingLinks between homologous features from the 2011 and 2021 datasets.
 
 ## Method overview
 
-Produce "raw" BuildingEvolution data based on two BuildingDataSet at time t1 and t2 (Step 1 below) 
-Refine the BuildingEvolution to identify evolutions that are related to evolution of products (i.e. data upgrades), and apply some quality control and some visual refinement  (Step 2 below).
+Produce "raw" BuildingChange data based on two BuildingDataSet at time t1 and t2 (Step 1 below) 
+Refine the BuildingChange items to identify changes that are related to changes in products only (i.e. data upgrades), and apply some quality control and some visual refinement  (Step 2 below).
 
-## Step 1 : Produce "raw" BuildingEvolution from Building Data
+## Step 1 : Produce "raw" BuildingChange from Building Data
 
-This first step is fully automatic. It uses matching libraries to produce matching links and automatically derive BuildingEvolution from these links.  
+This first step is fully automatic. It uses matching libraries to produce matching links and automatically derive BuildingChanges from these links.
 
 1. **Clone the Subdense Matching Repository**:
    - If not installed yet install GitHub Desktop available at [GitHub Desktop's official website](https://desktop.github.com/).
@@ -55,12 +55,12 @@ This command runs `run.py` with specific parameters:
 - `-java_memory` allocates Java memory for the process, set here to 16 Gigabytes.
 Ensure that the paths and parameters are adjusted as per your specific data and system requirements.
 
-At the end of step 4, after running the code, two new files are generated in the `output_data` folder: `FR-STR_EVOLUTION` and `FR_STR_Matching_Links` in chosen formats.
+At the end of step 4, after running the code, two new files are generated in the `output_data` folder: `xxx_CHANGE` and `xxx_Matching_Links` in chosen formats.
 
 Prepare an entry in the Dataset.md registry to register these data -at least the Evolution dataset- and put the minimal info. 
 
 5. **Apply Stylesheet**:
-   - Open FR-STR-FUA-EVOLUTION in QGIS for analysis and visualization, apply the `BuildingEvolutionStyle` file from the "ComputeBuildingEvolution" folder for optimal display.
+   - Open xxx_CHANGE in QGIS for analysis and visualization, apply the `BuildingChangeStyle` file from the "ComputeBuildingChange" folder for optimal display.
 
 ## Step 2 : Refinement and Quality Check
 
@@ -68,20 +68,16 @@ This step aims at refining the evolution to identify evolutions probably related
 
 ### Objectives
 
-- **Data Refinement**: Identify building evolutions related to the evolution of the BdTopo product and in the real world.
+- **Data Refinement**: Identify building changes related to changes in the BdTopo product and in the real world.
 - **Quality Control**: Perform an initial quality control to ensure data accuracy.
 
 ### Process
 The [RefineEvolutionBDTopo.py](RefineEvolutionBDTopo.py) script is used to achieve the following refinements:
 
-- Buildings of type `appeared` with an area less than 50 m² were identified and their type was changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
-- Buildings of type `split` were identified and their type was also changed to `stable`. The `evolutionProduct` field was updated to `Yes` and `evolutionEntities` to `No`.
+- Buildings of type `appeared` with an area less than 50 m² were identified and their type was changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
+- Buildings of type `split` were identified and their type was also changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
 - The data were verified using orthophoto images to ensure the quality of the results.
 
-### Number of Evolutions Detected
-
-- **Detected buildings of type appeared (< 50 m²)**: `105417`
-- **Detected buildings of type split**: `451458`
 
 
 
