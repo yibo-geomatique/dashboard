@@ -20,7 +20,6 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Definition** : (after wikipedia) A suburb (more broadly suburban area) is an area within a metropolitan area which is predominantly residential and within commuting distance of a large city. (after hypergeo, see below) The words as slightly different meaning across countries.
 * **UK definition**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020).
 * **French definition** : Banlieue. "In France today the banlieue or suburb is a built-up belt that agglomerates widely diverse territories, from communes with a long history to small village units that have become extremely large with the arrival of housing estates and the tower blocks of the 1960s and 1970s" : quote from Herve Vieillard-Baron  https://hypergeo.eu/suburb/?lang=en
-* **Illustration** : 
 * **Relation with data and metadata** : the concept itself is defined as a wikidata item, https://www.wikidata.org/wiki/Q188509, yet there is no official data or systematic method to portray it on a map.  
 
 ## Urban-Density
@@ -31,11 +30,10 @@ This registry lists concepts useful to study suburban densification, possibly to
 
 ## Urban-Densification
 * **Definitions** : urban densification can be interpreted 1) an increase of density and more specifically a “net increase of the number of housing units” within the pre-existing built-up area (Broitmanand Koomen, 2015) 2) as the actions taken to achieve this increase, more specifically public actions. Authors distinguish Soft and hard densification (Ouati-Morel, 2015) as well as Planned and unplanned (Dunning et al., 2020)
-* **Relevant info to represent densification** : relevant information to study densification is : the date of construction of buildings
-* **Illustration through maps** : see [link to doc](https://www.edugeo.fr/support/teaching-book/view/46) the description of the sprawling and densification of the city of Vannes in a pedagogic material for french pupils 
 * **Relation with data** :
     * Can be represented as an evolution of density values
-    * Buildings database can also be used to observe hard densification through the evolution of buildings entities as they can be observed 
+    * Building changes derived from buildings database can be used to observe the evolution of buildings entities 
+* **Illustration and pedagogic material** : see [link to doc](https://www.edugeo.fr/support/teaching-book/view/46) the description of the sprawling and densification of the city of Vannes in a pedagogic material for french pupils 
 
 ## Building
 * **Definitions** : (after Wikipedia) A building or edifice is an enclosed structure with a roof and walls, usually standing permanently in one place, such as a house or factory. 
@@ -58,5 +56,5 @@ This registry lists concepts useful to study suburban densification, possibly to
     *  French definition
     *  german definition
     *  UK definition 
-* **Illustration through maps** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
 * **Relation with data** : existing metadata or data connected to the concept, e.g. concept in a formal model, or data that can be used to portray the concept on a map (possibly link with DataSource Dataset or Processes). 
+* **Illustration, pedagogic material** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
