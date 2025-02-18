@@ -49,7 +49,7 @@ This registry lists concepts useful to study suburban densification, possibly to
 ## Elevation
 
 
-## Vacant plot
+## Vacant-plot-development
 
 
 
