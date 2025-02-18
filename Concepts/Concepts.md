@@ -53,11 +53,10 @@ This registry lists concepts useful to study suburban densification, possibly to
 * [see](https://unhabitat.org/sites/default/files/2020/07/indicator_11.7.1_training_module_public_space.pdf)
 
 ## Concept-template
-* **Labelling policy** : whenever possible use the most adopted label and use the description to express possible refinements and associated expression if required. Avoid to create new concept labels. A concept is registered on this file and can also be described here, or a dedicated file can be created for describing and disucssing the concept., in which case the file shall be put in the same git folder as this registry Concepts.md, and it should be called by the concept label, e.g. Suburb.md
-* **Definitions, incl. local specificities** :
+* **Definitions** :
     * Universal definition if it exists. references to key papers, free text comments to explain possible distinctions across space or time that need to be considered during comparison.
     *  French definition
     *  german definition
     *  UK definition 
 * **Illustration through maps** : links to examples to illustrate the definition on real specific cases (not necessarily within the selected cities)
-* **Relation with data** : description of how the instances of the concept can be somehow put on a map, with what kind of data (possibly also put a link with DataSource Dataset or Processes). 
+* **Relation with data** : existing metadata or data connected to the concept, e.g. concept in a formal model, or data that can be used to portray the concept on a map (possibly link with DataSource Dataset or Processes). 
