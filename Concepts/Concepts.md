@@ -16,7 +16,7 @@ This list is written mostly in english but distinguishes local concepts/words th
  5. [BuidingChange](#buildingevolution)
  6. [Plot](#Plot)
  7. [Elevation](#Elevation)
- 8. [Vacant plot development](#Vacant plot development)
+ 8. [Vacant-plot-development](#Vacant plot development)
  9. [Functional Urban Area](#functional-urban-area)
  10. [Public Space](#public-space)
  11. [Concept template](#concept-template)
