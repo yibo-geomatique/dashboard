@@ -23,12 +23,11 @@ This list is written mostly in english but distinguishes local concepts/words th
 *******
 
 ## Suburb	
-* **Universal definition or comparison across countries** : see hypergeo below for a comparison across countries
+* **Definition** : (after wikipedia) A suburb (more broadly suburban area) is an area within a metropolitan area which is predominantly residential and within commuting distance of a large city. (after hypergeo, see below) The words as slightly different meaning across countries.
 * **UK definition**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020).
 * **French definition** : Banlieue. "In France today the banlieue or suburb is a built-up belt that agglomerates widely diverse territories, from communes with a long history to small village units that have become extremely large with the arrival of housing estates and the tower blocks of the 1960s and 1970s" : quote from Herve Vieillard-Baron  https://hypergeo.eu/suburb/?lang=en
-* **German definition** : 
-* **Illustration through maps** : 
-* **Relation with data** : the concept itself does not appear in geodata 
+* **Illustration** : 
+* **Relation with data and metadata** : the concept itself is defined as a wikidata item, https://www.wikidata.org/wiki/Q188509, yet there is no official data or systematic method to portray it on a map.  
 
 ## Urban-Density
 * **Definition** : in this dashboard, density refers to urban density. Population density is defined as the number of individuals or the number of inhabitant on a given surface.  Urban density is population density in urban surfaces. The french IAURIF uses 4 measures for urban density : 1) housing units density (number of housing units per 100m2), 2) inhabitants density (number of inhabitants per 100m2) 3) buildings ground coverage coefficient for an urban block 4) buildings floors coefficient for an urban block.
