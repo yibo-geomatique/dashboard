@@ -14,9 +14,12 @@ This list is written mostly in english but distinguishes local concepts/words th
  3. [Urban Densification](#urban-densification)
  4. [Building](#building)
  5. [BuidingChange](#buildingevolution)
- 6. [Functional Urban Area](#functional-urban-area)
- 7. [Public Space](#public-space)
- 8. [Concept template](#concept-template)
+ 6. [Plot](#Plot)
+ 7. [Elevation](#Elevation)
+ 8. [Vacant plot development](#Vacant plot development)
+ 9. [Functional Urban Area](#functional-urban-area)
+ 10. [Public Space](#public-space)
+ 11. [Concept template](#concept-template)
 *******
 
 ## Suburb	
