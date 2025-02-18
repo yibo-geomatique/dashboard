@@ -29,7 +29,7 @@ This registry lists concepts useful to study suburban densification, possibly to
     * There exist lots of indicators to evaluate and portray density. Refer to: [link to doc](https://docs.google.com/spreadsheets/d/1fUMyoBsP0JiG_2uW1zanIKPdACSpc1A4_i-8C__CBfI/edit#gid=0)
 
 ## Urban-Densification
-* **Definitions** : urban densification can be interpreted 1) an increase of density and more specifically a “net increase of the number of housing units” within the pre-existing built-up area (Broitmanand Koomen, 2015) 2) as the actions taken to achieve this increase, more specifically public actions. Authors distinguish Soft and hard densification (Ouati-Morel, 2015) as well as Planned and unplanned (Dunning et al., 2020)
+* **Definitions** : urban densification can be interpreted 1) an increase of density and more specifically a “net increase of the number of housing units” within the pre-existing built-up area (Broitmanand Koomen, 2015) 2) as the actions taken to achieve this increase, more specifically public actions. Authors distinguish Soft and hard densification (Ouati-Morel, 2015) as well as Planned and unplanned (Dunning et al., 2020). 
 * **Relation with data** :
     * Can be represented as an evolution of density values
     * Building changes derived from buildings database can be used to observe the evolution of buildings entities 
@@ -40,13 +40,15 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** : In the french topographic product, BDTopo, buildings (in french : bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo.
 
 ## BuildingChange
-* **Definition** : we use the term BuildingChange to refer to what can happen to Buildings through time. This can be defined more precisely along three distinct categories of things, after [DOLCE ontology](https://arxiv.org/pdf/2308.01597) : changes of state, events, processes. 
+* **Definition** : what happens to Buildings through time can be defined along three distinct categories of things, after [DOLCE ontology](https://arxiv.org/pdf/2308.01597) : changes of state, events, processes.  
 * **Relation with data** : A data schema is proposed in this dashboard to structure BuildingChange which are changes of states observed in data and/or changes of states in reality. A replicable procedure to produce such data based on topographic building data is proposed, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality. Other Datasource can be opendata related to building permits, in France : autorisations d'urbanisme.
 
 ## Plot
-
+* **Definition** : parcel of land owned or meant to be owned by some owner(s) (after Wikipedia, land lot). In French : parcelle cadastrale. 
+* **Relation with data** : plot/parcels are defined with a geometry and different attributes (often not openly accessible).   
 
 ## Elevation
+
 
 
 ## Vacant-plot-development
