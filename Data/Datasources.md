@@ -30,6 +30,7 @@ List of datasources mentioned, investigated, possibly used for the dashboard. Th
     * Additional metadata : there are additional metadata that are specific to communes or to departement and which are relevant to SUBDENSE, [their fine description](https://geoservices.ign.fr/sites/default/files/2023-01/DL_vecteur.pdf pp.14-16)
 * **Clues to prepare BuildingDataSet on Temporal and Spatial scope of interest** :
     * Data can be downloaded either on whole France, or regions or departements. A download is associated to a set of metadata that is generic to BDTopo product.
+    * On the city of Strasbourg, the BDTopo buildings 2022 vintage is using geometries from aerial imagery and no longer cadastral geometry so is more adapted to spatial analysis than the 2021 vintage which is using some geometries from cadastral (i.e. gutter and not wall). 
 * **Quotes of Documentation RelevantToAStudy** :
     * the conceptual model for building in BDTopo is "Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site.", cf DC_BDTopo p54
 * product versions : the current version of the product is 3.3. Shift from v2 to v3 took place between 2018 and 2019.
