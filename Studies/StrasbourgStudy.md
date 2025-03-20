@@ -13,9 +13,9 @@
 
 * (done, see data and maps below) : Changes of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 in France, and from ATKIS data in the german part on the Functional Urban Area (see Concepts) of Strasbourg
 
-* ( Brendan master project ) based on the building changes identify infill development, interview stakeholders interviews 
+* ( Brendan master project ) based on the building changes identify infill development, interview stakeholders
 
-* (on going, Yibo) Clarify concepts that relate to specific actions to change buildings :  elevation and other concepts from the development sector, vacant plots, public spaces (incl indicators to caracterise their benefits wrt sustainable development), Mine the Demande d'autorisation d'urbanisme (reproduce APUR analysis), and prepare visuals simulating elevation to support discussions 
+* (tbd, Yibo) Clarify concepts that relate to specific actions to change buildings :  elevation and other concepts from the development sector, vacant plots, public spaces (incl indicators to caracterise their benefits wrt sustainable development), Mine the Demande d'autorisation d'urbanisme (reproduce APUR analysis), and prepare visuals simulating elevation to support discussions 
   
 * (on going, Véra)  Integrate evolutions with other data to detect drivers
     
