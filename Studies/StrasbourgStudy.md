@@ -22,9 +22,11 @@
 
 ## Dataset and Maps 
 
-*  Building changes (construction, demolition,  ...) between 2011 and 2021, and between 2011 and 2022, on the functional urban area of Strasbourg, using BDTopo in french part and ATKIS data on the german part.
+*  Building changes (construction, demolition,  ...) between 2011 and 2021, and between 2011 and 2022, on the functional urban area of Strasbourg, using BDTopo in french part, available as open data : https://doi.org/10.57745/RFKKYX
+*    
+*  Building changes (construction, demolition,  ...) between 2011 and 2021, and between 2011 and 2022, on the functional urban area of Strasbourg, using ATKIS data, in german  part of the functional urban area.
 * 
-*  Maps>Map_FR-STR-FUA-BuildingChange-2011-2021 : stylisation of BuildingChanges dataset, with different layers adapted to different levels of zoom : entities changes, clusters of changes, areal agregates (on 200x200 grid, on communes) 
+*  Maps>Map_FR-STR-FUA-BuildingChange-2011-2021 : stylisation of BuildingChanges dataset, with different layers adapted to different levels of zoom : entities changes, clusters of changes, areal agregates (on 200x200 grid, on communes), available as open data : https://doi.org/10.57745/RFKKYX 
 *  
     
 
