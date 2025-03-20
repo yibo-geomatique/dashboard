@@ -1,12 +1,12 @@
 # StrasbourgStudy
 
-*This md file shall ultimately describe the specific study conducted on Strasbourg and provides references to related ressources on the dashboard.*
+*This md file shall compile existing work for the group own knowledge and to prepare material that we wish to present to stakeholders.*
 
 ## Stakes, questions from Practitioners from Eurometropole 
 
-* To identify words and maps that can support the identification of "densification potential", discussions on densification.
-* To integrate in the analysis the different benefits brought by vacant plots to biodiversity. 
-* To get inspiration from other cities, for example their strategies to develop elevation
+* Can we think of new words and maps to support the identification of "densification potential", discussions on densification.
+* How to integrate in the analysis the different benefits brought by vacant plots (incl biodiversity). 
+* Can we get inspiration from other cities, for example their strategies to develop elevation
 
 
 ## Approaches to bring evidences to support questions answering  
@@ -15,7 +15,7 @@
 
 * ( Brendan master project ) based on the building changes identify infill development, interview stakeholders interviews 
 
-* (on going, Bénédicte + trainee + Brendan) Clarify concepts :  elevation and other concepts from the development sector, vacant plots, punlic spaces (incl indicators to caracterise their benefits wrt sustainable development) 
+* (on going, Bénédicte's trainee) Clarify concepts :  elevation and other concepts from the development sector, vacant plots, public spaces (incl indicators to caracterise their benefits wrt sustainable development) and prepare visuals to support discussions 
   
 * (on going, Véra)  Integrate evolutions with other data to detect drivers
     
