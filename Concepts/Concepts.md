@@ -17,10 +17,11 @@ This registry lists concepts useful to study suburban densification, possibly to
 *******
 
 ## Suburb	
-* **Definition** : (after wikipedia) A suburb (more broadly suburban area) is an area within a metropolitan area which is predominantly residential and within commuting distance of a large city. (after hypergeo, see below) The words as slightly different meaning across countries.
+* **Definition** : (after wikipedia) A suburb (more broadly suburban area) is an area within a metropolitan area which is predominantly residential and within commuting distance of a large city. (after hypergeo, see below) The word has slightly different meaning across countries.
 * **UK definition**: Urban and suburban (Charmes & Keil, 2015; Bibby et al., 2020).
 * **French definition** : Banlieue. "In France today the banlieue or suburb is a built-up belt that agglomerates widely diverse territories, from communes with a long history to small village units that have become extremely large with the arrival of housing estates and the tower blocks of the 1960s and 1970s" : quote from Herve Vieillard-Baron  https://hypergeo.eu/suburb/?lang=en
-* **Relation with data and metadata** : the concept itself is defined as a wikidata item, https://www.wikidata.org/wiki/Q188509, yet there is no official data or systematic method to portray it on a map.  
+* **Relation with data and metadata** : the concept itself is defined as a wikidata item, https://www.wikidata.org/wiki/Q188509, yet there is no official data or systematic method to portray it on a map.
+* **Relation with densification** :  some suburbs are low density area close to city centers and in that respect good candidate for creating more housing units. 
 
 ## Urban-Density
 * **Definition** : Population density is defined as the number of individuals or the number of inhabitant on a given surface.  Urban density is population density in urban surfaces. The french IAURIF uses 4 measures for urban density : 1) housing units density (number of housing units per 100m2), 2) inhabitants density (number of inhabitants per 100m2) 3) buildings ground coverage coefficient for an urban block 4) buildings floors coefficient for an urban block.
@@ -40,14 +41,22 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** : In the french topographic product, BDTopo, buildings (in french : bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo.
 
 ## BuildingChange
-* **Definition** : what happens to Buildings through time can be defined along three distinct categories of things, after [DOLCE ontology](https://arxiv.org/pdf/2308.01597) : changes of state, events, processes.  
-* **Relation with data** : A data schema is proposed in this dashboard to structure BuildingChange which are changes of states observed in data and/or changes of states in reality. A replicable procedure to produce such data based on topographic building data is proposed, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality. Other Datasource can be opendata related to building permits, in France : autorisations d'urbanisme.
+* **Definition** : what happens to Buildings through time in particular in connection with increasing or diminishing the number of housing and the footprint.  
+* **Relation with data** :
+** A conceptual model is proposed in this dashboard to structure in data the detection and interpretation of BuildingChange data : changes observed in building data, changes in real buildings . A replicable procedure to produce such data based on topographic building data is proposed, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality.
+** Other Datasource can be opendata related to building permits, in France : autorisations d'urbanisme.
 
 ## Plot
 * **Definition** : parcel of land owned or meant to be owned by some owner(s) (after Wikipedia, land lot). In French : parcelle cadastrale. 
 * **Relation with data** : plot/parcels are defined with a geometry and different attributes (often not openly accessible).   
 
 ## Elevation
+* **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint.
+
+## Overbuilding
+* **Definition** : Covering existing railways, roads, to create a new plot on which to develop new buildings.
+* **french** : In French it is called "Urbanisme de dalle".
+* **connection with densification** : It is important to consider the criteria of soil sealing when developing such projects that often have a very negative impact wrt soil sealing. 
 
 
 
