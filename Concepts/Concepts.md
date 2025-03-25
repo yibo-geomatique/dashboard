@@ -51,7 +51,7 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** : plot/parcels are defined with a geometry and different attributes (often not openly accessible).   
 
 ## Raising-RoofStacking-Surelevation  
-* **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint. Biblio : https://www.sciencedirect.com/science/article/pii/S2210670717307849 
+* **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint. See dedicated file. Raising.md 
 
 ## Overbuilding-UrbanismeSurDalle
 * **Definition** : Covering existing railways, roads, to create a new plot on which to develop new buildings.
