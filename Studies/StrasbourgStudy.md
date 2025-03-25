@@ -15,7 +15,10 @@
 
 * ( Brendan master project ) based on the building changes identify infill development, interview stakeholders
 
-* (tbd, Yibo) Clarify concepts that relate to specific actions to change buildings :  elevation and other concepts from the development sector, vacant plots, public spaces (incl indicators to caracterise their benefits wrt sustainable development), Mine the Demande d'autorisation d'urbanisme (reproduce APUR analysis), and prepare visuals simulating elevation to support discussions 
+* (tbd, Yibo) Clarify some densification concepts identified in the dashboard, starting with surelevation (see concepts.md) 
+  ** analyse data : BuildingChange data (introduce and detect this new change); The database Demande d'autorisation d'urbanisme
+  ** papers and interviews to clarify the concept with the view of experts
+  ** propose a method to illustrate the concept on the dashboard with visuals and to support densification discussions using this concept.  
   
 * (on going, Véra)  Integrate evolutions with other data to detect drivers
     
