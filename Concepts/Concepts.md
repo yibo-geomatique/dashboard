@@ -9,7 +9,7 @@ This registry lists concepts useful to study suburban densification, possibly to
  4. [Building](#building)
  5. [BuidingChange](#buildingchange)
  6. [Plot](#Plot)
- 7. [Elevation](#Elevation)
+ 7. [Raising-RoofStacking-Surelevation](#Raising-RoofStacking-Surelevation)
  8. [Vacant plot development](#Vacant-plot-development)
  9. [Functional Urban Area](#functional-urban-area)
  10. [Public Space](#public-space)
@@ -50,10 +50,10 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Definition** : parcel of land owned or meant to be owned by some owner(s) (after Wikipedia, land lot). In French : parcelle cadastrale. 
 * **Relation with data** : plot/parcels are defined with a geometry and different attributes (often not openly accessible).   
 
-## Elevation
+## Raising-RoofStacking-Surelevation  
 * **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint.
 
-## Overbuilding
+## Overbuilding-UrbanismeSurDalle
 * **Definition** : Covering existing railways, roads, to create a new plot on which to develop new buildings.
 * **french** : In French it is called "Urbanisme de dalle".
 * **connection with densification** : It is important to consider the criteria of soil sealing when developing such projects that often have a very negative impact wrt soil sealing. 
