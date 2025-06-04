@@ -14,7 +14,7 @@ To add a process to the dashboard, please 1)register the process on this file by
 
  [PrepareBuildingDataOSM](PrepareBuildingDataOSM.md) : prepare BuildingData on any city with OSM
 
- [ComputeBuildingEvolution](ComputeBuildingEvolution.md) : derive and refine BuildingEvolution data based on BuildingData at time t1 and t2
+ [ComputeBuildingChange](ComputeBuildingChange.md) : derive and refine BuildingEvolution data based on BuildingData at time t1 and t2
  
  [Compute change in built-up area per parcel](ComputeChangeInBuiltup_area.md)
 
