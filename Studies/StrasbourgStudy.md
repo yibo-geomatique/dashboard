@@ -15,7 +15,8 @@
 
 * ( Brendan master project ) based on the building changes identify infill development, interview stakeholders
 
-* (Yibo)
+* (Yibo internship)
+  
   ** Enrich the way we describe building changes, start from the atomic changes and their context, see if attributes can be used like height, in connection with Liverpool (or Bristol?) and Dortmund (tbc) or Marne la vallée, Lille , look at Demande d'autorisation d'urbanisme (APUR work)
   ** papers and interviews to clarify proposed descriptions with the view of different experts (incl civil engineering, architectes, ...)
   ** propose a method to illustrate the concept on the dashboard with visuals and to support densification discussions using this concept.  
