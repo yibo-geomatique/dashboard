@@ -15,9 +15,9 @@
 
 * ( Brendan master project ) based on the building changes identify infill development, interview stakeholders
 
-* (tbd, Yibo) Propose some specific densification patterns that can identified in the dashboard, and focus on raising height (see concepts.md), in connection with Liverpool (or Bristol?) and Dortmund (tbc) 
-  ** analyse data : BuildingChange data (introduce and detect this new change); The database Demande d'autorisation d'urbanisme
-  ** papers and interviews to clarify the concept with the view of experts
+* (Yibo)
+  ** Enrich the way we describe building changes, start from the atomic changes and their context, see if attributes can be used like height, in connection with Liverpool (or Bristol?) and Dortmund (tbc) or Marne la vallée, Lille , look at Demande d'autorisation d'urbanisme (APUR work)
+  ** papers and interviews to clarify proposed descriptions with the view of different experts (incl civil engineering, architectes, ...)
   ** propose a method to illustrate the concept on the dashboard with visuals and to support densification discussions using this concept.  
   
 * (on going, Véra)  Integrate evolutions with other data to detect drivers
