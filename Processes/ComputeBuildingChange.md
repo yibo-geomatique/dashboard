@@ -64,7 +64,7 @@ Prepare an entry in the Dataset.md registry to register these data -at least the
 
 ## Step 2 : Refinement and Quality Check
 
-This step aims at refining the evolution to identify evolutions probably related by product evolution and to perform some first quality control on the result. 
+This step 2 aims at 1) tagging building changes that are probably caused by changes in the product and 2) performing a first quality check by viewing the building change data and displaying buildings and orthoimagery. 
 
 ### Objectives
 
@@ -74,9 +74,9 @@ This step aims at refining the evolution to identify evolutions probably related
 ### Process
 The [RefineEvolutionBDTopo.py](RefineEvolutionBDTopo.py) script is used to achieve the following refinements:
 
-- Buildings of type `appeared` with an area less than 50 m² were identified and their type was changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
-- Buildings of type `split` were identified and their type was also changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
-- The data were verified using orthophoto images to ensure the quality of the results.
+- BuildingsChanges of type `construction` with an area less than 50 m² were identified and their type was changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
+- BuildingsChanges of type `split` were identified and their type was also changed to `stable`. The `changeProduct` field was updated to `Yes` and `changeEntities` to `No`.
+- The data were verified using orthophoto images to ensure the quality of the results. The imagery is accessed to using specific services accessible from QGIS. 
 
 
 
