@@ -9,7 +9,7 @@
 * Can we get inspiration from other cities, for example their strategies to develop elevation
 
 
-## Approaches to bring evidences to support questions answering  
+## Approaches to bring evidences to support discussions  
 
 * (done, see data and maps below) : Changes of buildings entities and housing units systematically produced on the past decade, based on topographic building data from BDTopo in 2011 and 2021 in France, and from ATKIS data in the german part on the Functional Urban Area (see Concepts) of Strasbourg
 
