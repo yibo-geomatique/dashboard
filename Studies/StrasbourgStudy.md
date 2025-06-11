@@ -17,9 +17,8 @@
 
 * (Yibo internship)
   
-  ** Enrich the way we describe building changes, start from the atomic changes and their context, see if attributes can be used like height, in connection with Liverpool (or Bristol?) and Dortmund (tbc) or Marne la vallée, Lille , look at Demande d'autorisation d'urbanisme (APUR work)
-  ** papers and interviews to clarify proposed descriptions with the view of different experts (incl civil engineering, architectes, ...)
-  ** propose a method to illustrate the concept on the dashboard with visuals and to support densification discussions using this concept.  
+characterize further building changes relevant to densification discussion (and stakeholders questions) using the building changes derived from topographic data and their context, see if attributes can be used like height, in connection with Liverpool (or Bristol?) and Dortmund (tbc) or Marne la vallée, Lille , look at Demande d'autorisation d'urbanisme (APUR work) : methodology logged in process CharacterizeBuildingChanged. generation of an annotation layer, a portfolio and additions to concepts. 
+  ** interviews to clarify proposed descriptions with the view of different experts (incl civil engineering, architectes, ...)
   
 * (on going, Véra)  Integrate evolutions with other data to detect drivers
     
