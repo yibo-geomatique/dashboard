@@ -15,12 +15,9 @@
 
 * ( Brendan master project ) based on the building changes identify infill development, interview stakeholders
 
-* (Yibo internship)
+* (Yibo internship) deepen the characterisation of building changes relevant to densification discussion, by 1) exploring, processing and annotating the BuildingChange data in a GIS environnemnt 2) designing a portfolio and using it during discussions with different experts (consortium + external incl. civil engineers, architectes) to trigger clarification of concepts, words and ambiguities. See all particularly if it is possible to integrate in the portfolio changes that refer to practitioners concerns. Detail the metholodogy in a process in this dashboard so that other can reproduce it, share the portfolio (in concepts folder) and the annotation layers (in data folder) with associated metadata.   
   
-characterize further building changes relevant to densification discussion (and stakeholders questions) using the building changes derived from topographic data and their context, see if attributes can be used like height, in connection with Liverpool (or Bristol?) and Dortmund (tbc) or Marne la vallée, Lille , look at Demande d'autorisation d'urbanisme (APUR work) : methodology logged in process CharacterizeBuildingChanged. generation of an annotation layer, a portfolio and additions to concepts. 
-  ** interviews to clarify proposed descriptions with the view of different experts (incl civil engineering, architectes, ...)
-  
-* (on going, Véra)  Integrate evolutions with other data to detect drivers
+* (Véra)  Integrate evolutions with other data to detect drivers
     
 
 ## Dataset and Maps 
