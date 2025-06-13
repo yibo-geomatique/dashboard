@@ -41,7 +41,9 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** : In the french topographic product, BDTopo, buildings (in french : bâtiments) are defined as : An above-ground structure that is used to house people, animals or objects, to produce economic goods or to provide services, and refers to any structure permanently built or erected on its site. (Construction au-dessus du sol qui est utilisée pour abriter des humains, des animaux, des objets, pour la production de biens économiques ou pour la prestation de services et qui se réfère à toute structure construite ou érigée de façon permanente sur son site). They are represented through a specific class called Bâtiment. See more on the description of DataSource BDTopo.
 
 ## BuildingChange
-* **Definition** : what happens to Buildings through time in particular in connection with increasing or diminishing the number of housing and the footprint.  
+* **Definition** : what happens to Buildings through time, either to a Building entity or to a set of Buildings, in particular in connection with increasing or diminishing the number of dwellings for a given area. 
+* **Broader than** : concept Raising-RoofStacking-Surelevation, Overbuilding-UrbanismeSurDalle  
+* **Further characterisation of that generic concept** : This is a very rough definition and more specific and unambiguous Building Changes words are needed to discuss densification. See dedicated Portfolio in this dashboard.    
 * **Relation with data** :
 ** A conceptual model is proposed in this dashboard to structure in data the detection and interpretation of BuildingChange data : changes observed in building data, changes in real buildings . A replicable procedure to produce such data based on topographic building data is proposed, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality.
 ** Other Datasource can be opendata related to building permits, in France : autorisations d'urbanisme.
@@ -51,7 +53,8 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** : plot/parcels are defined with a geometry and different attributes (often not openly accessible).   
 
 ## Raising-RoofStacking-Surelevation  
-* **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint. See dedicated file. Raising.md 
+* **Definition** : we use this term to refer to increasing the height of an existing buildings. This is a concept of interest to produce more housing units without changing the footprint. 
+* References : https://www.sciencedirect.com/science/article/pii/S2210670717307849  
 
 ## Overbuilding-UrbanismeSurDalle
 * **Definition** : Covering existing railways, roads, to create a new plot on which to develop new buildings.
