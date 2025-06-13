@@ -3,18 +3,18 @@
 This registry lists concepts useful to study suburban densification, possibly to highlight dissimilarities between their meanings across countries, and to attach the concept to data (either to a formal concept definition in a vocabulary, or to data that can be used to portray the concept on a map).  
 
 *******
- 1. [Suburb](#suburb)
- 2. [Urban Density](#urban-density)
- 3. [Urban Densification](#urban-densification)
- 4. [Building](#building)
- 5. [BuidingChange](#buildingchange)
- 6. [BuiltUp Area](#builtuparea)
- 6. [Plot](#Plot)
- 7. [Raising-RoofStacking-Surelevation](#Raising-RoofStacking-Surelevation)
- 8. [Vacant plot development](#Vacant-plot-development)
- 9. [Functional Urban Area](#functional-urban-area)
- 10. [Public Space](#public-space)
- 11. [Concept template](#concept-template)
+[Suburb](#suburb)
+[Urban Density](#urban-density)
+[Urban Densification](#urban-densification)
+[Building](#building)
+[BuidingChange](#buildingchange)
+[BuiltUp Area](#builtuparea)
+[Plot](#Plot)
+[Raising-RoofStacking-Surelevation](#Raising-RoofStacking-Surelevation)
+[Vacant plot development](#Vacant-plot-development)
+[Functional Urban Area](#functional-urban-area)
+[Public Space](#public-space)
+[Concept template](#concept-template)
 *******
 
 ## Suburb	
