@@ -8,6 +8,7 @@ This registry lists concepts useful to study suburban densification, possibly to
  3. [Urban Densification](#urban-densification)
  4. [Building](#building)
  5. [BuidingChange](#buildingchange)
+ 6. [BuiltUp Area](#builtuparea)
  6. [Plot](#Plot)
  7. [Raising-RoofStacking-Surelevation](#Raising-RoofStacking-Surelevation)
  8. [Vacant plot development](#Vacant-plot-development)
@@ -47,6 +48,9 @@ This registry lists concepts useful to study suburban densification, possibly to
 * **Relation with data** :
 ** A conceptual model is proposed in this dashboard to structure in data the detection and interpretation of BuildingChange data : changes observed in building data, changes in real buildings . A replicable procedure to produce such data based on topographic building data is proposed, see BuildingChangeComputation process. The derived data are associated with metadata that are necessary to interpret correctly the different changes as changes in the source building data only (and no changes in reality) or as changes in reality.
 ** Other Datasource can be opendata related to building permits, in France : autorisations d'urbanisme.
+
+## BuiltUpArea
+* **Definition** : an area where there already exist buildings. 
 
 ## Plot
 * **Definition** : parcel of land owned or meant to be owned by some owner(s) (after Wikipedia, land lot). In French : parcelle cadastrale. 
