@@ -10,4 +10,6 @@ The method to produce the collection is iterative around several steps : Step1 -
 -  Step 2 : for each BuildingChange, prepare a first version of it, with available data and narratives that can be found online
 -  Step 3 : organise interviews where the collection is presented in a specific order. These interviews and exchange lead to different results : acquisition of narratives / identification of new data or operations to improve the description of BuidingChange already in the collection,   is identified, identification of new  required situations (leading back to Step 1 or leading to the production of enriched BuildingChange datasets   
 
+## Specific Method to produce the current Collection
+
 
