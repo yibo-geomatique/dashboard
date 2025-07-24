@@ -1,8 +1,8 @@
 # Process : ProduceBuildingChangeCollection  
 
 ## Output 
-Output 1 : The BuildingChanges Collection composed of BuildingChanges (that can be at the level of individual entities, or urban blocks or neighbours) described through visuals, data and narratives, that can be presented on a ppt 
-Output 2 : BuildingChange Annotation Layers, on the different cities where the situations have been identified that contains zones and identifiers of the BuildingChanges in the collection, so that each situation can be localized more easily and explored within a GIS
+- Output 1 : The BuildingChanges Collection composed of BuildingChanges (that can be at the level of individual entities, or urban blocks or neighbours) described through visuals, data and narratives, that can be presented on a ppt 
+- Output 2 : BuildingChange Annotation Layers, on the different cities where the situations have been identified that contains zones and identifiers of the BuildingChanges in the collection, so that each situation can be localized more easily and explored within a GIS
 
 ## Generic Method : 
 The method to produce the collection is iterative around several steps : Step1 -->  Step2 --> Step3 --> ( back to Step 1 or back to Step 2 )
