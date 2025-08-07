@@ -1,15 +1,20 @@
 # process_building_change_surlevation
 ## Input Sources
 The core input for this analysis is the DAU dataset (Déclarations d’Autorisation d’Urbanisme), an administrative open dataset maintained by the French Ministry of Ecological Transition. It contains detailed records of urban development authorizations across France, including:
-•	Location-based fields (e.g., street number, type, name, postal code);
-•	Project type indicators, including “Indicateur de surélévation” for upward extensions;
+•	Location-based fields (e.g., street number, type, name, postal code).
+
+•	Project type indicators, including “Indicateur de surélévation” for upward extensions.
+
 •	Quantitative attributes, such as “Nombre de logements créés” (number of housing units created).
+
 To validate and complement these administrative records, the project integrates aerial imagery (e.g., 2011, 2016, 2021 orthophotos) and multi-temporal MNS (Modèles Numériques de Surface) datasets. These spatial layers help visually verify construction changes and assess their vertical impact over time.
 
 ## Outputs
-•	Output 1: A GIS-compatible dataset of upward extension projects in Strasbourg, with full addresses, construction dates, and number of new units;
+•	Output 1: A GIS-compatible dataset of upward extension projects in Strasbourg, with full addresses, construction dates, and number of new units.
+
 •	Output 2: GIS-ready file — address points or simplified geometries that can be visualized and mapped in QGIS or similar tools for spatial analysis.
-•	Output 3: A set of visually verified cases enriched by aerial/MNS imagery comparison;
+
+•	Output 3: A set of visually verified cases enriched by aerial/MNS imagery comparison.
 
 ## Method
 The extraction and verification process of upward extensions (surélévations) involves the following steps:
