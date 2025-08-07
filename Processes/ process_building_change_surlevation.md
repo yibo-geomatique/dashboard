@@ -9,7 +9,7 @@ To validate and complement these administrative records, the project integrates 
 ## Outputs
 •	Output 1: A GIS-compatible dataset of upward extension projects in Strasbourg, with full addresses, construction dates, and number of new units;
 •	Output 2: GIS-ready file — address points or simplified geometries that can be visualized and mapped in QGIS or similar tools for spatial analysis.
-•	Output 3:A set of visually verified cases enriched by aerial/MNS imagery comparison;
+•	Output 3: A set of visually verified cases enriched by aerial/MNS imagery comparison;
 
 ## Method
 The extraction and verification process of upward extensions (surélévations) involves the following steps:
